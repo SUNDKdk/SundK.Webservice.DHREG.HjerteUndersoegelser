@@ -7172,7 +7172,8 @@
         "4b863b74-fdbe-4729-a7d5-6832fbd26240": "KagIndikation",
         "b0d78962-9de3-4703-acfe-07d4f833468c": "PciIndikation",
         "e40f1da9-4fdf-4baa-96a1-5f2ebf247e0d": "CtKagIndikation",
-        "b39433b4-27a9-466a-b51a-c0d4a0da574c": "AorticAnnulusMetode"
+        "b39433b4-27a9-466a-b51a-c0d4a0da574c": "AorticAnnulusMetode",
+        "243a3e76-d328-4653-aaf9-97e2fca7ff29": "KontrasttypeType"
     },
     "definitions": {
         "type": "definitions",
@@ -10171,6 +10172,45 @@
                     "name": false,
                     "code": false
                 }
+            },
+            {
+                "name": "KontrasttypeType",
+                "hackoladeMeta": {},
+                "isActivated": true,
+                "type": "string",
+                "properties": [],
+                "GUID": "243a3e76-d328-4653-aaf9-97e2fca7ff29",
+                "definitionRefs": [],
+                "error": {
+                    "enum": false,
+                    "enums": [
+                        false,
+                        false,
+                        false,
+                        false,
+                        false,
+                        false,
+                        false
+                    ],
+                    "exampleItems": [
+                        false,
+                        false,
+                        false,
+                        false,
+                        false,
+                        false,
+                        false
+                    ]
+                },
+                "enum": [
+                    "iodixanol",
+                    "ioxaglinsyre",
+                    "iopromid",
+                    "iomeprol",
+                    "iohexol",
+                    "andet",
+                    "uoplyst"
+                ]
             }
         ],
         "GUID": "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564"
@@ -10193,7 +10233,7 @@
     "creationTS": "2023-04-15T09:05:24.450Z",
     "GUID": "56d8d7e1-eb14-4872-b89f-72499da535b0",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-07-10T08:59:54.895Z",
+    "lastModifTS": "2023-07-10T09:11:15.414Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
