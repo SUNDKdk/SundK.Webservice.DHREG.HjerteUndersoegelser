@@ -5783,6 +5783,21 @@
                                             "error": {}
                                         },
                                         {
+                                            "name": "AorticAnnulusMetode",
+                                            "hackoladeMeta": {},
+                                            "isActivated": true,
+                                            "type": "string",
+                                            "properties": [],
+                                            "GUID": "b39433b4-27a9-466a-b51a-c0d4a0da574c",
+                                            "enum": [
+                                                "EKKO",
+                                                "hjerteCT"
+                                            ],
+                                            "foreignCollection": "",
+                                            "foreignField": [],
+                                            "error": {}
+                                        },
+                                        {
                                             "GUID": "b0f1a4c1-a9bb-4bfc-a8c7-16ddac910b8d",
                                             "name": "ArytmiDevice",
                                             "type": "reference",
@@ -7156,7 +7171,8 @@
         "9d3069f0-cbdf-4e00-89eb-26c4b404aee2": "FirstMedicalContact",
         "4b863b74-fdbe-4729-a7d5-6832fbd26240": "KagIndikation",
         "b0d78962-9de3-4703-acfe-07d4f833468c": "PciIndikation",
-        "e40f1da9-4fdf-4baa-96a1-5f2ebf247e0d": "CtKagIndikation"
+        "e40f1da9-4fdf-4baa-96a1-5f2ebf247e0d": "CtKagIndikation",
+        "b39433b4-27a9-466a-b51a-c0d4a0da574c": "AorticAnnulusMetode"
     },
     "definitions": {
         "type": "definitions",
@@ -10177,7 +10193,7 @@
     "creationTS": "2023-04-15T09:05:24.450Z",
     "GUID": "56d8d7e1-eb14-4872-b89f-72499da535b0",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-07-10T08:22:24.206Z",
+    "lastModifTS": "2023-07-10T08:59:54.895Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -10558,12 +10574,6 @@
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
-                    "e3d9de07-be9b-4344-8690-6e83a50b7603"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
                     "20c2e699-a592-4521-a85b-0f016611887f",
                     "34b8b7f3-8bba-4853-8f4c-e8d2364a06e6"
                 ],
@@ -10708,12 +10718,6 @@
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
-                    "e3d9de07-be9b-4344-8690-6e83a50b7603"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
                     "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
                     "7cc0a683-ec6d-4c6d-9bd7-5fda32e0f8af"
                 ],
@@ -10837,12 +10841,6 @@
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
-                    "e3d9de07-be9b-4344-8690-6e83a50b7603"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
                     "20c2e699-a592-4521-a85b-0f016611887f",
                     "34b8b7f3-8bba-4853-8f4c-e8d2364a06e6"
                 ],
@@ -10948,11 +10946,6 @@
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "dbd78940-4437-4a40-a211-815921e34aea",
                     "e0d2b805-ce70-428e-8c5e-a9af652fc8fa"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2"
                 ],
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
@@ -11176,6 +11169,18 @@
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "dbd78940-4437-4a40-a211-815921e34aea",
                     "e0d2b805-ce70-428e-8c5e-a9af652fc8fa"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
+                    "6649c34b-46f7-432a-b097-4dcd157b7237"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
+                    "20c2e699-a592-4521-a85b-0f016611887f"
                 ]
             ],
             "shouldDistributeCollections": false
