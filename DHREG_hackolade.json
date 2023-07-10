@@ -643,6 +643,44 @@
                                     "isActivated": true
                                 },
                                 {
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "string",
+                                    "properties": [],
+                                    "color": "#555555",
+                                    "GUID": "4b863b74-fdbe-4729-a7d5-6832fbd26240",
+                                    "name": "KagIndikation",
+                                    "enum": [
+                                        "STEMI_primaer_PCI",
+                                        "STEMI_akut_PCI_over_12_timer",
+                                        "STEMI_rescue_PCI",
+                                        "STEMI_faciliteret_primaer_PCI",
+                                        "STEMI_stabiliseret_over_12_timer",
+                                        "N-STEMI_ikke_stabiliseret",
+                                        "N-STEMI_stabiliseret",
+                                        "UAP_ikke_stabiliseret",
+                                        "UAP_stabiliseret",
+                                        "arytmi",
+                                        "klap_og_eller_aortasygdom",
+                                        "kardiomyopati_uafklaret_hjerteinsufficiens",
+                                        "kontrol_efter_PCI",
+                                        "kontrol_efter_CABG",
+                                        "kontrol_efter_HTx",
+                                        "komplikationer_efter_KAG",
+                                        "komplikationer_efter_PCI",
+                                        "komplikation_efter_KAG",
+                                        "post_infarkt_VSD",
+                                        "institio",
+                                        "uafklarede_brystsmerter",
+                                        "udredning_foer_anden_stoerre_ikke_kardiel_operation",
+                                        "andet"
+                                    ],
+                                    "foreignCollection": "",
+                                    "foreignField": [],
+                                    "definitionRefs": [],
+                                    "error": {}
+                                },
+                                {
                                     "name": "ProcedureDato",
                                     "hackoladeMeta": {},
                                     "isActivated": true,
@@ -2059,7 +2097,6 @@
                                             "color": "#555555",
                                             "GUID": "476204e5-9737-4cf6-8d49-899506509abe",
                                             "arrayItem": true,
-                                            "arrayParentType": "array",
                                             "displayName": "KagSegment",
                                             "error": {}
                                         }
@@ -2274,21 +2311,42 @@
                                     "hackoladeMeta": {}
                                 },
                                 {
-                                    "GUID": "3feb3c51-e02f-4b4d-9ae4-4a344bb226a7",
-                                    "name": "Indikation",
-                                    "type": "reference",
-                                    "$ref": "#model/definitions/PciIndikation",
-                                    "refType": "model",
-                                    "ref": "bc390777-cb8d-450c-ae26-0dec7f4dfe9d",
-                                    "refIdPath": [
-                                        "61c91db4-a692-4aac-8b5c-fd7f1e7bfe5c",
-                                        "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
-                                        "bc390777-cb8d-450c-ae26-0dec7f4dfe9d"
-                                    ],
+                                    "hackoladeMeta": {},
                                     "isActivated": true,
+                                    "type": "string",
+                                    "properties": [],
+                                    "color": "#555555",
+                                    "GUID": "b0d78962-9de3-4703-acfe-07d4f833468c",
+                                    "name": "PciIndikation",
+                                    "enum": [
+                                        "STEMI_primaer_PCI",
+                                        "STEMI_akut_PCI_over_12_timer",
+                                        "STEMI_rescue_PCI",
+                                        "STEMI_faciliteret_primaer_PCI",
+                                        "STEMI_stabiliseret_over_12_timer",
+                                        "N-STEMI_ikke_stabiliseret",
+                                        "N-STEMI_stabiliseret",
+                                        "UAP_ikke_stabiliseret",
+                                        "UAP_stabiliseret",
+                                        "arytmi",
+                                        "klapsygdom_incl_endocarditis",
+                                        "kardiomyopati_uafklaret_hjerteinsufficiens",
+                                        "stabil_AP_og_eller_dokumenteret_iskaemi_tavs_iskaemi",
+                                        "kompletterende_PCI_efter_PCI_for_N-STEMI",
+                                        "kompletterende_PCI_efter_PCI_for_STEMI",
+                                        "kompletterende_PCI_efter_PCI_for_stabil_AP",
+                                        "kompletterende_PCI_efter_CABG",
+                                        "komplikation_efter_KAG",
+                                        "komplikation_efter_PCI",
+                                        "komplikation_efter_CABG",
+                                        "institio",
+                                        "udredning_foer_anden_stoerre_ikke_kardiel_operation",
+                                        "kardiogent_shock",
+                                        "andet"
+                                    ],
                                     "foreignCollection": "",
                                     "foreignField": [],
-                                    "hackoladeMeta": {},
+                                    "definitionRefs": [],
                                     "error": {}
                                 },
                                 {
@@ -4664,7 +4722,6 @@
                                             "color": "#555555",
                                             "GUID": "3b26a84d-65fb-4f96-8223-d2f9b7afa4fa",
                                             "arrayItem": true,
-                                            "arrayParentType": "array",
                                             "displayName": "PciSegment",
                                             "error": {}
                                         }
@@ -4742,25 +4799,25 @@
                                     }
                                 },
                                 {
-                                    "GUID": "9def9be3-e58e-4494-8ba4-0dfba4b4e3f1",
-                                    "name": "Indikation",
-                                    "type": "reference",
-                                    "$ref": "#model/definitions/PciIndikation",
-                                    "refType": "model",
-                                    "ref": "bc390777-cb8d-450c-ae26-0dec7f4dfe9d",
-                                    "refIdPath": [
-                                        "61c91db4-a692-4aac-8b5c-fd7f1e7bfe5c",
-                                        "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
-                                        "bc390777-cb8d-450c-ae26-0dec7f4dfe9d"
-                                    ],
+                                    "hackoladeMeta": {},
                                     "isActivated": true,
+                                    "type": "string",
+                                    "properties": [],
+                                    "color": "#555555",
+                                    "GUID": "e40f1da9-4fdf-4baa-96a1-5f2ebf247e0d",
+                                    "name": "CtKagIndikation",
+                                    "enum": [
+                                        "uafklarede_brystsmerter_aandenoed",
+                                        "fremstilling_koronar_bypass_grafter",
+                                        "fremstilling_anden_anatomi",
+                                        "kardiomyopati_uafklaret_hjerteinsufficiens",
+                                        "klap_og_eller_aortasygdom",
+                                        "andet"
+                                    ],
                                     "foreignCollection": "",
                                     "foreignField": [],
-                                    "hackoladeMeta": {},
-                                    "error": {
-                                        "name": false,
-                                        "code": false
-                                    }
+                                    "definitionRefs": [],
+                                    "error": {}
                                 },
                                 {
                                     "name": "ProcedureDato",
@@ -5505,7 +5562,6 @@
                                             "color": "#555555",
                                             "GUID": "2268f015-b7b6-4eaf-8ac8-b06514c6e0d9",
                                             "arrayItem": true,
-                                            "arrayParentType": "array",
                                             "displayName": "CtKagSegment",
                                             "error": {}
                                         }
@@ -6918,7 +6974,6 @@
         "440c2ea6-17ba-4942-b0fc-a02a49dc416b": "Roentgenstraaledosis",
         "bc2d54a5-9808-457d-bc70-567fbe66cc0d": "Kontrastmaengde",
         "bc390777-cb8d-450c-ae26-0dec7f4dfe9d": "PciIndikation",
-        "3feb3c51-e02f-4b4d-9ae4-4a344bb226a7": "Indikation",
         "84c31342-3281-4178-a954-ab70ca0b591d": "AntalBehandledeLaesioner",
         "258d6ff5-dee9-44ca-8d3c-b0d43cff9029": "AntalBehandledeGebeter",
         "6494bd68-98b7-47fe-95f0-d16d974f5f5b": "Revaskulariseringsgrad",
@@ -6997,7 +7052,6 @@
         "bc4d6495-bdfc-4c7b-ad83-08cdb1145a81": "HenvisningsDato",
         "34ef9aca-af60-4427-b423-cee4fd89885d": "Henvisningsdiagnose",
         "5b169477-9501-4829-a603-9e15a3296496": "Henvisningsmaade",
-        "9def9be3-e58e-4494-8ba4-0dfba4b4e3f1": "Indikation",
         "9dde4ca5-5d1d-497f-a85f-b944231438c4": "Procedurekode1",
         "f06701fe-3d6d-49bf-bdb7-b4f7be4db761": "Procedurekode2",
         "67c4050e-a43e-4eb5-8f73-a130a6f6d05c": "RoentgenstraaledosisDLP",
@@ -7099,7 +7153,10 @@
         "01f6bca8-49ee-4562-add4-88ef7e3e214e": "ProcedureDato",
         "b3240877-28cd-42f6-8f85-9371c036f950": "ProcedureDato",
         "2b6ad1d2-f349-4a5f-8352-503721156594": "ProcedureDato",
-        "9d3069f0-cbdf-4e00-89eb-26c4b404aee2": "FirstMedicalContact"
+        "9d3069f0-cbdf-4e00-89eb-26c4b404aee2": "FirstMedicalContact",
+        "4b863b74-fdbe-4729-a7d5-6832fbd26240": "KagIndikation",
+        "b0d78962-9de3-4703-acfe-07d4f833468c": "PciIndikation",
+        "e40f1da9-4fdf-4baa-96a1-5f2ebf247e0d": "CtKagIndikation"
     },
     "definitions": {
         "type": "definitions",
@@ -9771,20 +9828,7 @@
                     "name": false,
                     "code": false
                 },
-                "definitionRefs": [
-                    [
-                        "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                        "e968270f-15bc-43b7-b998-123bd76849b9",
-                        "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
-                        "3feb3c51-e02f-4b4d-9ae4-4a344bb226a7"
-                    ],
-                    [
-                        "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                        "e968270f-15bc-43b7-b998-123bd76849b9",
-                        "dbd78940-4437-4a40-a211-815921e34aea",
-                        "9def9be3-e58e-4494-8ba4-0dfba4b4e3f1"
-                    ]
-                ]
+                "definitionRefs": []
             },
             {
                 "name": "PciKagKomplikation",
@@ -10133,14 +10177,14 @@
     "creationTS": "2023-04-15T09:05:24.450Z",
     "GUID": "56d8d7e1-eb14-4872-b89f-72499da535b0",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-07-05T12:50:18.270Z",
+    "lastModifTS": "2023-07-10T08:22:24.206Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.9.10"
+        "version": "6.10.8"
     },
     "hackoladeMeta": {
         "customPropertiesUpdated": true
@@ -10830,11 +10874,6 @@
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "a7004f49-d419-4380-a076-df34a49413c5"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
                     "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
                     "c6114b1a-c9a7-4d8b-952f-5176c1741c4e"
                 ],
@@ -10909,11 +10948,6 @@
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "dbd78940-4437-4a40-a211-815921e34aea",
                     "e0d2b805-ce70-428e-8c5e-a9af652fc8fa"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "dbd78940-4437-4a40-a211-815921e34aea"
                 ],
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
@@ -11003,6 +11037,145 @@
                     "8897ce55-4e19-44f4-8c98-ad2c95b867a9",
                     "b12c4d85-c8ae-4acd-9ed0-b977fe251209",
                     "26d45844-34b2-4018-ba56-4781244df792"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "ebd5e41a-d0d2-461e-a791-cae0d959efb0"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                    "1b723feb-beb1-4c6f-adc2-cf3fefe6840d"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
+                    "8897ce55-4e19-44f4-8c98-ad2c95b867a9"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "a7004f49-d419-4380-a076-df34a49413c5",
+                    "c2a6d2ec-e65a-4877-8b1f-18f8434595f1"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "a7004f49-d419-4380-a076-df34a49413c5",
+                    "91ebccf7-f3e2-4473-866e-e3db893eeb89"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "a7004f49-d419-4380-a076-df34a49413c5"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                    "c6114b1a-c9a7-4d8b-952f-5176c1741c4e"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                    "f6b83fe1-9a7d-4bb4-a4ff-21c09d891398"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                    "5187b327-66cc-482a-b645-42fd810c1753"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                    "1b723feb-beb1-4c6f-adc2-cf3fefe6840d"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                    "854339c6-f4dd-4af7-a7f2-e686379ef372"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                    "91344761-54c3-4eb9-a4fd-46ac8b1d4be8"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
+                    "7cc0a683-ec6d-4c6d-9bd7-5fda32e0f8af"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
+                    "fbf972f0-5965-4469-aed2-638e16b52145"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
+                    "8897ce55-4e19-44f4-8c98-ad2c95b867a9"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
+                    "a108447e-6b55-450c-b32e-c74f029aa516"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
+                    "ff621485-9222-4e64-bb4c-7cfde67430d7"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
+                    "0d8b6083-49cd-4fce-96eb-600a9717cc84"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
+                    "2cd4626d-1871-40f7-8d93-cc40652d8fcf"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "dbd78940-4437-4a40-a211-815921e34aea",
+                    "cd0f5273-c19c-4e1a-99d8-d3011274765c"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "dbd78940-4437-4a40-a211-815921e34aea",
+                    "42eb67a8-1aad-4284-8732-b8b12093abd0"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "dbd78940-4437-4a40-a211-815921e34aea",
+                    "e0d2b805-ce70-428e-8c5e-a9af652fc8fa"
                 ]
             ],
             "shouldDistributeCollections": false
