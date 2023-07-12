@@ -2327,21 +2327,15 @@
                                             "GUID": "1bce21e2-84a7-4a52-8ea7-8eeef301a582",
                                             "name": "Arytmi",
                                             "type": "reference",
-                                            "$ref": "#model/definitions/Arytmi",
+                                            "$ref": "#model/definitions/ArytmiArray",
                                             "refType": "model",
-                                            "ref": "c34a2216-3eb0-4ab3-bdcf-b48e154bb4f0",
+                                            "ref": "45f4655a-c5ec-4326-8fca-47194b56552f",
                                             "refIdPath": [
-                                                "c767e9bc-49d5-41d2-b316-45afb8fc9554",
+                                                "56d8d7e1-eb14-4872-b89f-72499da535b0",
                                                 "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
-                                                "c34a2216-3eb0-4ab3-bdcf-b48e154bb4f0"
+                                                "45f4655a-c5ec-4326-8fca-47194b56552f"
                                             ],
-                                            "isActivated": true,
-                                            "foreignCollection": "",
-                                            "foreignField": [],
-                                            "error": {
-                                                "name": false,
-                                                "code": false
-                                            }
+                                            "isActivated": true
                                         }
                                     ],
                                     "additionalProperties": false,
@@ -4399,21 +4393,15 @@
                                             "GUID": "09f06224-3492-46b7-8ab6-ff369345748f",
                                             "name": "Arytmi",
                                             "type": "reference",
-                                            "$ref": "#model/definitions/Arytmi",
+                                            "$ref": "#model/definitions/ArytmiArray",
                                             "refType": "model",
-                                            "ref": "c34a2216-3eb0-4ab3-bdcf-b48e154bb4f0",
+                                            "ref": "45f4655a-c5ec-4326-8fca-47194b56552f",
                                             "refIdPath": [
-                                                "c767e9bc-49d5-41d2-b316-45afb8fc9554",
+                                                "56d8d7e1-eb14-4872-b89f-72499da535b0",
                                                 "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
-                                                "c34a2216-3eb0-4ab3-bdcf-b48e154bb4f0"
+                                                "45f4655a-c5ec-4326-8fca-47194b56552f"
                                             ],
-                                            "isActivated": true,
-                                            "foreignCollection": "",
-                                            "foreignField": [],
-                                            "error": {
-                                                "name": false,
-                                                "code": false
-                                            }
+                                            "isActivated": true
                                         }
                                     ],
                                     "additionalProperties": false,
@@ -4961,6 +4949,8 @@
                                                     "properties": [],
                                                     "color": "#555555",
                                                     "GUID": "178a7d0b-7763-43f3-978b-f270fa9b699e",
+                                                    "minimum": 1,
+                                                    "maximum": 100,
                                                     "error": {}
                                                 },
                                                 {
@@ -4971,6 +4961,8 @@
                                                     "properties": [],
                                                     "color": "#555555",
                                                     "GUID": "d351e833-ee5e-4bc1-9426-ece78cbec647",
+                                                    "minimum": 1,
+                                                    "maximum": 100,
                                                     "error": {}
                                                 },
                                                 {
@@ -7848,7 +7840,8 @@
         "48849939-04e8-4bbd-8db7-5e35a141f5d0": "KirurgiPaaAortaThoracalis",
         "dc2a9886-d89a-4377-9a21-52746d97be5a": "PostinfarktVSD",
         "2ff8f240-b561-4cc2-8bb1-1b35c8b87ffd": "AkutKirurgiESIIType",
-        "72bebc00-6104-467b-830c-31343bb4f8c2": "AkutKirurgiESII"
+        "72bebc00-6104-467b-830c-31343bb4f8c2": "AkutKirurgiESII",
+        "45f4655a-c5ec-4326-8fca-47194b56552f": "ArytmiArray"
     },
     "definitions": {
         "type": "definitions",
@@ -10273,8 +10266,8 @@
                         "d08f349b-8540-4c39-b314-04a8d9823a80"
                     ]
                 ],
-                "minimum": 1,
-                "maximum": 7,
+                "maximum": 100,
+                "minimum": 0,
                 "error": {}
             },
             {
@@ -10861,22 +10854,7 @@
                     "name": false,
                     "code": false
                 },
-                "definitionRefs": [
-                    [
-                        "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                        "e968270f-15bc-43b7-b998-123bd76849b9",
-                        "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
-                        "0d8b6083-49cd-4fce-96eb-600a9717cc84",
-                        "09f06224-3492-46b7-8ab6-ff369345748f"
-                    ],
-                    [
-                        "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                        "e968270f-15bc-43b7-b998-123bd76849b9",
-                        "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
-                        "1b723feb-beb1-4c6f-adc2-cf3fefe6840d",
-                        "1bce21e2-84a7-4a52-8ea7-8eeef301a582"
-                    ]
-                ]
+                "definitionRefs": []
             },
             {
                 "name": "Operatoer",
@@ -11231,6 +11209,50 @@
                     "subakut",
                     "uoplyst"
                 ]
+            },
+            {
+                "name": "ArytmiArray",
+                "hackoladeMeta": {},
+                "isActivated": true,
+                "type": "array",
+                "properties": [
+                    {
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "type": "string",
+                        "properties": [],
+                        "GUID": "4a2efaaa-a403-41e7-8d71-39a39db00d06",
+                        "arrayItem": true,
+                        "enum": [
+                            "AF",
+                            "Blok",
+                            "VFVT",
+                            "Andet"
+                        ],
+                        "error": {}
+                    }
+                ],
+                "additionalItems": true,
+                "GUID": "45f4655a-c5ec-4326-8fca-47194b56552f",
+                "definitionRefs": [
+                    [
+                        "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                        "e968270f-15bc-43b7-b998-123bd76849b9",
+                        "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                        "1b723feb-beb1-4c6f-adc2-cf3fefe6840d",
+                        "1bce21e2-84a7-4a52-8ea7-8eeef301a582"
+                    ],
+                    [
+                        "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                        "e968270f-15bc-43b7-b998-123bd76849b9",
+                        "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
+                        "0d8b6083-49cd-4fce-96eb-600a9717cc84",
+                        "09f06224-3492-46b7-8ab6-ff369345748f"
+                    ]
+                ],
+                "minItems": 0,
+                "maxItems": 3,
+                "error": {}
             }
         ],
         "GUID": "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564"
@@ -11253,7 +11275,7 @@
     "creationTS": "2023-04-15T09:05:24.450Z",
     "GUID": "56d8d7e1-eb14-4872-b89f-72499da535b0",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-07-10T13:37:31.894Z",
+    "lastModifTS": "2023-07-12T07:22:22.133Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -11362,12 +11384,6 @@
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
-                    "854339c6-f4dd-4af7-a7f2-e686379ef372"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
                     "a7004f49-d419-4380-a076-df34a49413c5",
                     "c2a6d2ec-e65a-4877-8b1f-18f8434595f1"
                 ],
@@ -11381,31 +11397,13 @@
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
-                    "854339c6-f4dd-4af7-a7f2-e686379ef372"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
                     "f6b83fe1-9a7d-4bb4-a4ff-21c09d891398"
                 ],
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
-                    "854339c6-f4dd-4af7-a7f2-e686379ef372"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
                     "f6b83fe1-9a7d-4bb4-a4ff-21c09d891398"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
-                    "854339c6-f4dd-4af7-a7f2-e686379ef372"
                 ],
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
@@ -11536,12 +11534,6 @@
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
-                    "854339c6-f4dd-4af7-a7f2-e686379ef372"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
                     "1b723feb-beb1-4c6f-adc2-cf3fefe6840d",
                     "d91fb459-8ccc-4d81-b156-45cd0f3d21a8",
                     "26d45844-34b2-4018-ba56-4781244df792"
@@ -11588,12 +11580,6 @@
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
-                    "854339c6-f4dd-4af7-a7f2-e686379ef372"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
                     "91344761-54c3-4eb9-a4fd-46ac8b1d4be8"
                 ],
                 [
@@ -11621,12 +11607,6 @@
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
                     "f6b83fe1-9a7d-4bb4-a4ff-21c09d891398"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
-                    "854339c6-f4dd-4af7-a7f2-e686379ef372"
                 ],
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
@@ -11789,12 +11769,6 @@
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
-                    "854339c6-f4dd-4af7-a7f2-e686379ef372"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
                     "91344761-54c3-4eb9-a4fd-46ac8b1d4be8"
                 ],
                 [
@@ -11820,12 +11794,6 @@
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
                     "0d8b6083-49cd-4fce-96eb-600a9717cc84"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "dbd78940-4437-4a40-a211-815921e34aea",
-                    "cd0f5273-c19c-4e1a-99d8-d3011274765c"
                 ],
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
@@ -11875,12 +11843,6 @@
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
-                    "854339c6-f4dd-4af7-a7f2-e686379ef372"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
                     "91344761-54c3-4eb9-a4fd-46ac8b1d4be8"
                 ],
                 [
@@ -11911,12 +11873,6 @@
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "dbd78940-4437-4a40-a211-815921e34aea",
-                    "cd0f5273-c19c-4e1a-99d8-d3011274765c"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "dbd78940-4437-4a40-a211-815921e34aea",
                     "42eb67a8-1aad-4284-8732-b8b12093abd0"
                 ],
                 [
@@ -11936,12 +11892,6 @@
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
                     "f6b83fe1-9a7d-4bb4-a4ff-21c09d891398"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
-                    "854339c6-f4dd-4af7-a7f2-e686379ef372"
                 ],
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
@@ -12004,12 +11954,6 @@
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
-                    "1b723feb-beb1-4c6f-adc2-cf3fefe6840d"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
                     "a7004f49-d419-4380-a076-df34a49413c5",
                     "c2a6d2ec-e65a-4877-8b1f-18f8434595f1"
                 ],
@@ -12035,24 +11979,7 @@
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
-                    "1b723feb-beb1-4c6f-adc2-cf3fefe6840d"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
-                    "854339c6-f4dd-4af7-a7f2-e686379ef372"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
                     "91344761-54c3-4eb9-a4fd-46ac8b1d4be8"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd"
                 ],
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
@@ -12082,12 +12009,6 @@
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "dbd78940-4437-4a40-a211-815921e34aea",
-                    "cd0f5273-c19c-4e1a-99d8-d3011274765c"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "dbd78940-4437-4a40-a211-815921e34aea",
                     "42eb67a8-1aad-4284-8732-b8b12093abd0"
                 ],
                 [
@@ -12106,11 +12027,6 @@
                     "56d8d7e1-eb14-4872-b89f-72499da535b0",
                     "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
                     "4d8dc986-7cd8-4fd8-822c-b9a5e334463d"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "dbd78940-4437-4a40-a211-815921e34aea"
                 ],
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
@@ -12241,6 +12157,69 @@
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "a7004f49-d419-4380-a076-df34a49413c5"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                    "c6114b1a-c9a7-4d8b-952f-5176c1741c4e"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                    "f6b83fe1-9a7d-4bb4-a4ff-21c09d891398"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                    "5187b327-66cc-482a-b645-42fd810c1753"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                    "91344761-54c3-4eb9-a4fd-46ac8b1d4be8"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
+                    "e3d9de07-be9b-4344-8690-6e83a50b7603"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                    "1b723feb-beb1-4c6f-adc2-cf3fefe6840d",
+                    "d91fb459-8ccc-4d81-b156-45cd0f3d21a8",
+                    "26d45844-34b2-4018-ba56-4781244df792"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "dbd78940-4437-4a40-a211-815921e34aea",
+                    "42eb67a8-1aad-4284-8732-b8b12093abd0"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "dbd78940-4437-4a40-a211-815921e34aea",
+                    "e0d2b805-ce70-428e-8c5e-a9af652fc8fa"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "dbd78940-4437-4a40-a211-815921e34aea",
+                    "cd0f5273-c19c-4e1a-99d8-d3011274765c",
+                    "e383195e-f2de-438b-8155-2759baf7a26e",
+                    "26d45844-34b2-4018-ba56-4781244df792"
                 ]
             ],
             "shouldDistributeCollections": false
