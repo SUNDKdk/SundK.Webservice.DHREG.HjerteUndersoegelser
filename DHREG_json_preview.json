@@ -3,27 +3,6 @@
     "type": "object",
     "title": "HeartRegistryReport",
     "properties": {
-        "Patient": {
-            "type": "object",
-            "properties": {
-                "CivilRegistrationNumber": {
-                    "type": "string"
-                },
-                "PatientId": {
-                    "type": "integer"
-                },
-                "EntryId": {
-                    "type": "integer"
-                },
-                "SubEntryId": {
-                    "type": "integer"
-                }
-            },
-            "additionalProperties": false,
-            "required": [
-                "CivilRegistrationNumber"
-            ]
-        },
         "Report": {
             "type": "object",
             "properties": {
@@ -31,84 +10,52 @@
                     "type": "object",
                     "properties": {
                         "KirPakkeforloeb": {
-                            "type": "string",
-                            "enum": [
-                                "stabil-angina-pectoris",
-                                "UAP-NSTEMI",
-                                "hjertesvigt",
-                                "hjerteklapsygdom",
-                                "nej",
-                                "uoplyst"
-                            ]
+                            "$ref": "#model/$defs/Pakkeforloeb"
                         },
                         "HenvisningsDato": {
                             "type": "string"
                         },
                         "IndlaeggelsesDato": {
-                            "type": "string"
+                            "$ref": "#model/$defs/DateTime"
                         },
                         "ProcedureDato": {
                             "type": "string"
                         },
                         "ProcedureKode1": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "ProcedureKode2": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "ProcedureKode3": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "ProcedureKode4": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "ProcedureKode5": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "ProcedureKode6": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "ProcedureKode7": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "ProcedureKode8": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "ProcedureKode9": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "ProcedureKode10": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "ProcedureKode11": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "ProcedureKode12": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "TidPaaIntensivITimer": {
                             "type": "integer",
@@ -116,47 +63,22 @@
                             "maximum": 4380
                         },
                         "Hjertelungemaskine": {
-                            "type": "string",
-                            "enum": [
-                                "Ja",
-                                "Nej",
-                                "Uoplyst"
-                            ]
+                            "$ref": "#model/$defs/JaNejUoplyst"
                         },
                         "KirKomplikationer": {
                             "type": "object",
                             "properties": {
                                 "ReoperationForBloedning": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej",
-                                        "Uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/JaNejUoplyst"
                                 },
                                 "DybSternuminfektion": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej",
-                                        "Uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/JaNejUoplyst"
                                 },
                                 "AmiUnderIndlaeggelsen": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej",
-                                        "Uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/JaNejUoplyst"
                                 },
                                 "CentralNerveskade": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej",
-                                        "Uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/JaNejUoplyst"
                                 }
                             },
                             "additionalProperties": false,
@@ -171,201 +93,65 @@
                             "type": "object",
                             "properties": {
                                 "Diabetes": {
-                                    "type": "string",
-                                    "enum": [
-                                        "ja",
-                                        "ja_non_farmakologisk_behandling",
-                                        "ja_peroral_behandling_ikke_insulin",
-                                        "ja_insulinbehandling_med_og_uden_peroral_behandling",
-                                        "ja_nydiagnosticeret",
-                                        "uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/Diabetes"
                                 },
                                 "Rygning": {
-                                    "type": "string",
-                                    "enum": [
-                                        "aldrig",
-                                        "ophoert",
-                                        "aktiv",
-                                        "uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/Rygning"
                                 },
                                 "Hoejde": {
-                                    "type": "integer",
-                                    "minimum": 0,
-                                    "maximum": 230
+                                    "$ref": "#model/$defs/Hoejde"
                                 },
                                 "Vaegt": {
-                                    "type": "integer",
-                                    "minimum": 0,
-                                    "maximum": 200
+                                    "$ref": "#model/$defs/Vaegt"
                                 },
-                                "EuroSCORE": {
+                                "ErSCR": {
                                     "type": "object",
+                                    "title": "KirEuroSCORE",
                                     "properties": {
                                         "KroniskLungesygdom": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "EkstrakardielArteriesygdom": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "CerebrovaskulaerSygdom": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
-                                        },
-                                        "NedsatMobilitet": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "TidligereHjertekirurgi": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "SerumKreatininOver200": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
-                                        },
-                                        "RenalImpairment": {
-                                            "type": "string",
-                                            "enum": [
-                                                "normal",
-                                                "moderat",
-                                                "svaer",
-                                                "uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "AktivEndokardit": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "KritiskPraeoperativStatus": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
-                                        },
-                                        "DiabetesInsulin": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
-                                        },
-                                        "NYHAKlasse": {
-                                            "type": "string",
-                                            "enum": [
-                                                "I",
-                                                "II",
-                                                "III",
-                                                "IV",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "UstabilAngina": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
-                                        "CCSKlasse4Angina": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
-                                        },
-                                        "VenstreVentrikelDysfunktion": {
-                                            "type": "string",
-                                            "enum": [
-                                                "svaert_nedsat",
-                                                "nedsat",
-                                                "moderat",
-                                                "normal",
-                                                "uoplyst"
-                                            ]
+                                        "VenstreVentrikelDysfunktio": {
+                                            "$ref": "#model/$defs/VenstreVentrikelDysfunktion"
                                         },
                                         "NyligtAmi": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
+                                        },
+                                        "PulmonalHypertension": {
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "AkutOperation": {
-                                            "type": "string",
-                                            "enum": [
-                                                "ja",
-                                                "nej",
-                                                "elektivt",
-                                                "subakut",
-                                                "vital_indikation",
-                                                "uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "HjertekirurgiUdOverCabg": {
-                                            "type": "string",
-                                            "enum": [
-                                                "ja",
-                                                "nej",
-                                                "isoleret_CABG",
-                                                "single_non_CABG",
-                                                "to_procedurer",
-                                                "tre_procedurer",
-                                                "uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "KirurgiPaaAortaThoracalis": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "PostinfarktVsd": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         }
                                     },
                                     "additionalProperties": false
@@ -390,18 +176,10 @@
                     "type": "object",
                     "properties": {
                         "Pakkeforloeb": {
-                            "type": "string",
-                            "enum": [
-                                "stabil-angina-pectoris",
-                                "UAP-NSTEMI",
-                                "hjertesvigt",
-                                "hjerteklapsygdom",
-                                "nej",
-                                "uoplyst"
-                            ]
+                            "$ref": "#model/$defs/Pakkeforloeb"
                         },
                         "HenvisningsDato": {
-                            "type": "string"
+                            "$ref": "#model/$defs/DateTime"
                         },
                         "Henvisningsdiagnose": {
                             "type": "string",
@@ -409,49 +187,59 @@
                             "maxLength": 7
                         },
                         "Henvisningsmaade": {
-                            "type": "string",
-                            "enum": [
-                                "akut",
-                                "subakut",
-                                "elektiv",
-                                "uoplyst"
-                            ]
+                            "$ref": "#model/$defs/KagPciHenvisningsmaade"
                         },
                         "IndlaeggelsesDato": {
-                            "type": "string"
+                            "$ref": "#model/$defs/DateTime"
+                        },
+                        "KagIndikation": {
+                            "type": "string",
+                            "enum": [
+                                "STEMI_primaer_PCI",
+                                "STEMI_akut_PCI_over_12_timer",
+                                "STEMI_rescue_PCI",
+                                "STEMI_faciliteret_primaer_PCI",
+                                "STEMI_stabiliseret_over_12_timer",
+                                "N-STEMI_ikke_stabiliseret",
+                                "N-STEMI_stabiliseret",
+                                "UAP_ikke_stabiliseret",
+                                "UAP_stabiliseret",
+                                "Arytmi",
+                                "Klap_og_eller_aortasygdom",
+                                "Kardiomyopati_uafklaret_hjerteinsufficiens",
+                                "Kontrol_efter_PCI",
+                                "Kontrol_efter_CABG",
+                                "Kontrol_efter_HTx",
+                                "Komplikationer_efter_KAG",
+                                "Komplikationer_efter_PCI",
+                                "Komplikation_efter_KAG",
+                                "Post_infarkt_VSD",
+                                "Institio",
+                                "Uafklarede_brystsmerter",
+                                "Udredning_foer_anden_stoerre_ikke_kardiel_operation",
+                                "Andet"
+                            ]
                         },
                         "ProcedureDato": {
                             "type": "string"
                         },
                         "Procedurekode1": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "Procedurekode2": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "Procedurekode3": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "Procedurekode4": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "Procedurekode5": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "Lvef": {
-                            "type": "integer",
-                            "minimum": 1,
-                            "maximum": 7
+                            "$ref": "#model/$defs/Lvef"
                         },
                         "KateterStoerrelse": {
                             "type": "integer",
@@ -476,25 +264,20 @@
                         "Hovedstammestenose": {
                             "type": "string",
                             "enum": [
-                                "nej",
-                                "ubeskyttet",
-                                "beskyttet",
-                                "aekvivalent"
+                                "Nej",
+                                "Ubeskyttet",
+                                "Beskyttet",
+                                "Aekvivalent"
                             ]
                         },
                         "StentTrombose": {
-                            "type": "string",
-                            "enum": [
-                                "Ja",
-                                "Nej",
-                                "Uoplyst"
-                            ]
+                            "$ref": "#model/$defs/JaNejUoplyst"
                         },
                         "KoronarPatologiNativeKar": {
                             "type": "string",
                             "enum": [
-                                "ingen_vaegforandringer",
-                                "ateromatose_uden_signifikante_stenoser",
+                                "Ingen_vaegforandringer",
+                                "Ateromatose_uden_signifikante_stenoser",
                                 "Foerste_gebet",
                                 "Andet_gebet",
                                 "Tredje_gebet"
@@ -503,7 +286,7 @@
                         "KoronarPatologiTidligereCabg": {
                             "type": "string",
                             "enum": [
-                                "ateromatose_uden_signifikante_stenoser",
+                                "Ateromatose_uden_signifikante_stenoser",
                                 "Foerste_gebet",
                                 "Andet_gebet",
                                 "Tredje_gebet"
@@ -516,117 +299,46 @@
                                     "type": "object",
                                     "properties": {
                                         "AkutPciProcedureinduceret": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "AkutCabgProcedureinduceret": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "NoFlowSlowFlow": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "DistalEmbolisering": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "PeriproceduralPacing": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "DcKonvertering": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "RespInsufficiensRespiratorkraevende": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "Tamponade": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "KardiogentShockProcInduceret": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "KontrastReaktion": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "StrokeUnder12TimerEfterProcedure": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "Institio": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "MorsInTabula": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "Haematom": {
-                                            "type": "string",
-                                            "enum": [
-                                                "nej",
-                                                "stoerre_end_5x5_cm",
-                                                "stoerre_end_10x10_cm",
-                                                "uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/Haematom"
                                         },
                                         "Andet": {
                                             "type": "string",
@@ -656,53 +368,22 @@
                                     "type": "object",
                                     "properties": {
                                         "Haematom": {
-                                            "type": "string",
-                                            "enum": [
-                                                "nej",
-                                                "stoerre_end_5x5_cm",
-                                                "stoerre_end_10x10_cm",
-                                                "uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/Haematom"
                                         },
                                         "BloedningBehovForKirurgi": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "BloedningBehovForTransfusion": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "ArterielOkklusionDissektionBehovForKirurgi": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "LukkedeviceBetingetKomplBehovForKirurgi": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "Pseudoaneurysme": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         }
                                     },
                                     "additionalProperties": false,
@@ -719,84 +400,34 @@
                                     "type": "object",
                                     "properties": {
                                         "AkutCabg": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "AkutPci": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "ForhoejedeIskaemimarkoerer": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "AmiProcedurerelateret": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "IntrakranialBloedning": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "RetroperitonealBloedning": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "AndenStoerreBloedning": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "Stroke": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "TilkommetDialysekrav": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "AllergiskReaktionSentIndtraeffende": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         }
                                     },
                                     "additionalProperties": false,
@@ -825,34 +456,16 @@
                             "type": "object",
                             "properties": {
                                 "Diabetes": {
-                                    "type": "string",
-                                    "enum": [
-                                        "ja",
-                                        "ja_non_farmakologisk_behandling",
-                                        "ja_peroral_behandling_ikke_insulin",
-                                        "ja_insulinbehandling_med_og_uden_peroral_behandling",
-                                        "ja_nydiagnosticeret",
-                                        "uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/Diabetes"
                                 },
                                 "Rygning": {
-                                    "type": "string",
-                                    "enum": [
-                                        "aldrig",
-                                        "ophoert",
-                                        "aktiv",
-                                        "uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/Rygning"
                                 },
                                 "Hoejde": {
-                                    "type": "integer",
-                                    "minimum": 0,
-                                    "maximum": 230
+                                    "$ref": "#model/$defs/Hoejde"
                                 },
                                 "Vaegt": {
-                                    "type": "integer",
-                                    "minimum": 0,
-                                    "maximum": 200
+                                    "$ref": "#model/$defs/Vaegt"
                                 }
                             },
                             "additionalProperties": false
@@ -861,97 +474,43 @@
                             "type": "object",
                             "properties": {
                                 "AnamneseDatoTidspunkt": {
-                                    "type": "string"
+                                    "$ref": "#model/$defs/DateTime"
                                 },
                                 "AnamneseIHSIFamilien": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej",
-                                        "Uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/JaNejUoplyst"
                                 },
                                 "AnamneseBT": {
-                                    "type": "object",
-                                    "properties": {
-                                        "Systolisk": {
-                                            "type": "integer"
-                                        },
-                                        "Diastolisk": {
-                                            "type": "integer"
-                                        }
-                                    },
-                                    "additionalProperties": false
+                                    "$ref": "#model/$defs/BT"
                                 },
                                 "Debuttidspunkt": {
-                                    "type": "string"
+                                    "$ref": "#model/$defs/DateTime"
                                 },
                                 "DiagnostikVisitation": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Præh.diag.direkte til PCI-center",
-                                        "Præh.diag. omkring lokalsygehus",
-                                        "diagnose på lokalsygehus",
-                                        "overflyttet",
-                                        "diagnose efter indl. PCI-center",
-                                        "uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/DiagnostikVisitation"
                                 },
                                 "FirstMedicalContact": {
-                                    "type": "string"
+                                    "$ref": "#model/$defs/DateTime"
                                 },
                                 "Komplikation": {
-                                    "type": "string",
-                                    "enum": [
-                                        "ingen",
-                                        "mitralinsufficiens",
-                                        "VSD",
-                                        "frivægsruptur"
-                                    ]
+                                    "$ref": "#model/$defs/PciKagKomplikation"
                                 },
                                 "AmkomstPCIcenter": {
-                                    "type": "string"
+                                    "$ref": "#model/$defs/DateTime"
                                 },
                                 "Lokalisation": {
-                                    "type": "string",
-                                    "enum": [
-                                        "post",
-                                        "inf",
-                                        "grenblok",
-                                        "ef klassificerbar",
-                                        "ant"
-                                    ]
+                                    "$ref": "#model/$defs/Lokalisation"
                                 },
                                 "AnkomstKardLab": {
-                                    "type": "string"
+                                    "$ref": "#model/$defs/DateTime"
                                 },
                                 "Killip": {
-                                    "type": "string",
-                                    "enum": [
-                                        "I",
-                                        "II",
-                                        "III",
-                                        "IV",
-                                        "Uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/ItilIVUoplyst"
                                 },
                                 "Henvendelsesmoenster": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Transporteret med ambulance til hospital",
-                                        "selvhenvender",
-                                        "transporteret med helikopter"
-                                    ]
+                                    "$ref": "#model/$defs/Henvendelsesmoenster"
                                 },
                                 "CCS": {
-                                    "type": "string",
-                                    "enum": [
-                                        "I",
-                                        "II",
-                                        "III",
-                                        "IV",
-                                        "Uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/ItilIVUoplyst"
                                 }
                             },
                             "additionalProperties": false,
@@ -963,26 +522,16 @@
                             "type": "object",
                             "properties": {
                                 "KateterInd": {
-                                    "type": "string"
+                                    "$ref": "#model/$defs/DateTime"
                                 },
                                 "KateterUd": {
-                                    "type": "string"
+                                    "$ref": "#model/$defs/DateTime"
                                 },
                                 "ArterielAdgang": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Radialis dxt/sin",
-                                        "ulnaris dxt/sin",
-                                        "brachialis dxt/sin",
-                                        "femoralis dxt/sin"
-                                    ]
+                                    "$ref": "#model/$defs/ArterielAdgang"
                                 },
                                 "Ultralyd": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej"
-                                    ]
+                                    "$ref": "#model/$defs/JaNej"
                                 },
                                 "KagKontrastFabrikat": {
                                     "type": "string",
@@ -996,46 +545,19 @@
                                     ]
                                 },
                                 "InvasivtBT": {
-                                    "type": "object",
-                                    "properties": {
-                                        "Systolisk": {
-                                            "type": "integer"
-                                        },
-                                        "Diastolisk": {
-                                            "type": "integer"
-                                        }
-                                    },
-                                    "additionalProperties": false
+                                    "$ref": "#model/$defs/BT"
                                 },
                                 "Puls": {
                                     "type": "integer"
                                 },
                                 "AntalSygeKar": {
-                                    "type": "string",
-                                    "enum": [
-                                        "0",
-                                        "1",
-                                        "2",
-                                        "3",
-                                        "diffus"
-                                    ]
+                                    "$ref": "#model/$defs/AntalSygeKar"
                                 },
                                 "Kardominans": {
-                                    "type": "string",
-                                    "enum": [
-                                        "hoejre",
-                                        "venstre",
-                                        "balanceret"
-                                    ]
+                                    "$ref": "#model/$defs/Kardominans"
                                 },
                                 "Arytmi": {
-                                    "type": "string",
-                                    "enum": [
-                                        "AF",
-                                        "Blok",
-                                        "VFVT",
-                                        "andet"
-                                    ]
+                                    "$ref": "#model/$defs/ArytmiArray"
                                 }
                             },
                             "additionalProperties": false
@@ -1052,14 +574,7 @@
                                         "maximum": 16
                                     },
                                     "SegmentType": {
-                                        "type": "string",
-                                        "enum": [
-                                            "nativ",
-                                            "lima",
-                                            "rima",
-                                            "radialis",
-                                            "vg"
-                                        ]
+                                        "$ref": "#model/$defs/SegmentType"
                                     },
                                     "Stenosegrad": {
                                         "type": "integer",
@@ -1074,11 +589,7 @@
                             "type": "object",
                             "properties": {
                                 "KateterinduceretDissektion": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej"
-                                    ]
+                                    "$ref": "#model/$defs/JaNej"
                                 },
                                 "KagKonsekvens": {
                                     "type": "string",
@@ -1092,11 +603,7 @@
                                     ]
                                 },
                                 "HenvistHjertekonference": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej"
-                                    ]
+                                    "$ref": "#model/$defs/JaNej"
                                 },
                                 "FrailtyScore": {
                                     "type": "integer",
@@ -1133,18 +640,10 @@
                     "type": "object",
                     "properties": {
                         "Pakkeforloeb": {
-                            "type": "string",
-                            "enum": [
-                                "stabil-angina-pectoris",
-                                "UAP-NSTEMI",
-                                "hjertesvigt",
-                                "hjerteklapsygdom",
-                                "nej",
-                                "uoplyst"
-                            ]
+                            "$ref": "#model/$defs/Pakkeforloeb"
                         },
                         "HenvisningsDato": {
-                            "type": "string"
+                            "$ref": "#model/$defs/DateTime"
                         },
                         "Henvisningsdiagnose": {
                             "type": "string",
@@ -1152,18 +651,12 @@
                             "maxLength": 7
                         },
                         "Henvisningsmaade": {
-                            "type": "string",
-                            "enum": [
-                                "akut",
-                                "subakut",
-                                "elektiv",
-                                "uoplyst"
-                            ]
+                            "$ref": "#model/$defs/KagPciHenvisningsmaade"
                         },
                         "IndlaeggelsesDato": {
-                            "type": "string"
+                            "$ref": "#model/$defs/DateTime"
                         },
-                        "Indikation": {
+                        "PciIndikation": {
                             "type": "string",
                             "enum": [
                                 "STEMI_primaer_PCI",
@@ -1196,34 +689,22 @@
                             "type": "string"
                         },
                         "Procedurekode1": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "Procedurekode2": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "Procedurekode3": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "Procedurekode4": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "Procedurekode5": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "Lvef": {
-                            "type": "integer",
-                            "minimum": 1,
-                            "maximum": 7
+                            "$ref": "#model/$defs/Lvef"
                         },
                         "KateterStoerrelse": {
                             "type": "integer",
@@ -1280,141 +761,55 @@
                                     "type": "object",
                                     "properties": {
                                         "AkutSegmentOkklusion": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "KoronarPerforation": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "AkutPciProcedureinduceret": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "AkutCabgProcedureinduceret": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "NoFlowSlowFlow": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "DistalEmbolisering": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "BehovForPacing": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "DcKonvertering": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "RespInsufficiensRespiratorkraevende": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "Tamponade": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "KardiogentShockProcInduceret": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "KontrastReaktion": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "StrokeUnder12TimerEfterProcedure": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "Institio": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "MorsInTabula": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "Haematom": {
-                                            "type": "string",
-                                            "enum": [
-                                                "nej",
-                                                "stoerre_end_5x5_cm",
-                                                "stoerre_end_10x10_cm",
-                                                "uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/Haematom"
                                         },
                                         "Sidegrensokklusion": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "Andet": {
                                             "type": "string",
@@ -1447,53 +842,22 @@
                                     "type": "object",
                                     "properties": {
                                         "Haematom": {
-                                            "type": "string",
-                                            "enum": [
-                                                "nej",
-                                                "stoerre_end_5x5_cm",
-                                                "stoerre_end_10x10_cm",
-                                                "uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/Haematom"
                                         },
                                         "BloedningBehovForKirurgi": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "BloedningBehovForTransfusion": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "ArterielOkklusionDissektionBehovForKirurgi": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "LukkedeviceBetingetKomplBehovForKirurgi": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "Pseudoaneurysme": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         }
                                     },
                                     "additionalProperties": false,
@@ -1510,84 +874,34 @@
                                     "type": "object",
                                     "properties": {
                                         "AkutCabg": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "AkutPci": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "ForhoejedeIskaemimarkoerer": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "AmiProcedurerelateret": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "IntrakranialBloedning": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "RetroperitonealBloedning": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "AndenStoerreBloedning": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "Stroke": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "TilkommetDialysekrav": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "AllergiskReaktionSentIndtraeffende": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         }
                                     },
                                     "additionalProperties": false,
@@ -1616,34 +930,16 @@
                             "type": "object",
                             "properties": {
                                 "Diabetes": {
-                                    "type": "string",
-                                    "enum": [
-                                        "ja",
-                                        "ja_non_farmakologisk_behandling",
-                                        "ja_peroral_behandling_ikke_insulin",
-                                        "ja_insulinbehandling_med_og_uden_peroral_behandling",
-                                        "ja_nydiagnosticeret",
-                                        "uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/Diabetes"
                                 },
                                 "Rygning": {
-                                    "type": "string",
-                                    "enum": [
-                                        "aldrig",
-                                        "ophoert",
-                                        "aktiv",
-                                        "uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/Rygning"
                                 },
                                 "Hoejde": {
-                                    "type": "integer",
-                                    "minimum": 0,
-                                    "maximum": 230
+                                    "$ref": "#model/$defs/Hoejde"
                                 },
                                 "Vaegt": {
-                                    "type": "integer",
-                                    "minimum": 0,
-                                    "maximum": 200
+                                    "$ref": "#model/$defs/Vaegt"
                                 }
                             },
                             "additionalProperties": false
@@ -1652,159 +948,73 @@
                             "type": "object",
                             "properties": {
                                 "AnamneseDatoTidspunkt": {
-                                    "type": "string"
+                                    "$ref": "#model/$defs/DateTime"
                                 },
                                 "AnamneseIHSIFamilien": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej",
-                                        "Uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/JaNejUoplyst"
                                 },
                                 "AnamneseBT": {
+                                    "$ref": "#model/$defs/BT"
+                                },
+                                "Debuttidspunkt": {
+                                    "$ref": "#model/$defs/DateTime"
+                                },
+                                "DiagnostikVisitation": {
+                                    "$ref": "#model/$defs/DiagnostikVisitation"
+                                },
+                                "FirstMedicalContact": {
+                                    "$ref": "#model/$defs/DateTime"
+                                },
+                                "Komplikation": {
+                                    "$ref": "#model/$defs/PciKagKomplikation"
+                                },
+                                "AmkomstPCIcenter": {
+                                    "$ref": "#model/$defs/DateTime"
+                                },
+                                "Lokalisation": {
+                                    "$ref": "#model/$defs/Lokalisation"
+                                },
+                                "AnkomstKardLab": {
+                                    "$ref": "#model/$defs/DateTime"
+                                },
+                                "Killip": {
+                                    "$ref": "#model/$defs/ItilIVUoplyst"
+                                },
+                                "Henvendelsesmoenster": {
+                                    "$ref": "#model/$defs/Henvendelsesmoenster"
+                                },
+                                "CCS": {
+                                    "$ref": "#model/$defs/ItilIVUoplyst"
+                                },
+                                "PciNonInvasivTest": {
                                     "type": "object",
                                     "properties": {
-                                        "Systolisk": {
-                                            "type": "integer"
+                                        "SPECT": {
+                                            "$ref": "#model/$defs/JaNej"
                                         },
-                                        "Diastolisk": {
-                                            "type": "integer"
+                                        "SPECT_Svar": {
+                                            "$ref": "#model/$defs/Udfald"
+                                        },
+                                        "PET": {
+                                            "$ref": "#model/$defs/JaNej"
+                                        },
+                                        "PET_Svar": {
+                                            "$ref": "#model/$defs/Udfald"
+                                        },
+                                        "FFR_CT": {
+                                            "$ref": "#model/$defs/JaNej"
+                                        },
+                                        "FFR_CT_Svar": {
+                                            "$ref": "#model/$defs/Udfald"
+                                        },
+                                        "MR_Perfusion": {
+                                            "$ref": "#model/$defs/JaNej"
+                                        },
+                                        "MR_Perfusion_Svar": {
+                                            "$ref": "#model/$defs/Udfald"
                                         }
                                     },
                                     "additionalProperties": false
-                                },
-                                "Debuttidspunkt": {
-                                    "type": "string"
-                                },
-                                "DiagnostikVisitation": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Præh.diag.direkte til PCI-center",
-                                        "Præh.diag. omkring lokalsygehus",
-                                        "diagnose på lokalsygehus",
-                                        "overflyttet",
-                                        "diagnose efter indl. PCI-center",
-                                        "uoplyst"
-                                    ]
-                                },
-                                "FirstMedicalContact": {
-                                    "type": "string"
-                                },
-                                "Komplikation": {
-                                    "type": "string",
-                                    "enum": [
-                                        "ingen",
-                                        "mitralinsufficiens",
-                                        "VSD",
-                                        "frivægsruptur"
-                                    ]
-                                },
-                                "AmkomstPCIcenter": {
-                                    "type": "string"
-                                },
-                                "Lokalisation": {
-                                    "type": "string",
-                                    "enum": [
-                                        "post",
-                                        "inf",
-                                        "grenblok",
-                                        "ef klassificerbar",
-                                        "ant"
-                                    ]
-                                },
-                                "AnkomstKardLab": {
-                                    "type": "string"
-                                },
-                                "Killip": {
-                                    "type": "string",
-                                    "enum": [
-                                        "I",
-                                        "II",
-                                        "III",
-                                        "IV",
-                                        "Uoplyst"
-                                    ]
-                                },
-                                "Henvendelsesmoenster": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Transporteret med ambulance til hospital",
-                                        "selvhenvender",
-                                        "transporteret med helikopter"
-                                    ]
-                                },
-                                "CCS": {
-                                    "type": "string",
-                                    "enum": [
-                                        "I",
-                                        "II",
-                                        "III",
-                                        "IV",
-                                        "Uoplyst"
-                                    ]
-                                }
-                            },
-                            "additionalProperties": false
-                        },
-                        "PciNonInvasivTest": {
-                            "type": "object",
-                            "properties": {
-                                "SPECT": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej"
-                                    ]
-                                },
-                                "SPECT_Svar": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Positiv",
-                                        "Negativ"
-                                    ]
-                                },
-                                "PET": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej"
-                                    ]
-                                },
-                                "PET_Svar": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Positiv",
-                                        "Negativ"
-                                    ]
-                                },
-                                "FFR_CT": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej"
-                                    ]
-                                },
-                                "FFR_CT_Svar": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Positiv",
-                                        "Negativ"
-                                    ]
-                                },
-                                "MR_Perfusion": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej"
-                                    ]
-                                },
-                                "MR_Perfusion_Svar": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Positiv",
-                                        "Negativ"
-                                    ]
                                 }
                             },
                             "additionalProperties": false
@@ -1813,26 +1023,16 @@
                             "type": "object",
                             "properties": {
                                 "KateterInd": {
-                                    "type": "string"
+                                    "$ref": "#model/$defs/DateTime"
                                 },
                                 "KateterUd": {
-                                    "type": "string"
+                                    "$ref": "#model/$defs/DateTime"
                                 },
                                 "ArterielAdgang": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Radialis dxt/sin",
-                                        "ulnaris dxt/sin",
-                                        "brachialis dxt/sin",
-                                        "femoralis dxt/sin"
-                                    ]
+                                    "$ref": "#model/$defs/ArterielAdgang"
                                 },
                                 "Ultralyd": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej"
-                                    ]
+                                    "$ref": "#model/$defs/JaNej"
                                 },
                                 "PCIKontrastFabrikat": {
                                     "type": "string",
@@ -1846,54 +1046,25 @@
                                     ]
                                 },
                                 "InvasivtBT": {
-                                    "type": "object",
-                                    "properties": {
-                                        "Systolisk": {
-                                            "type": "integer"
-                                        },
-                                        "Diastolisk": {
-                                            "type": "integer"
-                                        }
-                                    },
-                                    "additionalProperties": false
+                                    "$ref": "#model/$defs/BT"
                                 },
                                 "Puls": {
                                     "type": "integer"
                                 },
                                 "Heparin": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej"
-                                    ]
+                                    "$ref": "#model/$defs/JaNej"
                                 },
                                 "GP3A2B": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej"
-                                    ]
+                                    "$ref": "#model/$defs/JaNej"
                                 },
                                 "Fibrinolyse": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej"
-                                    ]
+                                    "$ref": "#model/$defs/JaNej"
                                 },
                                 "ASA": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej"
-                                    ]
+                                    "$ref": "#model/$defs/JaNej"
                                 },
                                 "Bivalirudin": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej"
-                                    ]
+                                    "$ref": "#model/$defs/JaNej"
                                 },
                                 "ADPantagonist": {
                                     "type": "string",
@@ -1908,25 +1079,13 @@
                                     "type": "string"
                                 },
                                 "KritiskPraeoperativTilstand": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej"
-                                    ]
+                                    "$ref": "#model/$defs/JaNej"
                                 },
                                 "MekaniskAssist": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej"
-                                    ]
+                                    "$ref": "#model/$defs/JaNej"
                                 },
                                 "AnaestesiAssistance": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej"
-                                    ]
+                                    "$ref": "#model/$defs/JaNej"
                                 }
                             },
                             "additionalProperties": false
@@ -1935,20 +1094,10 @@
                             "type": "object",
                             "properties": {
                                 "KateterinduceretDissektion": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej"
-                                    ]
+                                    "$ref": "#model/$defs/JaNej"
                                 },
                                 "Arytmi": {
-                                    "type": "string",
-                                    "enum": [
-                                        "AF",
-                                        "Blok",
-                                        "VFVT",
-                                        "andet"
-                                    ]
+                                    "$ref": "#model/$defs/ArytmiArray"
                                 }
                             },
                             "additionalProperties": false
@@ -1965,14 +1114,7 @@
                                         "maximum": 16
                                     },
                                     "SegmentType": {
-                                        "type": "string",
-                                        "enum": [
-                                            "nativ",
-                                            "lima",
-                                            "rima",
-                                            "radialis",
-                                            "vg"
-                                        ]
+                                        "$ref": "#model/$defs/SegmentType"
                                     },
                                     "Stenosegrad": {
                                         "type": "integer",
@@ -2016,11 +1158,7 @@
                                         "type": "object",
                                         "properties": {
                                             "CTO": {
-                                                "type": "string",
-                                                "enum": [
-                                                    "Ja",
-                                                    "Nej"
-                                                ]
+                                                "$ref": "#model/$defs/JaNej"
                                             },
                                             "ad_hoc_planlagt": {
                                                 "type": "string",
@@ -2045,46 +1183,22 @@
                                         "additionalProperties": false
                                     },
                                     "Bifurkatur": {
-                                        "type": "string",
-                                        "enum": [
-                                            "Ja",
-                                            "Nej"
-                                        ]
+                                        "$ref": "#model/$defs/JaNej"
                                     },
                                     "Aortoostial_laesion": {
-                                        "type": "string",
-                                        "enum": [
-                                            "Ja",
-                                            "Nej"
-                                        ]
+                                        "$ref": "#model/$defs/JaNej"
                                     },
                                     "Synlig_kalcifikation": {
-                                        "type": "string",
-                                        "enum": [
-                                            "Ja",
-                                            "Nej"
-                                        ]
+                                        "$ref": "#model/$defs/JaNej"
                                     },
                                     "Synlig_trombe": {
-                                        "type": "string",
-                                        "enum": [
-                                            "Ja",
-                                            "Nej"
-                                        ]
+                                        "$ref": "#model/$defs/JaNej"
                                     },
                                     "By_pass_graft": {
-                                        "type": "string",
-                                        "enum": [
-                                            "Ja",
-                                            "Nej"
-                                        ]
+                                        "$ref": "#model/$defs/JaNej"
                                     },
                                     "Last_remaining_vessel": {
-                                        "type": "string",
-                                        "enum": [
-                                            "Ja",
-                                            "Nej"
-                                        ]
+                                        "$ref": "#model/$defs/JaNej"
                                     },
                                     "Ve_Hovedstamme_LM": {
                                         "type": "string",
@@ -2122,18 +1236,10 @@
                                         ]
                                     },
                                     "Direkte_stentning": {
-                                        "type": "string",
-                                        "enum": [
-                                            "Ja",
-                                            "Nej"
-                                        ]
+                                        "$ref": "#model/$defs/JaNej"
                                     },
                                     "Post_dilatation": {
-                                        "type": "string",
-                                        "enum": [
-                                            "Ja",
-                                            "Nej"
-                                        ]
+                                        "$ref": "#model/$defs/JaNej"
                                     },
                                     "Stentlaengde": {
                                         "type": "integer"
@@ -2153,12 +1259,7 @@
                                         ]
                                     },
                                     "Bifurkaturstentning_MedBallon": {
-                                        "type": "string",
-                                        "enum": [
-                                            "Ja",
-                                            "Nej",
-                                            "Uoplyst"
-                                        ]
+                                        "$ref": "#model/$defs/JaNej"
                                     },
                                     "Medina_klassifikation": {
                                         "type": "string",
@@ -2185,10 +1286,14 @@
                                         "type": "integer"
                                     },
                                     "Stenosegrad_foer": {
-                                        "type": "integer"
+                                        "type": "integer",
+                                        "minimum": 1,
+                                        "maximum": 100
                                     },
                                     "Stenosegrad_efter": {
-                                        "type": "integer"
+                                        "type": "integer",
+                                        "minimum": 1,
+                                        "maximum": 100
                                     },
                                     "TIMI_flow_foer": {
                                         "type": "integer",
@@ -2234,7 +1339,7 @@
                     "type": "object",
                     "properties": {
                         "HenvisningsDato": {
-                            "type": "string"
+                            "$ref": "#model/$defs/DateTime"
                         },
                         "Henvisningsdiagnose": {
                             "type": "string",
@@ -2242,40 +1347,16 @@
                             "maxLength": 7
                         },
                         "Henvisningsmaade": {
-                            "type": "string",
-                            "enum": [
-                                "akut",
-                                "subakut",
-                                "elektiv",
-                                "uoplyst"
-                            ]
+                            "$ref": "#model/$defs/KagPciHenvisningsmaade"
                         },
-                        "Indikation": {
+                        "CtKagIndikation": {
                             "type": "string",
                             "enum": [
-                                "STEMI_primaer_PCI",
-                                "STEMI_akut_PCI_over_12_timer",
-                                "STEMI_rescue_PCI",
-                                "STEMI_faciliteret_primaer_PCI",
-                                "STEMI_stabiliseret_over_12_timer",
-                                "N-STEMI_ikke_stabiliseret",
-                                "N-STEMI_stabiliseret",
-                                "UAP_ikke_stabiliseret",
-                                "UAP_stabiliseret",
-                                "arytmi",
-                                "klapsygdom_incl_endocarditis",
+                                "uafklarede_brystsmerter_aandenoed",
+                                "fremstilling_koronar_bypass_grafter",
+                                "fremstilling_anden_anatomi",
                                 "kardiomyopati_uafklaret_hjerteinsufficiens",
-                                "stabil_AP_og_eller_dokumenteret_iskaemi_tavs_iskaemi",
-                                "kompletterende_PCI_efter_PCI_for_N-STEMI",
-                                "kompletterende_PCI_efter_PCI_for_STEMI",
-                                "kompletterende_PCI_efter_PCI_for_stabil_AP",
-                                "kompletterende_PCI_efter_CABG",
-                                "komplikation_efter_KAG",
-                                "komplikation_efter_PCI",
-                                "komplikation_efter_CABG",
-                                "institio",
-                                "udredning_foer_anden_stoerre_ikke_kardiel_operation",
-                                "kardiogent_shock",
+                                "klap_og_eller_aortasygdom",
                                 "andet"
                             ]
                         },
@@ -2283,14 +1364,10 @@
                             "type": "string"
                         },
                         "Procedurekode1": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "Procedurekode2": {
-                            "type": "string",
-                            "minLength": 1,
-                            "maxLength": 7
+                            "$ref": "#model/$defs/ProcedureKode"
                         },
                         "RoentgenstraaledosisDLP": {
                             "type": "integer",
@@ -2298,20 +1375,10 @@
                             "minimum": 0
                         },
                         "EkstrakardielleForholdBeskrevet": {
-                            "type": "string",
-                            "enum": [
-                                "Ja",
-                                "Nej",
-                                "Uoplyst"
-                            ]
+                            "$ref": "#model/$defs/JaNejUoplyst"
                         },
                         "Komplikationer": {
-                            "type": "string",
-                            "enum": [
-                                "Ja",
-                                "Nej",
-                                "Uoplyst"
-                            ]
+                            "$ref": "#model/$defs/JaNejUoplyst"
                         },
                         "CtKagEvaluerbarUndersoegelse": {
                             "type": "string",
@@ -2343,58 +1410,25 @@
                             ]
                         },
                         "TidligereCABG": {
-                            "type": "string",
-                            "enum": [
-                                "Ja",
-                                "Nej",
-                                "Uoplyst"
-                            ]
+                            "$ref": "#model/$defs/JaNejUoplyst"
                         },
                         "TidligerePCI": {
-                            "type": "string",
-                            "enum": [
-                                "Ja",
-                                "Nej",
-                                "Uoplyst"
-                            ]
+                            "$ref": "#model/$defs/JaNejUoplyst"
                         },
                         "TidligereAMI": {
-                            "type": "string",
-                            "enum": [
-                                "Ja",
-                                "Nej",
-                                "Uoplyst"
-                            ]
+                            "$ref": "#model/$defs/JaNejUoplyst"
                         },
                         "Diabetes": {
-                            "type": "string",
-                            "enum": [
-                                "ja",
-                                "ja_non_farmakologisk_behandling",
-                                "ja_peroral_behandling_ikke_insulin",
-                                "ja_insulinbehandling_med_og_uden_peroral_behandling",
-                                "ja_nydiagnosticeret",
-                                "uoplyst"
-                            ]
+                            "$ref": "#model/$defs/Diabetes"
                         },
                         "Rygning": {
-                            "type": "string",
-                            "enum": [
-                                "aldrig",
-                                "ophoert",
-                                "aktiv",
-                                "uoplyst"
-                            ]
+                            "$ref": "#model/$defs/Rygning"
                         },
                         "Hoejde": {
-                            "type": "integer",
-                            "minimum": 0,
-                            "maximum": 230
+                            "$ref": "#model/$defs/Hoejde"
                         },
                         "Vaegt": {
-                            "type": "integer",
-                            "minimum": 0,
-                            "maximum": 200
+                            "$ref": "#model/$defs/Vaegt"
                         },
                         "CtKagAnamnese": {
                             "type": "object",
@@ -2405,32 +1439,16 @@
                                     "maxLength": 7
                                 },
                                 "AnamneseDatoTidspunkt": {
-                                    "type": "string"
+                                    "$ref": "#model/$defs/DateTime"
                                 },
                                 "AnamneseIHSIFamilien": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej",
-                                        "Uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/JaNejUoplyst"
                                 },
                                 "AnamneseEF": {
-                                    "type": "integer",
-                                    "minimum": 1,
-                                    "maximum": 7
+                                    "$ref": "#model/$defs/Lvef"
                                 },
                                 "AnamneseBT": {
-                                    "type": "object",
-                                    "properties": {
-                                        "Systolisk": {
-                                            "type": "integer"
-                                        },
-                                        "Diastolisk": {
-                                            "type": "integer"
-                                        }
-                                    },
-                                    "additionalProperties": false
+                                    "$ref": "#model/$defs/BT"
                                 },
                                 "CTKAGUndersoegelsestype": {
                                     "type": "string",
@@ -2474,18 +1492,10 @@
                                     "type": "integer"
                                 },
                                 "CTKAGBetablokbehandling": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej"
-                                    ]
+                                    "$ref": "#model/$defs/JaNej"
                                 },
                                 "CTKAGSublingualNitroglycerin": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej"
-                                    ]
+                                    "$ref": "#model/$defs/JaNej"
                                 },
                                 "CTKAGHjerterytme": {
                                     "type": "string",
@@ -2529,9 +1539,7 @@
                                     ]
                                 },
                                 "CTKAGVentrikulografiEF": {
-                                    "type": "integer",
-                                    "minimum": 1,
-                                    "maximum": 7
+                                    "$ref": "#model/$defs/Lvef"
                                 },
                                 "CTKAGEfsys": {
                                     "type": "integer"
@@ -2540,12 +1548,7 @@
                                     "type": "integer"
                                 },
                                 "CTKAGVaesentligeNoncoronareFund": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej",
-                                        "Uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/JaNejUoplyst"
                                 }
                             },
                             "additionalProperties": false
@@ -2567,21 +1570,10 @@
                                         "maximum": 100
                                     },
                                     "SegmentType": {
-                                        "type": "string",
-                                        "enum": [
-                                            "nativ",
-                                            "lima",
-                                            "rima",
-                                            "radialis",
-                                            "vg"
-                                        ]
+                                        "$ref": "#model/$defs/SegmentType"
                                     },
                                     "IkkeEvaluerbar": {
-                                        "type": "string",
-                                        "enum": [
-                                            "Ja",
-                                            "Nej"
-                                        ]
+                                        "$ref": "#model/$defs/JaNej"
                                     }
                                 },
                                 "additionalProperties": false
@@ -2598,214 +1590,29 @@
                     "type": "object",
                     "properties": {
                         "HenvisningsDato": {
-                            "type": "string"
+                            "$ref": "#model/$defs/DateTime"
                         },
                         "Indlaeggelsesdiagnose": {
                             "type": "string",
                             "minLength": 1,
                             "maxLength": 6
                         },
-                        "TaviPrognostiskeFaktorer": {
+                        "TaviProAktivEndokarditgnostiskeFaktorer": {
                             "type": "object",
                             "properties": {
-                                "EuroScore": {
-                                    "type": "object",
-                                    "properties": {
-                                        "KroniskLungesygdom": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
-                                        },
-                                        "EkstrakardielArteriesygdom": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
-                                        },
-                                        "CerebrovaskulaerSygdom": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
-                                        },
-                                        "NedsatMobilitet": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
-                                        },
-                                        "TidligereHjertekirurgi": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
-                                        },
-                                        "SerumKreatininOver200": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
-                                        },
-                                        "RenalImpairment": {
-                                            "type": "string",
-                                            "enum": [
-                                                "normal",
-                                                "moderat",
-                                                "svaer",
-                                                "uoplyst"
-                                            ]
-                                        },
-                                        "AktivEndokardit": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
-                                        },
-                                        "KritiskPraeoperativStatus": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
-                                        },
-                                        "DiabetesInsulin": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
-                                        },
-                                        "NYHAKlasse": {
-                                            "type": "string",
-                                            "enum": [
-                                                "I",
-                                                "II",
-                                                "III",
-                                                "IV",
-                                                "Uoplyst"
-                                            ]
-                                        },
-                                        "UstabilAngina": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
-                                        },
-                                        "CCSKlasse4Angina": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
-                                        },
-                                        "VenstreVentrikelDysfunktion": {
-                                            "type": "string",
-                                            "enum": [
-                                                "svaert_nedsat",
-                                                "nedsat",
-                                                "moderat",
-                                                "normal",
-                                                "uoplyst"
-                                            ]
-                                        },
-                                        "NyligtAmi": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
-                                        },
-                                        "AkutOperation": {
-                                            "type": "string",
-                                            "enum": [
-                                                "ja",
-                                                "nej",
-                                                "elektivt",
-                                                "subakut",
-                                                "vital_indikation",
-                                                "uoplyst"
-                                            ]
-                                        },
-                                        "HjertekirurgiUdOverCabg": {
-                                            "type": "string",
-                                            "enum": [
-                                                "ja",
-                                                "nej",
-                                                "isoleret_CABG",
-                                                "single_non_CABG",
-                                                "to_procedurer",
-                                                "tre_procedurer",
-                                                "uoplyst"
-                                            ]
-                                        },
-                                        "KirurgiPaaAortaThoracalis": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
-                                        },
-                                        "PostinfarktVsd": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
-                                        }
-                                    },
-                                    "additionalProperties": false
-                                },
                                 "FriedFrailtyScoreTotal": {
                                     "type": "integer",
                                     "minimum": 0,
                                     "maximum": 9
                                 },
                                 "TidligereCABG": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej",
-                                        "Uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/JaNejUoplyst"
                                 },
                                 "TidligerePCI": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej",
-                                        "Uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/JaNejUoplyst"
                                 },
                                 "PlanlagtPCIellerCABG": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej",
-                                        "Uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/JaNejUoplyst"
                                 },
                                 "PeakGradientPreMmHg": {
                                     "type": "integer",
@@ -2838,13 +1645,15 @@
                                     "minimum": 10,
                                     "maximum": 40
                                 },
-                                "ArytmiDevice": {
+                                "AorticAnnulusMetode": {
                                     "type": "string",
                                     "enum": [
-                                        "Ja",
-                                        "Nej",
-                                        "Uoplyst"
+                                        "EKKO",
+                                        "hjerteCT"
                                     ]
+                                },
+                                "ArytmiDevice": {
+                                    "$ref": "#model/$defs/JaNejUoplyst"
                                 },
                                 "FEV1Procent": {
                                     "type": "integer",
@@ -2857,22 +1666,88 @@
                                     "maximum": 200
                                 },
                                 "HenvistPgaPorcelaensaorta": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej",
-                                        "Uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/JaNejUoplyst"
                                 },
                                 "Hoejde": {
-                                    "type": "integer",
-                                    "minimum": 0,
-                                    "maximum": 230
+                                    "$ref": "#model/$defs/Hoejde"
                                 },
                                 "Vaegt": {
-                                    "type": "integer",
-                                    "minimum": 0,
-                                    "maximum": 200
+                                    "$ref": "#model/$defs/Vaegt"
+                                },
+                                "TaviEuroSCORE": {
+                                    "type": "object",
+                                    "properties": {
+                                        "KroniskLungesygdom": {
+                                            "$ref": "#model/$defs/JaNejUoplyst"
+                                        },
+                                        "PeriferArterielKarsygdom": {
+                                            "$ref": "#model/$defs/JaNejUoplyst"
+                                        },
+                                        "NedsatMobilitet": {
+                                            "$ref": "#model/$defs/JaNejUoplyst"
+                                        },
+                                        "TidligereHjertekirurgi": {
+                                            "$ref": "#model/$defs/JaNejUoplyst"
+                                        },
+                                        "SerumKreatininOver200": {
+                                            "$ref": "#model/$defs/JaNejUoplyst"
+                                        },
+                                        "NedsatNyrefunktion": {
+                                            "$ref": "#model/$defs/JaNejUoplyst"
+                                        },
+                                        "AktivEndokardit": {
+                                            "$ref": "#model/$defs/JaNejUoplyst"
+                                        },
+                                        "KritiskPraeoperativStatus": {
+                                            "$ref": "#model/$defs/JaNejUoplyst"
+                                        },
+                                        "DiabetesInsulin": {
+                                            "$ref": "#model/$defs/JaNejUoplyst"
+                                        },
+                                        "NYHA": {
+                                            "$ref": "#model/$defs/I_IVUoplystType"
+                                        },
+                                        "CCSKlasse4Angina": {
+                                            "$ref": "#model/$defs/JaNejUoplyst"
+                                        },
+                                        "VenstreVentrikelDysfunktionESII": {
+                                            "$ref": "#model/$defs/VenstreVentrikelDysfunktion"
+                                        },
+                                        "NyligtAmi": {
+                                            "$ref": "#model/$defs/JaNejUoplyst"
+                                        },
+                                        "AkutKirurgiESII": {
+                                            "$ref": "#model/$defs/AkutKirurgiESIIType"
+                                        },
+                                        "HjertekirurgiUdOverCABG": {
+                                            "$ref": "#model/$defs/PulmonalHypertension"
+                                        },
+                                        "KirurgiPaaAortaThoracalis": {
+                                            "$ref": "#model/$defs/JaNejUoplyst"
+                                        },
+                                        "PostinfarktVSD": {
+                                            "$ref": "#model/$defs/JaNejUoplyst"
+                                        }
+                                    },
+                                    "additionalProperties": false,
+                                    "required": [
+                                        "KroniskLungesygdom",
+                                        "PeriferArterielKarsygdom",
+                                        "NedsatMobilitet",
+                                        "TidligereHjertekirurgi",
+                                        "SerumKreatininOver200",
+                                        "NedsatNyrefunktion",
+                                        "AktivEndokardit",
+                                        "KritiskPraeoperativStatus",
+                                        "DiabetesInsulin",
+                                        "CCSKlasse4Angina",
+                                        "VenstreVentrikelDysfunktionESII",
+                                        "NyligtAmi",
+                                        "AkutKirurgiESII",
+                                        "HjertekirurgiUdOverCABG",
+                                        "KirurgiPaaAortaThoracalis",
+                                        "PostinfarktVSD"
+                                    ]
                                 }
                             },
                             "additionalProperties": false
@@ -2884,18 +1759,10 @@
                                     "type": "string"
                                 },
                                 "Operatoer1": {
-                                    "type": "string",
-                                    "enum": [
-                                        "kardiolog",
-                                        "thoraxkirurg"
-                                    ]
+                                    "$ref": "#model/$defs/Operatoer"
                                 },
                                 "Operatoer2": {
-                                    "type": "string",
-                                    "enum": [
-                                        "kardiolog",
-                                        "thoraxkirurg"
-                                    ]
+                                    "$ref": "#model/$defs/Operatoer"
                                 },
                                 "ProcedureKode": {
                                     "type": "string",
@@ -2946,10 +1813,23 @@
                                 "TaviKlaptype": {
                                     "type": "string",
                                     "enum": [
-                                        "corevalve",
-                                        "edwards",
-                                        "portico",
-                                        "andet"
+                                        "Corevalve",
+                                        "Edwards",
+                                        "Edwards S3",
+                                        "Edwards XT",
+                                        "Edwards Ultra",
+                                        "Portico",
+                                        "Symetis",
+                                        "Evolute",
+                                        "Evolute Pro",
+                                        "Jena",
+                                        "Lotus",
+                                        "Centera",
+                                        "MYVAL",
+                                        "NAVITOR",
+                                        "ACCURATE NEO 2",
+                                        "Andet",
+                                        "Ingen klap"
                                     ]
                                 },
                                 "KlapstoerrelseMM": {
@@ -2958,12 +1838,7 @@
                                     "maximum": 34
                                 },
                                 "Praedilation": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej",
-                                        "Uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/JaNejUoplyst"
                                 },
                                 "PraedilationDiameterMM": {
                                     "type": "integer",
@@ -2971,12 +1846,7 @@
                                     "maximum": 30
                                 },
                                 "Postdilation": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej",
-                                        "Uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/JaNejUoplyst"
                                 },
                                 "PostdilationDiameterMM": {
                                     "type": "integer",
@@ -2994,12 +1864,7 @@
                                     "maximum": 1000
                                 },
                                 "LedsagendePCI": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej",
-                                        "Uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/JaNejUoplyst"
                                 },
                                 "TaviMekaniskSupport": {
                                     "type": "string",
@@ -3026,12 +1891,7 @@
                                     ]
                                 },
                                 "KonverteringTilKirurgi": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej",
-                                        "Uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/JaNejUoplyst"
                                 },
                                 "PerproceduraleKarkomplikationer": {
                                     "type": "string",
@@ -3044,12 +1904,7 @@
                                     ]
                                 },
                                 "TamponadeUnderProceduren": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej",
-                                        "Uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/JaNejUoplyst"
                                 }
                             },
                             "additionalProperties": false,
@@ -3061,47 +1916,22 @@
                             "type": "object",
                             "properties": {
                                 "PacemakerPostoperativt": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej",
-                                        "Uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/JaNejUoplyst"
                                 },
                                 "TaviRytmeforstyrrelser": {
                                     "type": "object",
                                     "properties": {
                                         "Atrieflimmer": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "AVBlok": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "VFVT": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "AndenRytmeforstyrrelse": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         }
                                     },
                                     "additionalProperties": false
@@ -3118,12 +1948,7 @@
                                     ]
                                 },
                                 "Sentamponade": {
-                                    "type": "string",
-                                    "enum": [
-                                        "Ja",
-                                        "Nej",
-                                        "Uoplyst"
-                                    ]
+                                    "$ref": "#model/$defs/JaNejUoplyst"
                                 },
                                 "BloedningInterventionskraevende": {
                                     "type": "string",
@@ -3166,52 +1991,22 @@
                                     "type": "object",
                                     "properties": {
                                         "Clopidogrel": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "Ticagrelor": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "Warfarin": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "Acetylsalicylsyre": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "NOAC": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         },
                                         "AndenTromboseprofylakse": {
-                                            "type": "string",
-                                            "enum": [
-                                                "Ja",
-                                                "Nej",
-                                                "Uoplyst"
-                                            ]
+                                            "$ref": "#model/$defs/JaNejUoplyst"
                                         }
                                     },
                                     "additionalProperties": false
@@ -3265,6 +2060,634 @@
                     "required": [
                         "TaviProcedureData"
                     ]
+                },
+                "Ecpr": {
+                    "type": "object",
+                    "properties": {
+                        "AnamneseDatoTidspunkt": {
+                            "type": "string",
+                            "description": "Dato/tidspunkt for anamnese",
+                            "format": "date-time"
+                        },
+                        "AnamneseIHSIFamilien": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "Rygning": {
+                            "$ref": "#model/$defs/Rygning"
+                        },
+                        "Diabetes": {
+                            "$ref": "#model/$defs/Diabetes"
+                        },
+                        "AnamneseEF": {
+                            "$ref": "#model/$defs/Lvef"
+                        },
+                        "Hoejde": {
+                            "$ref": "#model/$defs/Hoejde"
+                        },
+                        "Vaegt": {
+                            "$ref": "#model/$defs/Vaegt"
+                        },
+                        "AnamneseDialyse": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_Indikation": {
+                            "type": "string",
+                            "enum": [
+                                "OHCA undersøgt Kard.lab",
+                                "Hjertestop efter ankomst Kard.lab",
+                                "IHCA undersøg Kard.lab",
+                                "Hypoterm patient",
+                                "Kardiogent shock undersøgt Kard.lab",
+                                "Postoperativt VA-ECMO/Impella"
+                            ]
+                        },
+                        "HS_Visitation": {
+                            "type": "string",
+                            "enum": [
+                                "EMS direkte Kard. lab",
+                                "EMS afdeling på center før Kard. lab",
+                                "EMS lokal sygehus / derefter Kard.lab",
+                                "EMS lokal sygehus / afdeling center før Kard.lab",
+                                "Hændelse opstået efter indlæggelse",
+                                "Selvhenvender",
+                                "Ukendt/uoplyst"
+                            ]
+                        },
+                        "HS_alarm_tidspunkt": {
+                            "$ref": "#model/$defs/DateTime"
+                        },
+                        "HS_ems_amb_ank": {
+                            "$ref": "#model/$defs/DateTime"
+                        },
+                        "HS_ems_laege": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_ems_laege_ank": {
+                            "$ref": "#model/$defs/DateTime"
+                        },
+                        "HS_rytme_foerste": {
+                            "type": "string",
+                            "description": "Første observeret hjerterytme",
+                            "enum": [
+                                "AED tolket stødbar rytmemmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm",
+                                "VF",
+                                "VT",
+                                "PEA",
+                                "Asystoli",
+                                "AFLI/AFLA/SVT",
+                                "AV-blok grad 2/3",
+                                "Sinusrytme",
+                                "Uoplyst"
+                            ]
+                        },
+                        "HS_amio_foer": {
+                            "type": "integer",
+                            "description": "Kummuleret dosis\nAmiodaron før ankomst sygehus (mg)",
+                            "minimum": 0,
+                            "maximum": 1200
+                        },
+                        "HS_adr_foer": {
+                            "type": "integer",
+                            "description": "Kummuleret dosis Adrenalin før ankomst\nsygehus (mg)",
+                            "minimum": 0,
+                            "maximum": 10
+                        },
+                        "HS_intub_foer": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_etco2_intub": {
+                            "type": "integer",
+                            "description": "Endtidal CO2 efter intubation (præhospitalt/inhospitalt)"
+                        },
+                        "HS_hjstop_tid": {
+                            "$ref": "#model/$defs/DateTime"
+                        },
+                        "HS_bevidnet": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_byst_hlr": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_hlr_hjloeber": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_hlr_andre": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_hlr_sundhedsperson": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_hlr_start": {
+                            "$ref": "#model/$defs/DateTime"
+                        },
+                        "HS_noflow": {
+                            "type": "integer"
+                        },
+                        "HS_mek_hlr_foer": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_livstegn_foer": {
+                            "type": "string",
+                            "enum": [
+                                "Nej",
+                                "Ja",
+                                "Ikke relevant ROSC",
+                                "Uoplyst"
+                            ]
+                        },
+                        "HS_defib_foer": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_defib_antal_foer": {
+                            "type": "integer",
+                            "description": "Antal defibrillationer før ankomst\n"
+                        },
+                        "HS_defib_hvem": {
+                            "type": "string",
+                            "enum": [
+                                "Lægmand",
+                                "Sundhedsperson",
+                                "Både lægmand og sundhedsperson",
+                                "Uoplyst"
+                            ]
+                        },
+                        "HS_low_flow_foer": {
+                            "type": "integer"
+                        },
+                        "HS_rosc_ank_lab": {
+                            "type": "string",
+                            "enum": [
+                                "Ja",
+                                "Pågående HLR",
+                                "Behandling indstillet",
+                                "Uoplyst"
+                            ]
+                        },
+                        "HS_rosc_tid": {
+                            "$ref": "#model/$defs/DateTime"
+                        },
+                        "HS_aarsag_hjstop": {
+                            "type": "string",
+                            "enum": [
+                                "Kardiel",
+                                "Traume",
+                                "Drukning",
+                                "Respiratorisk",
+                                "Tosisk",
+                                "Cerebral",
+                                "Gastrointestinal blødning",
+                                "Elektroforstyrrelse",
+                                "Uoplyst"
+                            ]
+                        },
+                        "HS_aarsag_kardiel": {
+                            "type": "string",
+                            "enum": [
+                                "Akut myokardi infarkt",
+                                "Lungeemboli",
+                                "Primær arytmi",
+                                "Tamponade",
+                                "Aortadissektion",
+                                "Myokardit",
+                                "Kronisk hjertesvigt",
+                                "Andet",
+                                "Uoplyst"
+                            ]
+                        },
+                        "HSUnderIndlaeggelse": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_ankomst_lab_tid": {
+                            "$ref": "#model/$defs/DateTime"
+                        },
+                        "HS_livstegn_lab": {
+                            "type": "string",
+                            "description": "Livstegn under HLR efter ankomst",
+                            "enum": [
+                                "Ja",
+                                "Nej",
+                                " Ikke HLR ophørt behandling",
+                                " Ikke relevant ROSC",
+                                "Uoplyst"
+                            ]
+                        },
+                        "HS_rytme_ank_lab": {
+                            "type": "string",
+                            "description": "Hjerterytme ved ankomst",
+                            "enum": [
+                                "VF",
+                                "VT",
+                                "PEA",
+                                "Asystoli",
+                                "AFLI/AFLA/SVT",
+                                "AV-blok 2/3",
+                                "Sinusrytme",
+                                "Uoplyst"
+                            ]
+                        },
+                        "HS_etco2_ank_lab": {
+                            "type": "integer"
+                        },
+                        "HS_ekko_bev": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_lvef": {
+                            "type": "integer"
+                        },
+                        "HS_bt_sys": {
+                            "type": "integer",
+                            "description": "Første systolisk blodtryk på lab"
+                        },
+                        "HS_ph_ank_lab": {
+                            "type": "integer",
+                            "description": "Første pH på lab"
+                        },
+                        "HS_laktat_ank_lab": {
+                            "type": "integer",
+                            "description": "Første Laktat på lab"
+                        },
+                        "HS_ka_ank_lab": {
+                            "type": "integer",
+                            "description": "Første Kalium på lab"
+                        },
+                        "HS_bls_ank_lab": {
+                            "type": "integer",
+                            "description": "Første blodsukker på lab"
+                        },
+                        "HS_hb_ank_lab": {
+                            "type": "integer",
+                            "description": "Første Hæmoglobin på lab"
+                        },
+                        "HS_ekg_foer_mcs": {
+                            "type": "string",
+                            "description": "EKG inden evt. intervention",
+                            "enum": [
+                                "Ja",
+                                "Nej",
+                                "Uoplyst"
+                            ]
+                        },
+                        "HS_ekg_iskaemi_lab": {
+                            "type": "string",
+                            "description": "EKG iskæmi",
+                            "enum": [
+                                "EKG ikke taget ",
+                                "STE",
+                                "STD",
+                                "BBB",
+                                "Ingen",
+                                "Uoplyst"
+                            ]
+                        },
+                        "HS_ekg_rytme_lab": {
+                            "type": "string",
+                            "description": "EKG rytme inLab, dominerende",
+                            "enum": [
+                                "VF",
+                                "VT",
+                                "PEA",
+                                "Asystoli",
+                                "AFLI/AFL/SVT",
+                                "AV-blok grad 2/3",
+                                "Sinusrytme",
+                                "Uoplyst"
+                            ]
+                        },
+                        "HS_lowflow_lab": {
+                            "type": "integer",
+                            "description": "Low-flow tid efter ankomst\n"
+                        },
+                        "HS_lowflow_total": {
+                            "type": "integer",
+                            "description": "Total No/Low-flow"
+                        },
+                        "HS_ttm": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_ttm_target": {
+                            "type": "string",
+                            "description": "Temperatur target ved TTM",
+                            "enum": [
+                                "30",
+                                "31",
+                                "32",
+                                "33",
+                                "34",
+                                "35",
+                                "36",
+                                "37",
+                                "39",
+                                "Ukendt",
+                                "Ved ikke"
+                            ]
+                        },
+                        "HS_respirator_indl": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_outcome_lab": {
+                            "type": "string",
+                            "description": "Outcome kard.lab.",
+                            "enum": [
+                                "Død på lab",
+                                "I live ved afgang"
+                            ]
+                        },
+                        "HS_outcome_lab_doed_datotid": {
+                            "$ref": "#model/$defs/DateTime"
+                        },
+                        "HS_kag": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_kag_kat_ind": {
+                            "$ref": "#model/$defs/DateTime"
+                        },
+                        "HS_revask": {
+                            "type": "string",
+                            "description": "Revaskularisering",
+                            "enum": [
+                                "Ja, ad hoc PCI",
+                                "Nej, elektiv PCI hvis restitueres",
+                                "Nej, stenoser men ikke PCI",
+                                "Nej, ikke stenoser",
+                                "Nej, CABG hvis restitueres",
+                                "Nej, ny KAG hvis restitueres",
+                                "Nej, hjertekonf. hvis restitueres",
+                                "Ja, CAB akut/subakut",
+                                "Uoplyst"
+                            ]
+                        },
+                        "HS_defib_lab": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_defib_antal_lab": {
+                            "type": "integer",
+                            "description": "Antal gange defibrilleret"
+                        },
+                        "HS_adr_lab": {
+                            "type": "integer",
+                            "description": "Adrenalin efter ankomst (kummuleret mg)"
+                        },
+                        "HS_amio_lab": {
+                            "type": "integer",
+                            "description": "Amiodaron efter ankomst (kummuleret mg)",
+                            "minimum": 0,
+                            "maximum": 1200
+                        },
+                        "HS_eCPR": {
+                            "type": "string",
+                            "enum": [
+                                "Ikke etableret ",
+                                "VA-ECMO",
+                                "Impella",
+                                "VA-ECMO+Impella",
+                                "Ukendt"
+                            ]
+                        },
+                        "HS_eCPR_nej": {
+                            "type": "string",
+                            "description": "Årsag til eCPR ikke etableret",
+                            "enum": [
+                                "Patient stabiliseret - ikke behov",
+                                "PEA/Asystoli",
+                                " Lang/ukendt no-flow",
+                                "Lang/ukendt low-flow",
+                                "Lav endtidal CO2",
+                                "Lav pH",
+                                "Høj laktat",
+                                "Komorbiditet",
+                                "Høj alder",
+                                "Ubevidnet hjertestop",
+                                "ROSC ikke opnået",
+                                "Uoplyst"
+                            ]
+                        },
+                        "HS_vaecmo_tid": {
+                            "$ref": "#model/$defs/DateTime"
+                        },
+                        "HS_vaecmo_kanyl": {
+                            "type": "string",
+                            "description": "VA-ECMO kanylering",
+                            "enum": [
+                                "Perifer",
+                                "Central",
+                                "Uoplyst"
+                            ]
+                        },
+                        "HS_vaecmo_kan_teknik": {
+                            "type": "string",
+                            "description": "VA-ECMO kanyleringsteknik",
+                            "enum": [
+                                "Seldinger",
+                                "Cutdown",
+                                "Uoplyst"
+                            ]
+                        },
+                        "HS_vaecmo_kan_ul": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_kat_str_v": {
+                            "type": "integer",
+                            "description": "Kateter Vene (Fr)",
+                            "minimum": 18,
+                            "maximum": 26
+                        },
+                        "HS_kat_str_a": {
+                            "type": "integer",
+                            "description": "Kateter Arterie (Fr)",
+                            "minimum": 18,
+                            "maximum": 26
+                        },
+                        "HS_afem_bypass": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_afem_bypass_str": {
+                            "type": "integer",
+                            "description": "Sheath str."
+                        },
+                        "HS_afem_bypass_tid": {
+                            "$ref": "#model/$defs/DateTime"
+                        },
+                        "HS_imp_tid": {
+                            "$ref": "#model/$defs/DateTime"
+                        },
+                        "HS_imp_type": {
+                            "type": "string",
+                            "description": "Impella type",
+                            "enum": [
+                                "2.5",
+                                "CP",
+                                "5.0",
+                                "RP",
+                                "2.5/CP/5.0 kombi",
+                                "CP smart assist",
+                                "5.5 smart assist"
+                            ]
+                        },
+                        "HS_imp_kanyl": {
+                            "type": "string",
+                            "description": "Kanylering impella",
+                            "enum": [
+                                "Femoralis",
+                                "Subclavia",
+                                "Transthorakal",
+                                "Uoplyst"
+                            ]
+                        },
+                        "HS_imp_side": {
+                            "type": "string",
+                            "enum": [
+                                "Højre",
+                                "Venstre",
+                                "Uoplyst"
+                            ]
+                        },
+                        "HS_kompl": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_komp_bloed": {
+                            "$ref": "#model/$defs/DateTime"
+                        },
+                        "HS_komp_tarm_isk": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_komp_dvt": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_komp_apo": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_komp_intrakranbloed": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_komp_gibloed": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_komp_hjertetampo": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_komp_ue_isk": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_komp_haemolyse": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_komp_devicefail": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_komp_karkir": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_komp_fasciotomi": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_komp_anden": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_Ino_foer_afv": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_Ino_Type_Adrenalin": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_Ino_Type_Dobutamin": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_Ino_Type_Milrinone": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_Ino_Type_Levodimendan": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_Ino_Type_Dopamin": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_Ino_Type_Noradrenalin": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_Ino_Type_Andet": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_vaecmo_afv_tid": {
+                            "$ref": "#model/$defs/DateTime"
+                        },
+                        "HS_vaecmo_afv": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_imp_afv_tid": {
+                            "$ref": "#model/$defs/DateTime"
+                        },
+                        "HS_imp_afv": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_lvef24": {
+                            "type": "integer",
+                            "description": "LVEF 24 timer efter afvikling"
+                        },
+                        "HS_icu": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_icu_ind_tid": {
+                            "$ref": "#model/$defs/DateTime"
+                        },
+                        "HS_icu_udskr_tid": {
+                            "$ref": "#model/$defs/DateTime"
+                        },
+                        "HS_icu_udskr_ilive": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_icu_lvef_udskr": {
+                            "type": "integer",
+                            "description": "EF ved udskrivelse intensiv"
+                        },
+                        "HS_nyresvigt_indl": {
+                            "type": "string",
+                            "description": "Nyresvigt",
+                            "enum": [
+                                "Nej",
+                                "KDIGO stage 1",
+                                "KDIGO stage 2",
+                                "KDIGO stage 3",
+                                "Uoplyst"
+                            ]
+                        },
+                        "HS_dialyse_indl": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_cpc_udskr": {
+                            "type": "string",
+                            "description": "CPC udskrivelse",
+                            "enum": [
+                                "God funktion, vågen og klar\"",
+                                "Moderat nedsat funktion, vågen, klarer daglige gøremål",
+                                "Svær nedsat funktion, vågen, afhængig af andre",
+                                "Coma eller vegetativ tilstand",
+                                "Hjernedød",
+                                "Ved Ikke "
+                            ]
+                        },
+                        "HS_rehab_henv": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_hosp_udskr_ilive": {
+                            "$ref": "#model/$defs/JaNejUoplyst"
+                        },
+                        "HS_mors_aarsag": {
+                            "type": "string",
+                            "description": "Årsag til død",
+                            "enum": [
+                                "Incarceration",
+                                "Hjertesvigt",
+                                "Multiorgansvigt",
+                                "Blødning(VLST)",
+                                "Device-failure",
+                                "Uoplyst"
+                            ]
+                        },
+                        "HS_hosp_udskr_tid": {
+                            "$ref": "#model/$defs/DateTime"
+                        }
+                    },
+                    "additionalProperties": false
                 }
             },
             "additionalProperties": false
@@ -3272,7 +2695,6 @@
     },
     "additionalProperties": false,
     "required": [
-        "Patient",
         "Report"
     ]
 }
