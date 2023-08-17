@@ -6,66 +6,6 @@
             "type": "object",
             "properties": [
                 {
-                    "name": "Patient",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "document",
-                    "properties": [
-                        {
-                            "GUID": "80aa43ec-dec8-4ea5-9898-7bc73711a8a4",
-                            "name": "CivilRegistrationNumber",
-                            "type": "reference",
-                            "$ref": "#model/definitions/CPRnr",
-                            "refType": "model",
-                            "ref": "371aa64f-6f5d-47e2-9cb7-7edde1bbe9ea",
-                            "refIdPath": [
-                                "61c91db4-a692-4aac-8b5c-fd7f1e7bfe5c",
-                                "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
-                                "371aa64f-6f5d-47e2-9cb7-7edde1bbe9ea"
-                            ],
-                            "isActivated": true,
-                            "hackoladeMeta": {},
-                            "required": true,
-                            "error": {}
-                        },
-                        {
-                            "name": "PatientId",
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "type": "integer",
-                            "properties": [],
-                            "color": "#555555",
-                            "GUID": "1cb13797-a062-4ad6-a760-8191964d5d71",
-                            "error": {}
-                        },
-                        {
-                            "name": "EntryId",
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "type": "integer",
-                            "properties": [],
-                            "color": "#555555",
-                            "GUID": "3d4fe8bc-d4d9-42be-a0cb-4268d7771bb0",
-                            "error": {}
-                        },
-                        {
-                            "name": "SubEntryId",
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "type": "integer",
-                            "properties": [],
-                            "color": "#555555",
-                            "GUID": "cdc8cfc8-f5f6-44f3-8837-aad9ee6811cd",
-                            "error": {}
-                        }
-                    ],
-                    "additionalProperties": false,
-                    "color": "#555555",
-                    "GUID": "ebd5e41a-d0d2-461e-a791-cae0d959efb0",
-                    "required": true,
-                    "error": {}
-                },
-                {
                     "name": "Report",
                     "hackoladeMeta": {},
                     "isActivated": true,
@@ -9882,7 +9822,6 @@
     "diagramViews": [],
     "idToNameHashTable": {
         "29ceee77-bd44-43d1-bcba-e5ae200edf14": "HeartRegistryReport",
-        "ebd5e41a-d0d2-461e-a791-cae0d959efb0": "Patient",
         "55d22fb2-b5b0-4668-b7e9-bc1c03c6cba9": "ProcedureKode",
         "d754a56a-a6f1-4ada-b511-60a212e6d59b": "JaNej",
         "b7b1a582-77af-4cac-b456-71f8fdf35a8c": "JaNejUoplyst",
@@ -9982,9 +9921,6 @@
         "09f06224-3492-46b7-8ab6-ff369345748f": "Arytmi",
         "1bce21e2-84a7-4a52-8ea7-8eeef301a582": "Arytmi",
         "dbd78940-4437-4a40-a211-815921e34aea": "CtKag",
-        "1cb13797-a062-4ad6-a760-8191964d5d71": "PatientId",
-        "3d4fe8bc-d4d9-42be-a0cb-4268d7771bb0": "EntryId",
-        "cdc8cfc8-f5f6-44f3-8837-aad9ee6811cd": "SubEntryId",
         "bc4d6495-bdfc-4c7b-ad83-08cdb1145a81": "HenvisningsDato",
         "34ef9aca-af60-4427-b423-cee4fd89885d": "Henvisningsdiagnose",
         "5b169477-9501-4829-a603-9e15a3296496": "Henvisningsmaade",
@@ -10044,7 +9980,6 @@
         "0cd2fb05-eaba-45d3-8213-fefab3a7ee98": "HenvistPgaPorcelaensaorta",
         "f2ee1afc-9db0-4e65-8e25-67a6171c9c0c": "Hoejde",
         "e0d92824-9a7d-4db2-9fe8-2223f55181ce": "Vaegt",
-        "80aa43ec-dec8-4ea5-9898-7bc73711a8a4": "CivilRegistrationNumber",
         "b19f06a6-f1e4-4907-9f04-bf1c6b7eed35": "PacemakerPostoperativt",
         "34b8b7f3-8bba-4853-8f4c-e8d2364a06e6": "TaviRytmeforstyrrelser",
         "894b1cca-40ea-41df-a213-bb94cfd43cad": "Atrieflimmer",
@@ -10507,13 +10442,7 @@
                 "properties": [],
                 "color": "#555555",
                 "GUID": "371aa64f-6f5d-47e2-9cb7-7edde1bbe9ea",
-                "definitionRefs": [
-                    [
-                        "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                        "ebd5e41a-d0d2-461e-a791-cae0d959efb0",
-                        "80aa43ec-dec8-4ea5-9898-7bc73711a8a4"
-                    ]
-                ],
+                "definitionRefs": [],
                 "error": {}
             },
             {
@@ -13990,14 +13919,14 @@
     "creationTS": "2023-04-15T09:05:24.450Z",
     "GUID": "56d8d7e1-eb14-4872-b89f-72499da535b0",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-08-01T21:58:44.969Z",
+    "lastModifTS": "2023-08-17T08:31:44.841Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.10.13"
+        "version": "6.9.6"
     },
     "hackoladeMeta": {
         "customPropertiesUpdated": true
@@ -14514,10 +14443,6 @@
                 ],
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "ebd5e41a-d0d2-461e-a791-cae0d959efb0"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
                     "5187b327-66cc-482a-b645-42fd810c1753"
@@ -14861,11 +14786,6 @@
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "a7004f49-d419-4380-a076-df34a49413c5"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
                     "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
                     "c6114b1a-c9a7-4d8b-952f-5176c1741c4e"
                 ],
@@ -14913,6 +14833,28 @@
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "b493d0ce-0140-4aa4-87cb-3b91155f87cd"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "1f024d8d-6960-47d4-9b3e-54a31a679026"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "a7004f49-d419-4380-a076-df34a49413c5",
+                    "c2a6d2ec-e65a-4877-8b1f-18f8434595f1"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "a7004f49-d419-4380-a076-df34a49413c5",
+                    "91ebccf7-f3e2-4473-866e-e3db893eeb89"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "a7004f49-d419-4380-a076-df34a49413c5"
                 ]
             ],
             "shouldDistributeCollections": false
