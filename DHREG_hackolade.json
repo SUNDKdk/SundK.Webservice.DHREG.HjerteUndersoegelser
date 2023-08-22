@@ -10318,7 +10318,14 @@
                 ],
                 "foreignCollection": "",
                 "foreignField": [],
-                "definitionRefs": [],
+                "definitionRefs": [
+                    [
+                        "56d8d7e1-eb14-4872-b89f-72499da535b0",
+                        "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
+                        "45f4655a-c5ec-4326-8fca-47194b56552f",
+                        "9523d427-1fea-439d-8d2d-cbfa455c7b97"
+                    ]
+                ],
                 "error": {}
             },
             {
@@ -10328,19 +10335,24 @@
                 "type": "array",
                 "properties": [
                     {
-                        "hackoladeMeta": {},
-                        "isActivated": true,
-                        "type": "string",
-                        "properties": [],
-                        "GUID": "4a2efaaa-a403-41e7-8d71-39a39db00d06",
-                        "arrayItem": true,
-                        "enum": [
-                            "AF",
-                            "Blok",
-                            "VFVT",
-                            "Andet"
+                        "GUID": "9523d427-1fea-439d-8d2d-cbfa455c7b97",
+                        "type": "reference",
+                        "$ref": "#model/definitions/Arytmi",
+                        "refType": "model",
+                        "ref": "c34a2216-3eb0-4ab3-bdcf-b48e154bb4f0",
+                        "refIdPath": [
+                            "56d8d7e1-eb14-4872-b89f-72499da535b0",
+                            "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
+                            "c34a2216-3eb0-4ab3-bdcf-b48e154bb4f0"
                         ],
-                        "error": {}
+                        "isActivated": true,
+                        "displayName": "Arytmi",
+                        "foreignCollection": "",
+                        "foreignField": [],
+                        "arrayItem": true,
+                        "error": {
+                            "name": false
+                        }
                     }
                 ],
                 "additionalItems": true,
@@ -13919,7 +13931,7 @@
     "creationTS": "2023-04-15T09:05:24.450Z",
     "GUID": "56d8d7e1-eb14-4872-b89f-72499da535b0",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-08-17T08:31:44.841Z",
+    "lastModifTS": "2023-08-22T13:05:53.940Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
