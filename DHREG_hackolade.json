@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "HeartRegistryReport",
+            "collectionName": "DHREG",
             "type": "object",
             "properties": [
                 {
@@ -2611,43 +2611,21 @@
                                     "hackoladeMeta": {}
                                 },
                                 {
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "color": "#555555",
                                     "GUID": "b0d78962-9de3-4703-acfe-07d4f833468c",
                                     "name": "PciIndikation",
-                                    "enum": [
-                                        "STEMI_primaer_PCI",
-                                        "STEMI_akut_PCI_over_12_timer",
-                                        "STEMI_rescue_PCI",
-                                        "STEMI_faciliteret_primaer_PCI",
-                                        "STEMI_stabiliseret_over_12_timer",
-                                        "N-STEMI_ikke_stabiliseret",
-                                        "N-STEMI_stabiliseret",
-                                        "UAP_ikke_stabiliseret",
-                                        "UAP_stabiliseret",
-                                        "arytmi",
-                                        "klapsygdom_incl_endocarditis",
-                                        "kardiomyopati_uafklaret_hjerteinsufficiens",
-                                        "stabil_AP_og_eller_dokumenteret_iskaemi_tavs_iskaemi",
-                                        "kompletterende_PCI_efter_PCI_for_N-STEMI",
-                                        "kompletterende_PCI_efter_PCI_for_STEMI",
-                                        "kompletterende_PCI_efter_PCI_for_stabil_AP",
-                                        "kompletterende_PCI_efter_CABG",
-                                        "komplikation_efter_KAG",
-                                        "komplikation_efter_PCI",
-                                        "komplikation_efter_CABG",
-                                        "institio",
-                                        "udredning_foer_anden_stoerre_ikke_kardiel_operation",
-                                        "kardiogent_shock",
-                                        "andet"
+                                    "type": "reference",
+                                    "$ref": "#model/definitions/PciIndikation",
+                                    "refType": "model",
+                                    "ref": "bc390777-cb8d-450c-ae26-0dec7f4dfe9d",
+                                    "refIdPath": [
+                                        "56d8d7e1-eb14-4872-b89f-72499da535b0",
+                                        "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
+                                        "bc390777-cb8d-450c-ae26-0dec7f4dfe9d"
                                     ],
+                                    "isActivated": true,
                                     "foreignCollection": "",
                                     "foreignField": [],
-                                    "definitionRefs": [],
-                                    "error": {}
+                                    "hackoladeMeta": {}
                                 },
                                 {
                                     "name": "ProcedureDato",
@@ -5775,9 +5753,8 @@
                                                 "b7b1a582-77af-4cac-b456-71f8fdf35a8c"
                                             ],
                                             "isActivated": true,
-                                            "error": {
-                                                "name": false
-                                            }
+                                            "hackoladeMeta": {},
+                                            "error": {}
                                         }
                                     ],
                                     "additionalProperties": false,
@@ -9810,9 +9787,7 @@
             "additionalProperties": false,
             "GUID": "29ceee77-bd44-43d1-bcba-e5ae200edf14",
             "skemaversion": "2",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            }
+            "hackoladeMeta": {}
         }
     ],
     "buckets": [],
@@ -9821,7 +9796,7 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "29ceee77-bd44-43d1-bcba-e5ae200edf14": "HeartRegistryReport",
+        "29ceee77-bd44-43d1-bcba-e5ae200edf14": "DHREG",
         "55d22fb2-b5b0-4668-b7e9-bc1c03c6cba9": "ProcedureKode",
         "d754a56a-a6f1-4ada-b511-60a212e6d59b": "JaNej",
         "b7b1a582-77af-4cac-b456-71f8fdf35a8c": "JaNejUoplyst",
@@ -9956,7 +9931,6 @@
         "d08f349b-8540-4c39-b314-04a8d9823a80": "CTKAGVentrikulografiEF",
         "354dd2f4-e24a-46a8-8cf7-4597d3f7aaf4": "CTKAGEfsys",
         "81cec9fd-c044-4b3d-a2ae-b04e9fde20a2": "CTKAGEfdia",
-        "75f17232-1b50-4662-aa58-43b87c0977e3": "CTKAGVaesentligeNoncoronareFund",
         "e0d2b805-ce70-428e-8c5e-a9af652fc8fa": "CtKagSegmentList",
         "961d567d-6766-4b65-9cad-47155d476aa4": "Segment",
         "4476c216-76a7-4ba8-b75e-ff679b21a385": "SegmentType",
@@ -10209,7 +10183,8 @@
         "f618fd21-5f69-43bc-9ed1-fc218dc68a4c": "HS_rehab_henv",
         "0f9b5dff-df80-422d-a172-511dec8faa06": "HS_hosp_udskr_ilive",
         "972f0b5b-fad2-40e9-bc8a-a01ac53912bc": "HS_mors_aarsag",
-        "b08767c7-ba7b-4efa-97fa-8cb87786d2ef": "HS_hosp_udskr_tid"
+        "b08767c7-ba7b-4efa-97fa-8cb87786d2ef": "HS_hosp_udskr_tid",
+        "75f17232-1b50-4662-aa58-43b87c0977e3": "CTKAGVaesentligeNoncoronareFund"
     },
     "definitions": {
         "type": "definitions",
@@ -13701,7 +13676,14 @@
                 ],
                 "foreignCollection": "",
                 "foreignField": [],
-                "definitionRefs": [],
+                "definitionRefs": [
+                    [
+                        "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                        "e968270f-15bc-43b7-b998-123bd76849b9",
+                        "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
+                        "b0d78962-9de3-4703-acfe-07d4f833468c"
+                    ]
+                ],
                 "error": {}
             },
             {
@@ -13931,7 +13913,7 @@
     "creationTS": "2023-04-15T09:05:24.450Z",
     "GUID": "56d8d7e1-eb14-4872-b89f-72499da535b0",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-08-22T13:05:53.940Z",
+    "lastModifTS": "2023-08-22T22:18:31.029Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -14270,12 +14252,6 @@
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "dbd78940-4437-4a40-a211-815921e34aea",
-                    "42eb67a8-1aad-4284-8732-b8b12093abd0"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "dbd78940-4437-4a40-a211-815921e34aea",
                     "cd0f5273-c19c-4e1a-99d8-d3011274765c",
                     "e383195e-f2de-438b-8155-2759baf7a26e",
                     "26d45844-34b2-4018-ba56-4781244df792"
@@ -14347,12 +14323,6 @@
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "dbd78940-4437-4a40-a211-815921e34aea",
-                    "42eb67a8-1aad-4284-8732-b8b12093abd0"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "dbd78940-4437-4a40-a211-815921e34aea",
                     "e0d2b805-ce70-428e-8c5e-a9af652fc8fa"
                 ],
                 [
@@ -14392,12 +14362,6 @@
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
                     "0d8b6083-49cd-4fce-96eb-600a9717cc84"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "dbd78940-4437-4a40-a211-815921e34aea",
-                    "42eb67a8-1aad-4284-8732-b8b12093abd0"
                 ],
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
@@ -14482,12 +14446,6 @@
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
                     "0d8b6083-49cd-4fce-96eb-600a9717cc84"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "dbd78940-4437-4a40-a211-815921e34aea",
-                    "42eb67a8-1aad-4284-8732-b8b12093abd0"
                 ],
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
@@ -14611,11 +14569,6 @@
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
                     "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
                     "6649c34b-46f7-432a-b097-4dcd157b7237"
                 ],
@@ -14649,12 +14602,6 @@
                     "1b723feb-beb1-4c6f-adc2-cf3fefe6840d",
                     "d91fb459-8ccc-4d81-b156-45cd0f3d21a8",
                     "26d45844-34b2-4018-ba56-4781244df792"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "dbd78940-4437-4a40-a211-815921e34aea",
-                    "42eb67a8-1aad-4284-8732-b8b12093abd0"
                 ],
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
@@ -14730,18 +14677,7 @@
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "dbd78940-4437-4a40-a211-815921e34aea",
-                    "42eb67a8-1aad-4284-8732-b8b12093abd0"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "dbd78940-4437-4a40-a211-815921e34aea",
                     "e0d2b805-ce70-428e-8c5e-a9af652fc8fa"
-                ],
-                [
-                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "e968270f-15bc-43b7-b998-123bd76849b9",
-                    "dbd78940-4437-4a40-a211-815921e34aea"
                 ],
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
@@ -14867,6 +14803,54 @@
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "e968270f-15bc-43b7-b998-123bd76849b9",
                     "a7004f49-d419-4380-a076-df34a49413c5"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "dbd78940-4437-4a40-a211-815921e34aea",
+                    "cd0f5273-c19c-4e1a-99d8-d3011274765c"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "dbd78940-4437-4a40-a211-815921e34aea",
+                    "e0d2b805-ce70-428e-8c5e-a9af652fc8fa"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
+                    "7cc0a683-ec6d-4c6d-9bd7-5fda32e0f8af"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
+                    "fbf972f0-5965-4469-aed2-638e16b52145"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
+                    "8897ce55-4e19-44f4-8c98-ad2c95b867a9"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
+                    "ff621485-9222-4e64-bb4c-7cfde67430d7"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
+                    "0d8b6083-49cd-4fce-96eb-600a9717cc84"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "e968270f-15bc-43b7-b998-123bd76849b9",
+                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
+                    "2cd4626d-1871-40f7-8d93-cc40652d8fcf"
                 ]
             ],
             "shouldDistributeCollections": false
