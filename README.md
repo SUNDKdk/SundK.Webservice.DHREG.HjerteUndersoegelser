@@ -1,2 +1,7 @@
-# Data specifikationer til v0.9.0
-I dette repository ligger der en JSON og HTML fil som dokumentation af DHREH data specifikationerne
+# Data specifikationer v1.0.0
+I dette repository ligger der forskelige filer:
+* JSON - Hackolade
+* JSON - output
+* HTML
+* Markdown
+* PDF
