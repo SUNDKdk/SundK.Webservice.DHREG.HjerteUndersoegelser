@@ -9773,7 +9773,7 @@
             "isActivated": true,
             "additionalProperties": false,
             "GUID": "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-            "skemaversion": "2",
+            "skemaversion": "1.0.0",
             "hackoladeMeta": {}
         }
     ],
@@ -13214,16 +13214,16 @@
     "dbVersion": "2019-09",
     "appTarget": "JSON",
     "creationTS": "2023-04-15T09:05:24.450Z",
-    "GUID": "56d8d7e1-eb14-4872-b89f-72499da535b0",
+    "GUID": "c1542629-da35-4e6d-8dc1-f35dc42b7bb8",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-08-22T22:25:55.059Z",
+    "lastModifTS": "2023-08-23T08:59:53.807Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.9.6"
+        "version": "6.9.10"
     },
     "hackoladeMeta": {
         "customPropertiesUpdated": true
