@@ -683,64 +683,57 @@
                                             "GUID": "edcb4ecc-def7-469e-89a6-bbc6aad44fb7",
                                             "name": "PulmonalHypertension",
                                             "type": "reference",
-                                            "$ref": "#model/definitions/JaNejUoplyst",
+                                            "$ref": "#model/definitions/PulmonalHypertensionESIIType",
                                             "refType": "model",
-                                            "ref": "b7b1a582-77af-4cac-b456-71f8fdf35a8c",
+                                            "ref": "aae4d415-4d30-412b-b1e5-a08d4682fc5e",
                                             "refIdPath": [
-                                                "56d8d7e1-eb14-4872-b89f-72499da535b0",
+                                                "c1542629-da35-4e6d-8dc1-f35dc42b7bb8",
                                                 "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
-                                                "b7b1a582-77af-4cac-b456-71f8fdf35a8c"
+                                                "aae4d415-4d30-412b-b1e5-a08d4682fc5e"
                                             ],
                                             "isActivated": true,
-                                            "hackoladeMeta": {},
                                             "required": false,
                                             "foreignCollection": "",
                                             "foreignField": [],
-                                            "error": {
-                                                "name": false
-                                            }
+                                            "hackoladeMeta": {}
                                         },
                                         {
                                             "GUID": "7a90151c-fda2-40f7-b205-91bbee36938a",
                                             "name": "AkutOperation",
                                             "type": "reference",
-                                            "$ref": "#model/definitions/JaNejUoplyst",
+                                            "$ref": "#model/definitions/EuroSCOREIogII/AkutOperation",
                                             "refType": "model",
-                                            "ref": "b7b1a582-77af-4cac-b456-71f8fdf35a8c",
+                                            "ref": "8a17d65b-8ecf-4c1c-a67a-12787d0f6f57",
                                             "refIdPath": [
-                                                "56d8d7e1-eb14-4872-b89f-72499da535b0",
+                                                "c1542629-da35-4e6d-8dc1-f35dc42b7bb8",
                                                 "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
-                                                "b7b1a582-77af-4cac-b456-71f8fdf35a8c"
+                                                "4d8dc986-7cd8-4fd8-822c-b9a5e334463d",
+                                                "8a17d65b-8ecf-4c1c-a67a-12787d0f6f57"
                                             ],
                                             "isActivated": true,
-                                            "hackoladeMeta": {},
                                             "required": false,
                                             "foreignCollection": "",
                                             "foreignField": [],
-                                            "error": {
-                                                "name": false
-                                            }
+                                            "hackoladeMeta": {}
                                         },
                                         {
                                             "GUID": "282c2ea4-aa14-429a-b168-7fd68672a0cf",
                                             "name": "HjertekirurgiUdOverCabg",
                                             "type": "reference",
-                                            "$ref": "#model/definitions/JaNejUoplyst",
+                                            "$ref": "#model/definitions/EuroSCOREIogII/HjertekirurgiUdOverCabg",
                                             "refType": "model",
-                                            "ref": "b7b1a582-77af-4cac-b456-71f8fdf35a8c",
+                                            "ref": "a43aac05-1275-4d13-a3dc-6675f311dfb3",
                                             "refIdPath": [
-                                                "56d8d7e1-eb14-4872-b89f-72499da535b0",
+                                                "c1542629-da35-4e6d-8dc1-f35dc42b7bb8",
                                                 "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
-                                                "b7b1a582-77af-4cac-b456-71f8fdf35a8c"
+                                                "4d8dc986-7cd8-4fd8-822c-b9a5e334463d",
+                                                "a43aac05-1275-4d13-a3dc-6675f311dfb3"
                                             ],
                                             "isActivated": true,
-                                            "hackoladeMeta": {},
                                             "required": false,
                                             "foreignCollection": "",
                                             "foreignField": [],
-                                            "error": {
-                                                "name": false
-                                            }
+                                            "hackoladeMeta": {}
                                         },
                                         {
                                             "GUID": "53e5d271-7139-4147-b2c4-2e16f230701d",
@@ -783,15 +776,103 @@
                                             "error": {
                                                 "name": false
                                             }
+                                        },
+                                        {
+                                            "GUID": "7be966b1-3b14-4e55-bf60-90cefbb534d0",
+                                            "name": "NedsatMobilitet",
+                                            "type": "reference",
+                                            "$ref": "#model/definitions/JaNejUoplyst",
+                                            "refType": "model",
+                                            "ref": "b7b1a582-77af-4cac-b456-71f8fdf35a8c",
+                                            "refIdPath": [
+                                                "c1542629-da35-4e6d-8dc1-f35dc42b7bb8",
+                                                "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
+                                                "b7b1a582-77af-4cac-b456-71f8fdf35a8c"
+                                            ],
+                                            "isActivated": true,
+                                            "hackoladeMeta": {}
+                                        },
+                                        {
+                                            "GUID": "a6cf36aa-0867-4354-ab27-2c295fbaf568",
+                                            "name": "DiabetesInsulin",
+                                            "type": "reference",
+                                            "$ref": "#model/definitions/JaNejUoplyst",
+                                            "refType": "model",
+                                            "ref": "b7b1a582-77af-4cac-b456-71f8fdf35a8c",
+                                            "refIdPath": [
+                                                "c1542629-da35-4e6d-8dc1-f35dc42b7bb8",
+                                                "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
+                                                "b7b1a582-77af-4cac-b456-71f8fdf35a8c"
+                                            ],
+                                            "isActivated": true,
+                                            "foreignCollection": "",
+                                            "foreignField": [],
+                                            "hackoladeMeta": {},
+                                            "error": {
+                                                "name": false
+                                            }
+                                        },
+                                        {
+                                            "GUID": "d0877948-1802-4cd0-9fe8-fad1f35a0d67",
+                                            "name": "NYHA",
+                                            "type": "reference",
+                                            "$ref": "#model/definitions/EuroSCOREIogII/NYHAKlasse",
+                                            "refType": "model",
+                                            "ref": "68677ee9-ee9f-4bbe-8e53-0ac0824bd153",
+                                            "refIdPath": [
+                                                "c1542629-da35-4e6d-8dc1-f35dc42b7bb8",
+                                                "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
+                                                "4d8dc986-7cd8-4fd8-822c-b9a5e334463d",
+                                                "68677ee9-ee9f-4bbe-8e53-0ac0824bd153"
+                                            ],
+                                            "isActivated": true,
+                                            "hackoladeMeta": {}
+                                        },
+                                        {
+                                            "GUID": "537fcaa6-32ea-47c1-8f6f-12515a89ca80",
+                                            "name": "CCSKlasse4Angina",
+                                            "type": "reference",
+                                            "$ref": "#model/definitions/JaNejUoplyst",
+                                            "refType": "model",
+                                            "ref": "b7b1a582-77af-4cac-b456-71f8fdf35a8c",
+                                            "refIdPath": [
+                                                "c1542629-da35-4e6d-8dc1-f35dc42b7bb8",
+                                                "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
+                                                "b7b1a582-77af-4cac-b456-71f8fdf35a8c"
+                                            ],
+                                            "isActivated": true,
+                                            "foreignCollection": "",
+                                            "foreignField": [],
+                                            "hackoladeMeta": {},
+                                            "error": {
+                                                "name": false
+                                            }
+                                        },
+                                        {
+                                            "GUID": "bdb742d2-e7de-440c-b6c4-4a8cd11b1e25",
+                                            "name": "RenalImpairment",
+                                            "type": "reference",
+                                            "$ref": "#model/definitions/RenalImpairment",
+                                            "refType": "model",
+                                            "ref": "6e599aca-cd0a-4890-b8d9-1a8bd3b07c13",
+                                            "refIdPath": [
+                                                "c1542629-da35-4e6d-8dc1-f35dc42b7bb8",
+                                                "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
+                                                "6e599aca-cd0a-4890-b8d9-1a8bd3b07c13"
+                                            ],
+                                            "isActivated": true,
+                                            "foreignCollection": "",
+                                            "foreignField": [],
+                                            "hackoladeMeta": {}
                                         }
                                     ],
                                     "additionalProperties": false,
                                     "GUID": "a06aa00a-943f-42ab-9b69-1b67590927f8",
+                                    "code": "ErSCR",
                                     "error": {
                                         "name": false,
                                         "code": false
-                                    },
-                                    "code": "ErSCR"
+                                    }
                                 }
                             ],
                             "additionalProperties": false,
@@ -2239,15 +2320,11 @@
                                     "properties": [],
                                     "color": "#555555",
                                     "GUID": "f9f3ba4e-af8e-4f41-8594-b2ca2ba25be0",
-                                    "enum": [
-                                        "Hexabrix",
-                                        "Iomeron",
-                                        "Omnipaque",
-                                        "Visipaque",
-                                        "Andet",
-                                        "Ultravist"
-                                    ],
-                                    "error": {}
+                                    "error": {
+                                        "enum": false,
+                                        "enums": [],
+                                        "exampleItems": []
+                                    }
                                 },
                                 {
                                     "GUID": "d91fb459-8ccc-4d81-b156-45cd0f3d21a8",
@@ -4101,31 +4178,9 @@
                                     "GUID": "c107e587-f3e2-4a56-bef4-f2147283ffd2",
                                     "error": {
                                         "enum": false,
-                                        "enums": [
-                                            false,
-                                            false,
-                                            false,
-                                            false,
-                                            false,
-                                            false
-                                        ],
-                                        "exampleItems": [
-                                            false,
-                                            false,
-                                            false,
-                                            false,
-                                            false,
-                                            false
-                                        ]
-                                    },
-                                    "enum": [
-                                        "Hexabrix",
-                                        "Iomeron",
-                                        "Omnipaque",
-                                        "Visipaque",
-                                        "Andet",
-                                        "Ultravist"
-                                    ]
+                                        "enums": [],
+                                        "exampleItems": []
+                                    }
                                 },
                                 {
                                     "GUID": "d4b28dcb-76c7-4c00-b2ba-cba1b1b0cda8",
@@ -5252,23 +5307,6 @@
                             ]
                         },
                         {
-                            "name": "CtKagKarpatologi",
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "type": "string",
-                            "properties": [],
-                            "color": "#555555",
-                            "GUID": "095cdc05-a77e-4fb2-a677-904c356d5e40",
-                            "enum": [
-                                "normal_undersoegelse",
-                                "diffus_sygdom_uden_signifikante_laesioner",
-                                "signifikante_laesioner",
-                                "afsluttet_efter_calciumscore",
-                                "uoplyst"
-                            ],
-                            "error": {}
-                        },
-                        {
                             "GUID": "346d4a17-f9c9-4cdf-85a2-77e5e402d587",
                             "name": "TidligereCABG",
                             "type": "reference",
@@ -5652,10 +5690,11 @@
                                     "name": "CTKAGAntalSygeKar",
                                     "hackoladeMeta": {},
                                     "isActivated": true,
-                                    "type": "integer",
+                                    "type": "string",
                                     "properties": [],
                                     "color": "#555555",
                                     "GUID": "cf31cb92-95a2-46d9-864a-0b76959de1c7",
+                                    "error": {},
                                     "enum": [
                                         "1-VD",
                                         "2-VD",
@@ -5663,8 +5702,7 @@
                                         "Diffus sygdom uden signifikante stenoser",
                                         "Afsluttet efter calcium-score",
                                         "0-VD"
-                                    ],
-                                    "error": {}
+                                    ]
                                 },
                                 {
                                     "name": "CTKAGHovedstamme",
@@ -6161,8 +6199,10 @@
                                             ],
                                             "isActivated": true,
                                             "hackoladeMeta": {},
-                                            "required": true,
-                                            "error": {}
+                                            "required": false,
+                                            "error": {
+                                                "required": false
+                                            }
                                         },
                                         {
                                             "GUID": "b7b946a0-4c9b-4c36-9957-076125eaeda4",
@@ -6178,9 +6218,9 @@
                                             ],
                                             "isActivated": true,
                                             "hackoladeMeta": {},
-                                            "required": true,
+                                            "required": false,
                                             "error": {
-                                                "name": false
+                                                "required": false
                                             }
                                         },
                                         {
@@ -6197,11 +6237,11 @@
                                             ],
                                             "isActivated": true,
                                             "hackoladeMeta": {},
-                                            "required": true,
+                                            "required": false,
                                             "foreignCollection": "",
                                             "foreignField": [],
                                             "error": {
-                                                "name": false
+                                                "required": false
                                             }
                                         },
                                         {
@@ -6218,11 +6258,11 @@
                                             ],
                                             "isActivated": true,
                                             "hackoladeMeta": {},
-                                            "required": true,
+                                            "required": false,
                                             "foreignCollection": "",
                                             "foreignField": [],
                                             "error": {
-                                                "name": false
+                                                "required": false
                                             }
                                         },
                                         {
@@ -6239,31 +6279,27 @@
                                             ],
                                             "isActivated": true,
                                             "hackoladeMeta": {},
-                                            "required": true,
+                                            "required": false,
                                             "foreignCollection": "",
                                             "foreignField": [],
                                             "error": {
-                                                "name": false
+                                                "required": false
                                             }
                                         },
                                         {
                                             "GUID": "9a353c07-1c59-4d58-b508-f50e146a3247",
                                             "name": "NedsatNyrefunktion",
                                             "type": "reference",
-                                            "$ref": "#model/definitions/JaNejUoplyst",
+                                            "$ref": "#model/definitions/RenalImpairment",
                                             "refType": "model",
-                                            "ref": "b7b1a582-77af-4cac-b456-71f8fdf35a8c",
+                                            "ref": "6e599aca-cd0a-4890-b8d9-1a8bd3b07c13",
                                             "refIdPath": [
-                                                "56d8d7e1-eb14-4872-b89f-72499da535b0",
+                                                "c1542629-da35-4e6d-8dc1-f35dc42b7bb8",
                                                 "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
-                                                "b7b1a582-77af-4cac-b456-71f8fdf35a8c"
+                                                "6e599aca-cd0a-4890-b8d9-1a8bd3b07c13"
                                             ],
                                             "isActivated": true,
-                                            "hackoladeMeta": {},
-                                            "required": true,
-                                            "foreignCollection": "",
-                                            "foreignField": [],
-                                            "error": {}
+                                            "hackoladeMeta": {}
                                         },
                                         {
                                             "GUID": "325c2386-e85f-4e5a-883e-db8cbb74c68e",
@@ -6279,11 +6315,11 @@
                                             ],
                                             "isActivated": true,
                                             "hackoladeMeta": {},
-                                            "required": true,
+                                            "required": false,
                                             "foreignCollection": "",
                                             "foreignField": [],
                                             "error": {
-                                                "name": false
+                                                "required": false
                                             }
                                         },
                                         {
@@ -6300,11 +6336,11 @@
                                             ],
                                             "isActivated": true,
                                             "hackoladeMeta": {},
-                                            "required": true,
+                                            "required": false,
                                             "foreignCollection": "",
                                             "foreignField": [],
                                             "error": {
-                                                "name": false
+                                                "required": false
                                             }
                                         },
                                         {
@@ -6321,10 +6357,12 @@
                                             ],
                                             "isActivated": true,
                                             "hackoladeMeta": {},
-                                            "required": true,
+                                            "required": false,
                                             "foreignCollection": "",
                                             "foreignField": [],
-                                            "error": {}
+                                            "error": {
+                                                "required": false
+                                            }
                                         },
                                         {
                                             "GUID": "cd6b3685-125b-432b-9a3c-0361dc487d27",
@@ -6355,11 +6393,11 @@
                                             ],
                                             "isActivated": true,
                                             "hackoladeMeta": {},
-                                            "required": true,
+                                            "required": false,
                                             "foreignCollection": "",
                                             "foreignField": [],
                                             "error": {
-                                                "name": false
+                                                "required": false
                                             }
                                         },
                                         {
@@ -6376,7 +6414,7 @@
                                             ],
                                             "isActivated": true,
                                             "hackoladeMeta": {},
-                                            "required": true,
+                                            "required": false,
                                             "error": {
                                                 "required": false
                                             }
@@ -6395,11 +6433,11 @@
                                             ],
                                             "isActivated": true,
                                             "hackoladeMeta": {},
-                                            "required": true,
+                                            "required": false,
                                             "foreignCollection": "",
                                             "foreignField": [],
                                             "error": {
-                                                "name": false
+                                                "required": false
                                             }
                                         },
                                         {
@@ -6416,7 +6454,7 @@
                                             ],
                                             "isActivated": true,
                                             "hackoladeMeta": {},
-                                            "required": true,
+                                            "required": false,
                                             "error": {
                                                 "required": false
                                             }
@@ -6425,22 +6463,23 @@
                                             "GUID": "68d38114-5285-4806-9945-9d2b6647e336",
                                             "name": "HjertekirurgiUdOverCABG",
                                             "type": "reference",
-                                            "$ref": "#model/definitions/PulmonalHypertension",
+                                            "$ref": "#model/definitions/EuroSCOREIogII/HjertekirurgiUdOverCabg",
                                             "refType": "model",
-                                            "ref": "8b7ef1d3-1f41-4948-8276-1904af9c403a",
+                                            "ref": "a43aac05-1275-4d13-a3dc-6675f311dfb3",
                                             "refIdPath": [
-                                                "56d8d7e1-eb14-4872-b89f-72499da535b0",
+                                                "c1542629-da35-4e6d-8dc1-f35dc42b7bb8",
                                                 "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
-                                                "8b7ef1d3-1f41-4948-8276-1904af9c403a"
+                                                "4d8dc986-7cd8-4fd8-822c-b9a5e334463d",
+                                                "a43aac05-1275-4d13-a3dc-6675f311dfb3"
                                             ],
                                             "isActivated": true,
-                                            "hackoladeMeta": {},
+                                            "required": false,
                                             "foreignCollection": "",
                                             "foreignField": [],
+                                            "hackoladeMeta": {},
                                             "error": {
                                                 "required": false
-                                            },
-                                            "required": true
+                                            }
                                         },
                                         {
                                             "GUID": "48849939-04e8-4bbd-8db7-5e35a141f5d0",
@@ -6456,7 +6495,7 @@
                                             ],
                                             "isActivated": true,
                                             "hackoladeMeta": {},
-                                            "required": true,
+                                            "required": false,
                                             "error": {
                                                 "required": false
                                             }
@@ -6480,7 +6519,67 @@
                                             "error": {
                                                 "required": false
                                             },
-                                            "required": true
+                                            "required": false
+                                        },
+                                        {
+                                            "GUID": "7de6cfde-fc50-47fc-94af-d598da8848c2",
+                                            "name": "CerebrovaskulaerSygdom",
+                                            "type": "reference",
+                                            "$ref": "#model/definitions/JaNejUoplyst",
+                                            "refType": "model",
+                                            "ref": "b7b1a582-77af-4cac-b456-71f8fdf35a8c",
+                                            "refIdPath": [
+                                                "56d8d7e1-eb14-4872-b89f-72499da535b0",
+                                                "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
+                                                "b7b1a582-77af-4cac-b456-71f8fdf35a8c"
+                                            ],
+                                            "isActivated": true,
+                                            "hackoladeMeta": {},
+                                            "foreignCollection": "",
+                                            "foreignField": [],
+                                            "required": false,
+                                            "error": {
+                                                "name": false
+                                            }
+                                        },
+                                        {
+                                            "GUID": "9f178fcd-1c1e-4f75-b4bb-8df05d1848e6",
+                                            "name": "UstabilAngina",
+                                            "type": "reference",
+                                            "$ref": "#model/definitions/JaNejUoplyst",
+                                            "refType": "model",
+                                            "ref": "b7b1a582-77af-4cac-b456-71f8fdf35a8c",
+                                            "refIdPath": [
+                                                "56d8d7e1-eb14-4872-b89f-72499da535b0",
+                                                "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
+                                                "b7b1a582-77af-4cac-b456-71f8fdf35a8c"
+                                            ],
+                                            "isActivated": true,
+                                            "hackoladeMeta": {},
+                                            "foreignCollection": "",
+                                            "foreignField": [],
+                                            "required": false,
+                                            "error": {
+                                                "name": false
+                                            }
+                                        },
+                                        {
+                                            "GUID": "f64ddef5-c643-4981-a11b-23e5d481e02e",
+                                            "name": "Pulmonalhypertension",
+                                            "type": "reference",
+                                            "$ref": "#model/definitions/PulmonalHypertensionESIIType",
+                                            "refType": "model",
+                                            "ref": "aae4d415-4d30-412b-b1e5-a08d4682fc5e",
+                                            "refIdPath": [
+                                                "c1542629-da35-4e6d-8dc1-f35dc42b7bb8",
+                                                "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
+                                                "aae4d415-4d30-412b-b1e5-a08d4682fc5e"
+                                            ],
+                                            "isActivated": true,
+                                            "required": false,
+                                            "foreignCollection": "",
+                                            "foreignField": [],
+                                            "hackoladeMeta": {}
                                         }
                                     ],
                                     "additionalProperties": false,
@@ -6694,26 +6793,11 @@
                                     "properties": [],
                                     "color": "#555555",
                                     "GUID": "aa82be9f-677e-4000-a82a-aa18412a2f56",
-                                    "enum": [
-                                        "Corevalve",
-                                        "Edwards",
-                                        "Edwards S3",
-                                        "Edwards XT",
-                                        "Edwards Ultra",
-                                        "Portico",
-                                        "Symetis",
-                                        "Evolute",
-                                        "Evolute Pro",
-                                        "Jena",
-                                        "Lotus",
-                                        "Centera",
-                                        "MYVAL",
-                                        "NAVITOR",
-                                        "ACCURATE NEO 2",
-                                        "Andet",
-                                        "Ingen klap"
-                                    ],
-                                    "error": {}
+                                    "error": {
+                                        "enum": false,
+                                        "enums": [],
+                                        "exampleItems": []
+                                    }
                                 },
                                 {
                                     "name": "KlapstoerrelseMM",
@@ -6967,6 +7051,16 @@
                                     "error": {
                                         "name": false
                                     }
+                                },
+                                {
+                                    "name": "Kontrasttype",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "string",
+                                    "properties": [],
+                                    "color": "#555555",
+                                    "GUID": "bb819cf3-3f0a-4aa3-a323-54d12f232d74",
+                                    "error": {}
                                 }
                             ],
                             "additionalProperties": false,
@@ -9826,7 +9920,17 @@
         "dbd78940-4437-4a40-a211-815921e34aea": "CtKag",
         "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba": "Pci",
         "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2": "TAVI",
-        "1f024d8d-6960-47d4-9b3e-54a31a679026": "Ecpr"
+        "1f024d8d-6960-47d4-9b3e-54a31a679026": "Ecpr",
+        "77dfd8f2-3304-4f7c-8f00-db2504b8e427": "NedsatMobilitet",
+        "a06aa00a-943f-42ab-9b69-1b67590927f8": "KirEuroSCORE",
+        "d0877948-1802-4cd0-9fe8-fad1f35a0d67": "NYHA",
+        "537fcaa6-32ea-47c1-8f6f-12515a89ca80": "CCSKlasse4Angina",
+        "bdb742d2-e7de-440c-b6c4-4a8cd11b1e25": "RenalImpairment",
+        "68d38114-5285-4806-9945-9d2b6647e336": "HjertekirurgiUdOverCABG",
+        "7de6cfde-fc50-47fc-94af-d598da8848c2": "CerebrovaskulaerSygdom",
+        "9f178fcd-1c1e-4f75-b4bb-8df05d1848e6": "UstabilAngina",
+        "f64ddef5-c643-4981-a11b-23e5d481e02e": "Pulmonalhypertension",
+        "bb819cf3-3f0a-4aa3-a323-54d12f232d74": "Kontrasttype"
     },
     "definitions": {
         "type": "definitions",
@@ -10515,7 +10619,8 @@
                         "error": {
                             "name": false,
                             "code": false
-                        }
+                        },
+                        "definitionRefs": []
                     },
                     {
                         "GUID": "26954bd6-c098-4f41-ac2c-ae53c4fd2de1",
@@ -10583,7 +10688,16 @@
                         "isActivated": true,
                         "error": {
                             "name": false
-                        }
+                        },
+                        "definitionRefs": [
+                            [
+                                "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                                "a7004f49-d419-4380-a076-df34a49413c5",
+                                "91ebccf7-f3e2-4473-866e-e3db893eeb89",
+                                "a06aa00a-943f-42ab-9b69-1b67590927f8",
+                                "d0877948-1802-4cd0-9fe8-fad1f35a0d67"
+                            ]
+                        ]
                     },
                     {
                         "GUID": "42ecbf6f-2d3e-4113-8c9f-d989f656b1a5",
@@ -10688,6 +10802,15 @@
                             "subakut",
                             "vital_indikation",
                             "uoplyst"
+                        ],
+                        "definitionRefs": [
+                            [
+                                "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                                "a7004f49-d419-4380-a076-df34a49413c5",
+                                "91ebccf7-f3e2-4473-866e-e3db893eeb89",
+                                "a06aa00a-943f-42ab-9b69-1b67590927f8",
+                                "7a90151c-fda2-40f7-b205-91bbee36938a"
+                            ]
                         ]
                     },
                     {
@@ -10727,6 +10850,22 @@
                             "to_procedurer",
                             "tre_procedurer",
                             "uoplyst"
+                        ],
+                        "definitionRefs": [
+                            [
+                                "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                                "a7004f49-d419-4380-a076-df34a49413c5",
+                                "91ebccf7-f3e2-4473-866e-e3db893eeb89",
+                                "a06aa00a-943f-42ab-9b69-1b67590927f8",
+                                "282c2ea4-aa14-429a-b168-7fd68672a0cf"
+                            ],
+                            [
+                                "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                                "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
+                                "e3d9de07-be9b-4344-8690-6e83a50b7603",
+                                "6f6b4fb9-b84c-49ed-b9b6-69bdff4d5459",
+                                "68d38114-5285-4806-9945-9d2b6647e336"
+                            ]
                         ]
                     },
                     {
@@ -12143,13 +12282,6 @@
                         "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
                         "e3d9de07-be9b-4344-8690-6e83a50b7603",
                         "6f6b4fb9-b84c-49ed-b9b6-69bdff4d5459",
-                        "9a353c07-1c59-4d58-b508-f50e146a3247"
-                    ],
-                    [
-                        "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                        "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
-                        "e3d9de07-be9b-4344-8690-6e83a50b7603",
-                        "6f6b4fb9-b84c-49ed-b9b6-69bdff4d5459",
                         "325c2386-e85f-4e5a-883e-db8cbb74c68e"
                     ],
                     [
@@ -12165,27 +12297,6 @@
                         "91ebccf7-f3e2-4473-866e-e3db893eeb89",
                         "a06aa00a-943f-42ab-9b69-1b67590927f8",
                         "d105bee8-4921-428d-a7af-a14054ff34b6"
-                    ],
-                    [
-                        "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                        "a7004f49-d419-4380-a076-df34a49413c5",
-                        "91ebccf7-f3e2-4473-866e-e3db893eeb89",
-                        "a06aa00a-943f-42ab-9b69-1b67590927f8",
-                        "edcb4ecc-def7-469e-89a6-bbc6aad44fb7"
-                    ],
-                    [
-                        "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                        "a7004f49-d419-4380-a076-df34a49413c5",
-                        "91ebccf7-f3e2-4473-866e-e3db893eeb89",
-                        "a06aa00a-943f-42ab-9b69-1b67590927f8",
-                        "7a90151c-fda2-40f7-b205-91bbee36938a"
-                    ],
-                    [
-                        "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                        "a7004f49-d419-4380-a076-df34a49413c5",
-                        "91ebccf7-f3e2-4473-866e-e3db893eeb89",
-                        "a06aa00a-943f-42ab-9b69-1b67590927f8",
-                        "282c2ea4-aa14-429a-b168-7fd68672a0cf"
                     ],
                     [
                         "29ceee77-bd44-43d1-bcba-e5ae200edf14",
@@ -12477,6 +12588,41 @@
                         "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                         "1f024d8d-6960-47d4-9b3e-54a31a679026",
                         "0f9b5dff-df80-422d-a172-511dec8faa06"
+                    ],
+                    [
+                        "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                        "a7004f49-d419-4380-a076-df34a49413c5",
+                        "91ebccf7-f3e2-4473-866e-e3db893eeb89",
+                        "a06aa00a-943f-42ab-9b69-1b67590927f8",
+                        "7be966b1-3b14-4e55-bf60-90cefbb534d0"
+                    ],
+                    [
+                        "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                        "a7004f49-d419-4380-a076-df34a49413c5",
+                        "91ebccf7-f3e2-4473-866e-e3db893eeb89",
+                        "a06aa00a-943f-42ab-9b69-1b67590927f8",
+                        "a6cf36aa-0867-4354-ab27-2c295fbaf568"
+                    ],
+                    [
+                        "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                        "a7004f49-d419-4380-a076-df34a49413c5",
+                        "91ebccf7-f3e2-4473-866e-e3db893eeb89",
+                        "a06aa00a-943f-42ab-9b69-1b67590927f8",
+                        "537fcaa6-32ea-47c1-8f6f-12515a89ca80"
+                    ],
+                    [
+                        "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                        "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
+                        "e3d9de07-be9b-4344-8690-6e83a50b7603",
+                        "6f6b4fb9-b84c-49ed-b9b6-69bdff4d5459",
+                        "7de6cfde-fc50-47fc-94af-d598da8848c2"
+                    ],
+                    [
+                        "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                        "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
+                        "e3d9de07-be9b-4344-8690-6e83a50b7603",
+                        "6f6b4fb9-b84c-49ed-b9b6-69bdff4d5459",
+                        "9f178fcd-1c1e-4f75-b4bb-8df05d1848e6"
                     ]
                 ],
                 "error": {
@@ -12575,15 +12721,46 @@
                         "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564",
                         "4d8dc986-7cd8-4fd8-822c-b9a5e334463d",
                         "de7c4adc-098f-4f4a-904d-54e92f543f9c"
+                    ],
+                    [
+                        "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                        "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
+                        "e3d9de07-be9b-4344-8690-6e83a50b7603",
+                        "6f6b4fb9-b84c-49ed-b9b6-69bdff4d5459",
+                        "9a353c07-1c59-4d58-b508-f50e146a3247"
+                    ],
+                    [
+                        "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                        "a7004f49-d419-4380-a076-df34a49413c5",
+                        "91ebccf7-f3e2-4473-866e-e3db893eeb89",
+                        "a06aa00a-943f-42ab-9b69-1b67590927f8",
+                        "bdb742d2-e7de-440c-b6c4-4a8cd11b1e25"
                     ]
                 ],
                 "enum": [
                     "Normal",
                     "Moderat",
                     "Svaer",
-                    "Uoplyst"
+                    "Uoplyst",
+                    "Dialyse"
                 ],
-                "error": {}
+                "error": {
+                    "enum": false,
+                    "enums": [
+                        false,
+                        false,
+                        false,
+                        false,
+                        false
+                    ],
+                    "exampleItems": [
+                        false,
+                        false,
+                        false,
+                        false,
+                        false
+                    ]
+                }
             },
             {
                 "name": "Rygning",
@@ -12708,15 +12885,7 @@
                 "properties": [],
                 "color": "#555555",
                 "GUID": "8b7ef1d3-1f41-4948-8276-1904af9c403a",
-                "definitionRefs": [
-                    [
-                        "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                        "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
-                        "e3d9de07-be9b-4344-8690-6e83a50b7603",
-                        "6f6b4fb9-b84c-49ed-b9b6-69bdff4d5459",
-                        "68d38114-5285-4806-9945-9d2b6647e336"
-                    ]
-                ],
+                "definitionRefs": [],
                 "error": {
                     "enum": false,
                     "enums": [
@@ -13039,14 +13208,46 @@
                 "type": "string",
                 "properties": [],
                 "GUID": "aae4d415-4d30-412b-b1e5-a08d4682fc5e",
-                "definitionRefs": [],
+                "definitionRefs": [
+                    [
+                        "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                        "a7004f49-d419-4380-a076-df34a49413c5",
+                        "91ebccf7-f3e2-4473-866e-e3db893eeb89",
+                        "a06aa00a-943f-42ab-9b69-1b67590927f8",
+                        "edcb4ecc-def7-469e-89a6-bbc6aad44fb7"
+                    ],
+                    [
+                        "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                        "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
+                        "e3d9de07-be9b-4344-8690-6e83a50b7603",
+                        "6f6b4fb9-b84c-49ed-b9b6-69bdff4d5459",
+                        "f64ddef5-c643-4981-a11b-23e5d481e02e"
+                    ]
+                ],
                 "enum": [
                     "Svaer",
                     "Moderat",
                     "Nej",
-                    "Uoplyst"
+                    "Uoplyst",
+                    "Ja"
                 ],
-                "error": {}
+                "error": {
+                    "enum": false,
+                    "enums": [
+                        false,
+                        false,
+                        false,
+                        false,
+                        false
+                    ],
+                    "exampleItems": [
+                        false,
+                        false,
+                        false,
+                        false,
+                        false
+                    ]
+                }
             },
             {
                 "name": "Lokalisation",
@@ -13194,6 +13395,17 @@
                     "Negativ"
                 ],
                 "error": {}
+            },
+            {
+                "name": "NedsatMobilitet",
+                "hackoladeMeta": {},
+                "isActivated": true,
+                "type": "string",
+                "properties": [],
+                "color": "#555555",
+                "GUID": "77dfd8f2-3304-4f7c-8f00-db2504b8e427",
+                "error": {},
+                "definitionRefs": []
             }
         ],
         "GUID": "06ce72b5-ddc9-4bfa-9e6d-50bf9c58f564"
@@ -13216,14 +13428,14 @@
     "creationTS": "2023-04-15T09:05:24.450Z",
     "GUID": "c1542629-da35-4e6d-8dc1-f35dc42b7bb8",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-08-23T08:59:53.807Z",
+    "lastModifTS": "2023-09-11T08:29:29.435Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.9.10"
+        "version": "6.9.6"
     },
     "hackoladeMeta": {
         "customPropertiesUpdated": true
@@ -13281,15 +13493,56 @@
                 ],
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "1f024d8d-6960-47d4-9b3e-54a31a679026"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "a7004f49-d419-4380-a076-df34a49413c5",
+                    "c2a6d2ec-e65a-4877-8b1f-18f8434595f1"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "dbd78940-4437-4a40-a211-815921e34aea",
+                    "cd0f5273-c19c-4e1a-99d8-d3011274765c"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "dbd78940-4437-4a40-a211-815921e34aea",
+                    "e0d2b805-ce70-428e-8c5e-a9af652fc8fa"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "a7004f49-d419-4380-a076-df34a49413c5",
+                    "c2a6d2ec-e65a-4877-8b1f-18f8434595f1"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "a7004f49-d419-4380-a076-df34a49413c5",
+                    "91ebccf7-f3e2-4473-866e-e3db893eeb89"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
                     "a7004f49-d419-4380-a076-df34a49413c5"
                 ],
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd"
+                    "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
+                    "e3d9de07-be9b-4344-8690-6e83a50b7603"
                 ],
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba"
+                    "dbd78940-4437-4a40-a211-815921e34aea",
+                    "cd0f5273-c19c-4e1a-99d8-d3011274765c"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "dbd78940-4437-4a40-a211-815921e34aea",
+                    "42eb67a8-1aad-4284-8732-b8b12093abd0"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "dbd78940-4437-4a40-a211-815921e34aea",
+                    "e0d2b805-ce70-428e-8c5e-a9af652fc8fa"
                 ],
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
@@ -13297,11 +13550,133 @@
                 ],
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2"
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                    "f6b83fe1-9a7d-4bb4-a4ff-21c09d891398"
                 ],
                 [
                     "29ceee77-bd44-43d1-bcba-e5ae200edf14",
-                    "1f024d8d-6960-47d4-9b3e-54a31a679026"
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                    "5187b327-66cc-482a-b645-42fd810c1753"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                    "854339c6-f4dd-4af7-a7f2-e686379ef372"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                    "91344761-54c3-4eb9-a4fd-46ac8b1d4be8"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                    "c6114b1a-c9a7-4d8b-952f-5176c1741c4e",
+                    "ab2a3a9e-e1bb-460e-90e7-766a1ad02cd1"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                    "c6114b1a-c9a7-4d8b-952f-5176c1741c4e",
+                    "a19a5718-f640-47fe-ab02-59e14a6902c6"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                    "c6114b1a-c9a7-4d8b-952f-5176c1741c4e",
+                    "2ec0e172-ce83-45fa-b778-8633e8effc3d"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                    "c6114b1a-c9a7-4d8b-952f-5176c1741c4e"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                    "1b723feb-beb1-4c6f-adc2-cf3fefe6840d",
+                    "d91fb459-8ccc-4d81-b156-45cd0f3d21a8",
+                    "26d45844-34b2-4018-ba56-4781244df792"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd",
+                    "1b723feb-beb1-4c6f-adc2-cf3fefe6840d",
+                    "1bce21e2-84a7-4a52-8ea7-8eeef301a582",
+                    "45f4655a-c5ec-4326-8fca-47194b56552f"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
+                    "7cc0a683-ec6d-4c6d-9bd7-5fda32e0f8af"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
+                    "fbf972f0-5965-4469-aed2-638e16b52145"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
+                    "8897ce55-4e19-44f4-8c98-ad2c95b867a9"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
+                    "0d8b6083-49cd-4fce-96eb-600a9717cc84"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
+                    "2cd4626d-1871-40f7-8d93-cc40652d8fcf"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba",
+                    "ff621485-9222-4e64-bb4c-7cfde67430d7",
+                    "d4b28dcb-76c7-4c00-b2ba-cba1b1b0cda8",
+                    "26d45844-34b2-4018-ba56-4781244df792"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "8b4cf4dc-4480-4aee-8fb8-0beb6d8c11ba"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "b493d0ce-0140-4aa4-87cb-3b91155f87cd"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
+                    "e3d9de07-be9b-4344-8690-6e83a50b7603"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
+                    "20c2e699-a592-4521-a85b-0f016611887f",
+                    "34b8b7f3-8bba-4853-8f4c-e8d2364a06e6"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
+                    "6649c34b-46f7-432a-b097-4dcd157b7237"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
+                    "20c2e699-a592-4521-a85b-0f016611887f",
+                    "34b8b7f3-8bba-4853-8f4c-e8d2364a06e6"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
+                    "20c2e699-a592-4521-a85b-0f016611887f",
+                    "a63f37ec-383c-42bd-a972-f49c014cf258"
+                ],
+                [
+                    "29ceee77-bd44-43d1-bcba-e5ae200edf14",
+                    "1c8c2c7e-b6d6-46df-9fbf-a05a6b6eb1c2",
+                    "20c2e699-a592-4521-a85b-0f016611887f"
                 ]
             ],
             "shouldDistributeCollections": false
