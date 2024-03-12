@@ -23221,6 +23221,160 @@
                                     "error": {}
                                 }
                             ]
+                        },
+                        {
+                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_CerebrovaskulaerSygdom",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "properties": [
+                                {
+                                    "name": "ResultValue",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "properties": [
+                                        {
+                                            "name": "Value_String",
+                                            "hackoladeMeta": {},
+                                            "isActivated": true,
+                                            "python_type": "enum",
+                                            "childType": "Base_Value_String",
+                                            "type": "string",
+                                            "GUID": "e4cd1e64-3a71-4077-aef8-4f80a61ed262",
+                                            "error": {},
+                                            "enum": [
+                                                {
+                                                    "GUID": "f87b43e6-f527-448e-b38a-8c75ebe06acc",
+                                                    "Udfald": "ja"
+                                                },
+                                                {
+                                                    "GUID": "c1c1e2d4-d3d9-4117-8c07-ef88b10219b1",
+                                                    "Udfald": "nej"
+                                                },
+                                                {
+                                                    "GUID": "6b641a15-647a-48e5-af12-28a676cb0d8a",
+                                                    "Udfald": "uoplyst"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "childType": "Attribute_ResultValue",
+                                    "type": "document",
+                                    "GUID": "b69ea613-6022-4d57-bd2c-7b6763697017",
+                                    "required": true,
+                                    "error": {}
+                                }
+                            ],
+                            "childType": "Base_Object",
+                            "type": "document",
+                            "GUID": "5abf8fdb-6be6-4ac5-a8ae-43d173f69fe7",
+                            "required": true,
+                            "error": {}
+                        },
+                        {
+                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_UstabilAngina",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "properties": [
+                                {
+                                    "name": "ResultValue",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "properties": [
+                                        {
+                                            "name": "Value_String",
+                                            "hackoladeMeta": {},
+                                            "isActivated": true,
+                                            "python_type": "enum",
+                                            "childType": "Base_Value_String",
+                                            "type": "string",
+                                            "GUID": "d6473a0d-4f54-45bf-a226-6254e2172349",
+                                            "error": {},
+                                            "enum": [
+                                                {
+                                                    "GUID": "f87b43e6-f527-448e-b38a-8c75ebe06acc",
+                                                    "Udfald": "ja"
+                                                },
+                                                {
+                                                    "GUID": "c1c1e2d4-d3d9-4117-8c07-ef88b10219b1",
+                                                    "Udfald": "nej"
+                                                },
+                                                {
+                                                    "GUID": "6b641a15-647a-48e5-af12-28a676cb0d8a",
+                                                    "Udfald": "uoplyst"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "childType": "Attribute_ResultValue",
+                                    "type": "document",
+                                    "GUID": "52d47476-ed85-433d-8f29-4b0166397089",
+                                    "foreignCollection": "",
+                                    "foreignField": [],
+                                    "required": true,
+                                    "error": {}
+                                }
+                            ],
+                            "childType": "Base_Object",
+                            "type": "document",
+                            "GUID": "97a583c0-3ac1-4c42-a25a-df2f74d10efd",
+                            "required": true,
+                            "error": {}
+                        },
+                        {
+                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_Pulmonalhypertension",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "properties": [
+                                {
+                                    "name": "ResultValue",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "properties": [
+                                        {
+                                            "name": "Value_String",
+                                            "hackoladeMeta": {},
+                                            "isActivated": true,
+                                            "python_type": "enum",
+                                            "childType": "Base_Value_String",
+                                            "type": "string",
+                                            "GUID": "28a209cd-08e1-49f2-8c92-bf31db2c6d2b",
+                                            "error": {},
+                                            "enum": [
+                                                {
+                                                    "GUID": "58076e7a-17c3-470f-aec7-b6c12b7b57ec",
+                                                    "Udfald": "ja"
+                                                },
+                                                {
+                                                    "GUID": "9dc1bacc-36dd-4de1-9d1d-836f3683ef98",
+                                                    "Udfald": "nej"
+                                                },
+                                                {
+                                                    "GUID": "4805c4e6-7689-48d3-86f0-752f1c3f088a",
+                                                    "Udfald": "moderat"
+                                                },
+                                                {
+                                                    "GUID": "2bd64e77-c389-4c19-ba28-e9787b159436",
+                                                    "Udfald": "svaer"
+                                                },
+                                                {
+                                                    "GUID": "11c501c2-a985-4d8e-9fe8-7878d24e171d",
+                                                    "Udfald": "uoplyst"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "childType": "Attribute_ResultValue",
+                                    "type": "document",
+                                    "GUID": "169c4119-9ba5-4979-ba80-f714656836e2",
+                                    "required": true,
+                                    "error": {}
+                                }
+                            ],
+                            "childType": "Base_Object",
+                            "type": "document",
+                            "GUID": "abdacfdc-dd44-40e7-9a3c-df4807cd3a1d",
+                            "required": true,
+                            "error": {}
                         }
                     ],
                     "childType": "Group_Observation",
@@ -23272,7 +23426,16 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "c8cc4015-c6a5-4c06-bdea-96f99296a8e7": "Value_String"
+        "c8cc4015-c6a5-4c06-bdea-96f99296a8e7": "Value_String",
+        "5abf8fdb-6be6-4ac5-a8ae-43d173f69fe7": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_CerebrovaskulaerSygdom",
+        "b69ea613-6022-4d57-bd2c-7b6763697017": "ResultValue",
+        "e4cd1e64-3a71-4077-aef8-4f80a61ed262": "Value_String",
+        "97a583c0-3ac1-4c42-a25a-df2f74d10efd": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_UstabilAngina",
+        "52d47476-ed85-433d-8f29-4b0166397089": "ResultValue",
+        "d6473a0d-4f54-45bf-a226-6254e2172349": "Value_String",
+        "abdacfdc-dd44-40e7-9a3c-df4807cd3a1d": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_Pulmonalhypertension",
+        "169c4119-9ba5-4979-ba80-f714656836e2": "ResultValue",
+        "28a209cd-08e1-49f2-8c92-bf31db2c6d2b": "Value_String"
     },
     "definitions": {
         "GUID": "8064a319-2e23-44b2-ab9f-ad579c74ad76",
@@ -23297,7 +23460,7 @@
     "creationTS": "2023-04-15T09:05:24.450Z",
     "GUID": "d24eab8e-2648-4a80-9a2f-f5d6b8e65e2f",
     "isLineageEnabled": false,
-    "lastModifTS": "2024-03-08T13:55:50.935Z",
+    "lastModifTS": "2024-03-12T16:08:59.967Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -23319,6 +23482,16 @@
                         "width": 791,
                         "x": 1000,
                         "y": 1000
+                    },
+                    {
+                        "GUID": "ef993863-fd66-42cd-a2e1-5df40549de17",
+                        "x": 300,
+                        "y": 300,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
                     }
                 ],
                 "erdDefinitions": {
