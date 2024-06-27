@@ -104,7 +104,7 @@
                             "hackoladeMeta": {},
                             "isActivated": true,
                             "name": "Kir_HenvisningsDato",
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "properties": [
@@ -128,7 +128,7 @@
                                     "type": "document",
                                     "GUID": "d194906b-4da0-4b2e-ad50-b5a9dc3a4860",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ]
                         },
@@ -168,7 +168,6 @@
                         {
                             "GUID": "c3f726d4-0f38-499f-bf67-4699932c89f7",
                             "childType": "Base_Object",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
                             "name": "Kir_ProcedureDato",
@@ -195,14 +194,14 @@
                                     "childType": "Attribute_DateTime",
                                     "type": "document",
                                     "GUID": "a058ae29-c893-4fd5-8c50-575fbdc4616f",
-                                    "error": {},
-                                    "required": true
+                                    "required": true,
+                                    "error": {}
                                 }
-                            ]
+                            ],
+                            "error": {}
                         },
                         {
                             "GUID": "f26986fd-e8c7-44b4-92b4-267fb0131e73",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
                             "name": "Kir_ProcedureKode1",
@@ -228,14 +227,15 @@
                                     "childType": "Attribute_ResultValue",
                                     "type": "document",
                                     "GUID": "4ae4010b-4bd0-4016-ba03-0ccb1af6496a",
-                                    "error": {},
-                                    "required": true
+                                    "required": true,
+                                    "error": {}
                                 }
                             ],
                             "required": true,
                             "type": "document",
                             "description": "",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "3f4bf8ee-ad04-4a75-be15-2d96712d70cb",
@@ -643,6 +643,8 @@
                                             "type": "numeric",
                                             "GUID": "b4e3f346-c010-4bc3-b520-5d141fc8c0ec",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 4380,
                                             "ge": 0
                                         }
@@ -698,10 +700,10 @@
                                     "type": "document",
                                     "GUID": "5366a2ef-83cd-4208-a3b0-e258d0243b24",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "childType": "Base_Object"
@@ -747,10 +749,10 @@
                                     "type": "document",
                                     "GUID": "340ebd8f-cea5-4cef-bc8e-f53d03132a2b",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -795,10 +797,10 @@
                                     "type": "document",
                                     "GUID": "18c85717-288a-4893-949c-9f358610a1a2",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -843,10 +845,10 @@
                                     "type": "document",
                                     "GUID": "9fcfecbe-b647-4ed0-8b35-0d41063acfa3",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -891,10 +893,10 @@
                                     "type": "document",
                                     "GUID": "865a0488-c031-4f21-a934-3b1b7677a992",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -955,10 +957,10 @@
                                     "type": "document",
                                     "GUID": "32bad38e-7a47-46bd-8bc7-2ad16b62df15",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -1007,10 +1009,10 @@
                                     "type": "document",
                                     "GUID": "22968161-ffd8-41e6-9261-baf5650f34c6",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -1035,6 +1037,8 @@
                                             "type": "numeric",
                                             "GUID": "0991265d-1005-43d2-94fe-3ebc69adbcbd",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 230,
                                             "ge": 0
                                         }
@@ -1069,6 +1073,8 @@
                                             "type": "numeric",
                                             "GUID": "f90583d2-63c7-4e5b-8675-30c5e610e9d0",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 250,
                                             "ge": 0
                                         }
@@ -2427,7 +2433,6 @@
                         {
                             "GUID": "a83204ab-d58e-4107-a899-dba1aad2bbfa",
                             "childType": "Base_Object",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
                             "name": "Kag_ProcedureDato",
@@ -2454,14 +2459,14 @@
                                     "childType": "Attribute_DateTime",
                                     "type": "document",
                                     "GUID": "9bbe71a6-f500-4789-a24f-d49bab89343e",
-                                    "error": {},
-                                    "required": true
+                                    "required": true,
+                                    "error": {}
                                 }
-                            ]
+                            ],
+                            "error": {}
                         },
                         {
                             "GUID": "523230cf-9b79-4135-bf19-a2b6db7ea7ad",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
                             "name": "Kag_Procedurekode1",
@@ -2487,14 +2492,15 @@
                                     "childType": "Attribute_ResultValue",
                                     "type": "document",
                                     "GUID": "a8a00deb-2862-496c-b476-e8636bc67fa1",
-                                    "error": {},
-                                    "required": true
+                                    "required": true,
+                                    "error": {}
                                 }
                             ],
                             "required": true,
                             "type": "document",
                             "description": "",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "a562a59c-a61e-43ee-bbae-6616e3b5eae1",
@@ -2657,6 +2663,8 @@
                                             "type": "numeric",
                                             "GUID": "6780a6a6-f2f3-46d7-b20c-d9120aceb213",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 100,
                                             "ge": 0
                                         }
@@ -2691,19 +2699,21 @@
                                             "childType": "Base_Value_Numeric",
                                             "type": "numeric",
                                             "GUID": "e4cfaf0f-94c7-438d-b1f5-c9e630539f80",
-                                            "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 12,
-                                            "ge": 4
+                                            "ge": 2,
+                                            "error": {}
                                         }
                                     ],
                                     "childType": "Attribute_ResultValue",
                                     "type": "document",
                                     "GUID": "75596317-fc7e-4cf3-9054-2aa0e545d83d",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "childType": "Base_Object"
@@ -2729,6 +2739,8 @@
                                             "type": "numeric",
                                             "GUID": "1bc5cb4b-a5fa-411a-9390-0d884d3bb269",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 120,
                                             "ge": 0
                                         }
@@ -2737,10 +2749,10 @@
                                     "type": "document",
                                     "GUID": "5f07252c-bbf0-4768-904e-addfc83d83c7",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "childType": "Base_Object"
@@ -2766,6 +2778,8 @@
                                             "type": "numeric",
                                             "GUID": "c1e15df7-730b-4e1f-a52b-8f041e4e0ce8",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 1000,
                                             "ge": 0
                                         }
@@ -2774,10 +2788,10 @@
                                     "type": "document",
                                     "GUID": "2b2d40a8-c10e-499d-b0da-aa7d69fc0c4d",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "childType": "Base_Object"
@@ -2803,6 +2817,8 @@
                                             "type": "numeric",
                                             "GUID": "8cf10a1c-79e7-417d-a7a9-385fbedb3726",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 1000,
                                             "ge": 0
                                         }
@@ -2811,10 +2827,10 @@
                                     "type": "document",
                                     "GUID": "c43a6c28-1ff0-47eb-8492-caee4c36c38e",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "childType": "Base_Object"
@@ -2864,10 +2880,10 @@
                                     "type": "document",
                                     "GUID": "bac8b396-9fd3-4757-93f3-b0ef5e8dad1e",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "childType": "Base_Object"
@@ -2968,10 +2984,10 @@
                                     "type": "document",
                                     "GUID": "a7b10655-d481-4bab-a7af-7bec93327b44",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "childType": "Base_Object"
@@ -3068,10 +3084,10 @@
                                     "type": "document",
                                     "GUID": "5ebc2c8c-7caa-425c-8344-7e0c70e0d894",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -3116,10 +3132,10 @@
                                     "type": "document",
                                     "GUID": "8300f182-9c74-47bc-8410-32fe49eb68d0",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -3164,10 +3180,10 @@
                                     "type": "document",
                                     "GUID": "8c529647-013b-496f-a924-3223aa4d5c5f",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -3212,10 +3228,10 @@
                                     "type": "document",
                                     "GUID": "2500d25d-b9ca-4ab8-bfa2-7feae1b12cd5",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -3260,10 +3276,10 @@
                                     "type": "document",
                                     "GUID": "b72c5989-bfe6-43d4-b508-30b9e9239ace",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -3308,10 +3324,10 @@
                                     "type": "document",
                                     "GUID": "699c65c0-43bf-4498-8082-568fb27a55f1",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -3356,10 +3372,10 @@
                                     "type": "document",
                                     "GUID": "15bdb20a-9a6c-4b37-97fe-834297b7789c",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -3404,10 +3420,10 @@
                                     "type": "document",
                                     "GUID": "bc7aefb9-5a9a-4700-86cd-d89c74059426",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -3452,10 +3468,10 @@
                                     "type": "document",
                                     "GUID": "df3057de-f91c-4ca2-aedb-fb02d0871bf3",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -3500,10 +3516,10 @@
                                     "type": "document",
                                     "GUID": "6e5f7223-b4a4-4a4c-b952-332bd9478732",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -3548,10 +3564,10 @@
                                     "type": "document",
                                     "GUID": "0252c127-714f-4090-a6c3-7b5686b3345a",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -3596,10 +3612,10 @@
                                     "type": "document",
                                     "GUID": "46592731-af3a-4032-a62e-70391f02e030",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -3644,10 +3660,10 @@
                                     "type": "document",
                                     "GUID": "5cde5031-acf7-420c-bbc4-7fd35c6cca4b",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -3696,10 +3712,10 @@
                                     "type": "document",
                                     "GUID": "938a87a9-8587-4335-880b-385d9a280a5d",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -3782,10 +3798,10 @@
                                     "type": "document",
                                     "GUID": "ff8efa92-40af-4e23-b266-1bcc0b58abc0",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -3830,10 +3846,10 @@
                                     "type": "document",
                                     "GUID": "fbb54d87-9c45-44cb-93f5-e47bf125fbc2",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -3878,10 +3894,10 @@
                                     "type": "document",
                                     "GUID": "97ee5641-dce1-49b7-a21b-09dd0b481ef3",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -3926,10 +3942,10 @@
                                     "type": "document",
                                     "GUID": "b0007e5c-695d-44fc-a236-c411030d7edb",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -3974,10 +3990,10 @@
                                     "type": "document",
                                     "GUID": "ba6dc887-1815-4502-81e8-2a01d01dba0a",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -4022,10 +4038,10 @@
                                     "type": "document",
                                     "GUID": "7f177dfb-8cb0-46de-b5ed-298bc737e2b6",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -4070,10 +4086,10 @@
                                     "type": "document",
                                     "GUID": "8f80bc54-4d56-4f57-a588-4c8d8864fe5b",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -4118,10 +4134,10 @@
                                     "type": "document",
                                     "GUID": "982aee38-8eab-44eb-991f-7f3d8c5400ff",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -4166,10 +4182,10 @@
                                     "type": "document",
                                     "GUID": "05df0691-f2f6-4a11-b683-ee714b694067",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -4214,10 +4230,10 @@
                                     "type": "document",
                                     "GUID": "fcdaeb40-fc83-405e-9273-74cf0bb5ef42",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -4262,10 +4278,10 @@
                                     "type": "document",
                                     "GUID": "d9e6706e-0db0-47b1-886d-61c4d6c383f3",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -4310,10 +4326,10 @@
                                     "type": "document",
                                     "GUID": "c8e1695a-3644-4631-9b4b-b196b9017146",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -4358,10 +4374,10 @@
                                     "type": "document",
                                     "GUID": "a3daf1fe-49cc-4ec7-936e-79f171fdd397",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -4406,10 +4422,10 @@
                                     "type": "document",
                                     "GUID": "31b05207-9afd-4abc-a4d6-129ae9450a2f",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -4454,10 +4470,10 @@
                                     "type": "document",
                                     "GUID": "923f1d15-cc31-4b41-9244-7faa30ea7d01",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -4502,10 +4518,10 @@
                                     "type": "document",
                                     "GUID": "a301b7b6-537f-43c9-8dd7-463064271f54",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -4642,6 +4658,8 @@
                                             "type": "numeric",
                                             "GUID": "08b5d934-eb4e-4fa6-b0fb-11503d5f4512",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 230,
                                             "ge": 0
                                         }
@@ -4676,6 +4694,8 @@
                                             "type": "numeric",
                                             "GUID": "3b3618c6-5a6e-4d3c-a63e-a1097f4e77cf",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 250,
                                             "ge": 0
                                         }
@@ -4998,10 +5018,10 @@
                                     "type": "document",
                                     "GUID": "395d0c1f-61ce-42f7-a33d-2d49d0a33b78",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -5900,6 +5920,8 @@
                                             "type": "numeric",
                                             "GUID": "da24562b-444d-498f-b50a-1db3f8301073",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 9,
                                             "ge": 1
                                         }
@@ -6305,7 +6327,6 @@
                         {
                             "GUID": "4f7e0d47-9864-497d-9f37-28927e6f7315",
                             "childType": "Base_Object",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
                             "name": "Pci_ProcedureDato",
@@ -6332,14 +6353,14 @@
                                     "childType": "Attribute_DateTime",
                                     "type": "document",
                                     "GUID": "cf41c225-2f3b-4cd6-9da1-428fa778ef9a",
-                                    "error": {},
-                                    "required": true
+                                    "required": true,
+                                    "error": {}
                                 }
-                            ]
+                            ],
+                            "error": {}
                         },
                         {
                             "GUID": "4d01994e-67b0-48f6-a807-0ef380548c62",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
                             "name": "Pci_Procedurekode1",
@@ -6365,14 +6386,15 @@
                                     "childType": "Attribute_ResultValue",
                                     "type": "document",
                                     "GUID": "27717dc0-0791-4d87-bcaa-01d02d50c929",
-                                    "error": {},
-                                    "required": true
+                                    "required": true,
+                                    "error": {}
                                 }
                             ],
                             "required": true,
                             "type": "document",
                             "description": "",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "6fe64e25-517c-425b-b402-0cc5d1cac3c9",
@@ -6535,6 +6557,8 @@
                                             "type": "numeric",
                                             "GUID": "ca01efb1-d88b-4a91-b987-2dae247a8191",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 100,
                                             "ge": 0
                                         }
@@ -6570,19 +6594,21 @@
                                             "childType": "Base_Value_Numeric",
                                             "type": "numeric",
                                             "GUID": "1db7de52-3e00-457b-bb3b-ce8876115400",
-                                            "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 12,
-                                            "ge": 4
+                                            "ge": 2,
+                                            "error": {}
                                         }
                                     ],
                                     "childType": "Attribute_ResultValue",
                                     "type": "document",
                                     "GUID": "9101a247-1fa4-4bac-86a8-99045dedda20",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "childType": "Base_Object"
@@ -6608,6 +6634,8 @@
                                             "type": "numeric",
                                             "GUID": "41e529c3-ca66-4251-b648-417cd9089a31",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 120,
                                             "ge": 0
                                         }
@@ -6616,10 +6644,10 @@
                                     "type": "document",
                                     "GUID": "52300b5a-abd5-482e-a8c5-379651750074",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "childType": "Base_Object"
@@ -6645,6 +6673,8 @@
                                             "type": "numeric",
                                             "GUID": "86e3f852-c4fa-4360-9424-199638813630",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 1000,
                                             "ge": 0
                                         }
@@ -6653,10 +6683,10 @@
                                     "type": "document",
                                     "GUID": "b55c44cf-1c44-4a0c-993d-839a528449f5",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "childType": "Base_Object"
@@ -6682,6 +6712,8 @@
                                             "type": "numeric",
                                             "GUID": "29962d36-4e91-44df-b23b-6ae8eaa41cdf",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 1000,
                                             "ge": 0
                                         }
@@ -6690,10 +6722,10 @@
                                     "type": "document",
                                     "GUID": "732411ac-5abd-4f0d-970d-b6141b441a2a",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "childType": "Base_Object"
@@ -6719,6 +6751,8 @@
                                             "type": "numeric",
                                             "GUID": "48f43cf9-7736-4b5d-872f-589986e002bc",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 15,
                                             "ge": 0
                                         }
@@ -6727,10 +6761,10 @@
                                     "type": "document",
                                     "GUID": "af4037ff-7213-4747-9814-b8ca8de294ed",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "childType": "Base_Object"
@@ -6776,10 +6810,10 @@
                                     "type": "document",
                                     "GUID": "b329fd7b-a50e-4531-8b83-8328571418cb",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "childType": "Base_Object"
@@ -6805,6 +6839,8 @@
                                             "type": "numeric",
                                             "GUID": "ddabef14-8f71-4b15-b5b0-dcc3dd2547db",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 15,
                                             "ge": 0
                                         }
@@ -6813,10 +6849,10 @@
                                     "type": "document",
                                     "GUID": "ace591f8-87c5-42c8-8952-4493e61717b0",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "childType": "Base_Object"
@@ -6870,10 +6906,10 @@
                                     "type": "document",
                                     "GUID": "dcd311c2-6561-4e07-abd6-2b7f605e0924",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "childType": "Base_Object"
@@ -6919,10 +6955,10 @@
                                     "type": "document",
                                     "GUID": "800dbd9a-9126-434d-96eb-941c7c8be262",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -6967,10 +7003,10 @@
                                     "type": "document",
                                     "GUID": "c3a80f8b-fc2a-40fd-8fe9-ae406d72fb06",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -7015,10 +7051,10 @@
                                     "type": "document",
                                     "GUID": "78318d49-53e6-491a-9b38-f303d3c1758f",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -7063,10 +7099,10 @@
                                     "type": "document",
                                     "GUID": "dd2cad24-6e3a-4479-bee9-e9f43fb140f8",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -7111,10 +7147,10 @@
                                     "type": "document",
                                     "GUID": "7f30ec40-dbf1-43e5-ad69-ace58e4f85e1",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -7159,10 +7195,10 @@
                                     "type": "document",
                                     "GUID": "3a4bac92-1f04-47bd-aed0-13f36420ca58",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -7207,10 +7243,10 @@
                                     "type": "document",
                                     "GUID": "8fcfd1e0-119b-4fab-b599-9615c32c30c0",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -7255,10 +7291,10 @@
                                     "type": "document",
                                     "GUID": "b416a84c-32d4-4659-a06c-c7d5b0cda0f0",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -7303,10 +7339,10 @@
                                     "type": "document",
                                     "GUID": "01059b6a-1713-439b-a632-410d88517896",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -7351,10 +7387,10 @@
                                     "type": "document",
                                     "GUID": "361c8498-e98e-4e13-a43e-bd6cff247498",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -7399,10 +7435,10 @@
                                     "type": "document",
                                     "GUID": "1b934046-4caa-460c-ac99-db1efa40c28b",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -7447,10 +7483,10 @@
                                     "type": "document",
                                     "GUID": "b4d11ede-2ad5-4079-864e-fbd31c5b3258",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -7495,10 +7531,10 @@
                                     "type": "document",
                                     "GUID": "7c5105d5-61e6-4220-918c-80a3e14e20c9",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -7543,10 +7579,10 @@
                                     "type": "document",
                                     "GUID": "33b03d21-c19b-4095-b08f-e293971c2d0b",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -7591,10 +7627,10 @@
                                     "type": "document",
                                     "GUID": "f1d080df-c331-4133-93ab-7e8167e6d2e9",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -7643,10 +7679,10 @@
                                     "type": "document",
                                     "GUID": "b4ca9301-f794-4116-bc90-723c41b485c5",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -7691,10 +7727,10 @@
                                     "type": "document",
                                     "GUID": "50a635fa-ff4e-4282-b0a8-15e760004535",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -7777,10 +7813,10 @@
                                     "type": "document",
                                     "GUID": "73543949-8c04-45fd-aaa6-da9495632759",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -7825,10 +7861,10 @@
                                     "type": "document",
                                     "GUID": "254573c5-c297-49fd-a302-47d663462f71",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -7873,10 +7909,10 @@
                                     "type": "document",
                                     "GUID": "54d9e9ff-9595-47b8-8457-edd5dfe052c4",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -7921,10 +7957,10 @@
                                     "type": "document",
                                     "GUID": "c796145b-434a-43ff-8d8d-744532513b48",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -7969,10 +8005,10 @@
                                     "type": "document",
                                     "GUID": "35aa29a6-a79a-42f4-a0b7-d458653faa07",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -8017,10 +8053,10 @@
                                     "type": "document",
                                     "GUID": "979f61e7-687b-4db4-a3a5-56f73c754025",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -8065,10 +8101,10 @@
                                     "type": "document",
                                     "GUID": "ca08564d-1140-4316-a369-97373da75978",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -8113,10 +8149,10 @@
                                     "type": "document",
                                     "GUID": "4c8b31c9-5105-4ef9-98f7-aa930adf6b5a",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -8161,10 +8197,10 @@
                                     "type": "document",
                                     "GUID": "1829abd3-55a9-486d-baaa-b804a0071c62",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -8209,10 +8245,10 @@
                                     "type": "document",
                                     "GUID": "1b1a407f-22c8-4965-ba06-3675f3aa7498",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -8257,10 +8293,10 @@
                                     "type": "document",
                                     "GUID": "8e434d01-bed9-406d-b9a6-8276720353cc",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -8305,10 +8341,10 @@
                                     "type": "document",
                                     "GUID": "bfcc7a85-cd26-4891-b045-299a54c95dfe",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -8353,10 +8389,10 @@
                                     "type": "document",
                                     "GUID": "3b78db9d-3c92-4a6b-871b-a2b4d89790be",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -8401,10 +8437,10 @@
                                     "type": "document",
                                     "GUID": "69fd5879-534f-4c4f-8a1d-075e6a594f90",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -8449,10 +8485,10 @@
                                     "type": "document",
                                     "GUID": "c0f19248-cc98-4d43-a761-57fd85512ac2",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -8497,10 +8533,10 @@
                                     "type": "document",
                                     "GUID": "18b00b84-9cd6-48b8-835b-7dd1ef0bf406",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -8637,6 +8673,8 @@
                                             "type": "numeric",
                                             "GUID": "a780d3c5-2d62-421c-8b82-3cdb8d242df6",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 230,
                                             "ge": 0
                                         }
@@ -8671,6 +8709,8 @@
                                             "type": "numeric",
                                             "GUID": "f7b316b2-85c4-4d32-98df-555bceb83634",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 250,
                                             "ge": 0
                                         }
@@ -10575,6 +10615,8 @@
                                             "type": "numeric",
                                             "GUID": "09152225-3623-45db-98ba-33ba9827a4e3",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 16,
                                             "ge": 1
                                         }
@@ -10663,6 +10705,8 @@
                                             "type": "numeric",
                                             "GUID": "f1544a71-723a-44ca-93ca-2b5aa451939a",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 100,
                                             "ge": 0
                                         }
@@ -10975,6 +11019,8 @@
                                             "type": "numeric",
                                             "GUID": "1c5c3223-dd32-4b25-a3d1-2022073b1398",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 2,
                                             "ge": 1
                                         }
@@ -11937,6 +11983,8 @@
                                             "type": "numeric",
                                             "GUID": "1424544a-9cb6-4980-a676-0ee36080432d",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 100,
                                             "ge": 1
                                         }
@@ -11971,6 +12019,8 @@
                                             "type": "numeric",
                                             "GUID": "30549e07-a808-498f-b8fb-d41c915b70ef",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 100,
                                             "ge": 1
                                         }
@@ -12006,6 +12056,8 @@
                                             "type": "numeric",
                                             "GUID": "4c313146-9e53-4943-8d20-04933cc6ec8c",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 3,
                                             "ge": 0
                                         }
@@ -12041,6 +12093,8 @@
                                             "type": "numeric",
                                             "GUID": "f7dafcab-02dd-48d5-a211-2339a6d23e40",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 3,
                                             "ge": 0
                                         }
@@ -12278,7 +12332,6 @@
                         {
                             "GUID": "473b6464-d325-4a02-98c1-cca2c75afc96",
                             "childType": "Base_Object",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
                             "name": "CtKag_ProcedureDato",
@@ -12305,14 +12358,14 @@
                                     "childType": "Attribute_DateTime",
                                     "type": "document",
                                     "GUID": "8282e23a-afd2-4f58-a693-bedad5a60215",
-                                    "error": {},
-                                    "required": true
+                                    "required": true,
+                                    "error": {}
                                 }
-                            ]
+                            ],
+                            "error": {}
                         },
                         {
                             "GUID": "4c25af4d-20e1-4d7b-97f5-c1654250115b",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
                             "name": "CtKag_Procedurekode1",
@@ -12338,14 +12391,15 @@
                                     "childType": "Attribute_ResultValue",
                                     "type": "document",
                                     "GUID": "ac81e7a7-175a-4acf-9e10-7243bb22fcb9",
-                                    "error": {},
-                                    "required": true
+                                    "required": true,
+                                    "error": {}
                                 }
                             ],
                             "required": true,
                             "type": "document",
                             "description": "",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "948efc2e-53fd-4aa7-aee1-ae777534b050",
@@ -12403,6 +12457,8 @@
                                             "type": "numeric",
                                             "GUID": "8859be4a-642f-47ff-bdcc-f18c965fa8ca",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 6000,
                                             "ge": 0
                                         }
@@ -12893,6 +12949,8 @@
                                             "type": "numeric",
                                             "GUID": "b4d18ef6-2e3b-45b9-ba30-08d830133673",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 230,
                                             "ge": 0
                                         }
@@ -12928,6 +12986,8 @@
                                             "type": "numeric",
                                             "GUID": "3fba5b5e-8336-4377-bd37-1c347f5785f1",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 250,
                                             "ge": 0
                                         }
@@ -13075,6 +13135,8 @@
                                             "type": "numeric",
                                             "GUID": "a4ec744b-9c0d-4c1c-993c-919eba6973bc",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 100,
                                             "ge": 0
                                         }
@@ -13361,6 +13423,7 @@
                                             "type": "numeric",
                                             "GUID": "3df326d9-8441-4dce-81ef-8b4b43e039b7",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
                                             "le": 10000
                                         }
                                     ],
@@ -13588,6 +13651,8 @@
                                             "type": "numeric",
                                             "GUID": "7221225f-38b8-453f-9796-788ab237f9de",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 220,
                                             "ge": 10
                                         }
@@ -13776,6 +13841,8 @@
                                             "type": "numeric",
                                             "GUID": "89231492-92f2-49d6-9aa1-e14e02f9def8",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 100,
                                             "ge": 0
                                         }
@@ -13920,6 +13987,8 @@
                                             "type": "numeric",
                                             "GUID": "7ab4898a-b80c-42ac-8709-dfafa009b29c",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 16,
                                             "ge": 1
                                         }
@@ -13954,6 +14023,8 @@
                                             "type": "numeric",
                                             "GUID": "dca408b2-d0f3-46f0-9625-900702085116",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 100,
                                             "ge": 0
                                         }
@@ -14152,6 +14223,8 @@
                                             "type": "numeric",
                                             "GUID": "ef56747b-a96c-4de1-8c92-c1d2b121a58a",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 9,
                                             "ge": 0
                                         }
@@ -14324,6 +14397,8 @@
                                             "type": "numeric",
                                             "GUID": "45ab0df5-a78c-4603-bd60-8c4257bf893f",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 200,
                                             "ge": 0
                                         }
@@ -14358,6 +14433,8 @@
                                             "type": "numeric",
                                             "GUID": "11a16c62-37ec-4db4-9d19-093688f2421d",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 100,
                                             "ge": 0
                                         }
@@ -14392,6 +14469,8 @@
                                             "type": "numeric",
                                             "GUID": "2184886e-232d-4ea8-8523-1b1af5a2770f",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 2,
                                             "ge": 0.2
                                         }
@@ -14484,6 +14563,8 @@
                                             "type": "numeric",
                                             "GUID": "15723a09-26a3-443e-9005-ad1f032f54b7",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 40,
                                             "ge": 10
                                         }
@@ -14606,6 +14687,8 @@
                                             "type": "numeric",
                                             "GUID": "40ea4eb7-141d-4681-9379-05c9bea08ef9",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 200,
                                             "ge": 0
                                         }
@@ -14640,6 +14723,8 @@
                                             "type": "numeric",
                                             "GUID": "6694c3bd-4d9b-494e-8f5b-297fb9b517b8",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 200,
                                             "ge": 0
                                         }
@@ -14720,6 +14805,8 @@
                                             "type": "numeric",
                                             "GUID": "dba4795e-dde5-4f73-91fd-c5dbba497bdc",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 230,
                                             "ge": 0
                                         }
@@ -14754,6 +14841,8 @@
                                             "type": "numeric",
                                             "GUID": "27e0cc6a-8061-4c7d-9015-7f5acde2172c",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 250,
                                             "ge": 0
                                         }
@@ -14808,10 +14897,10 @@
                                     "type": "document",
                                     "GUID": "406e8c0e-3363-4184-910e-2f81632bbe29",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -14856,10 +14945,10 @@
                                     "type": "document",
                                     "GUID": "01186a82-b396-4ea8-86b9-99b8aec0552f",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -14904,10 +14993,10 @@
                                     "type": "document",
                                     "GUID": "c1d59170-bed9-4c7e-bae6-f0003aba285b",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -14952,10 +15041,10 @@
                                     "type": "document",
                                     "GUID": "2ff5a8bd-9049-4958-be58-62c1b0929560",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -15000,10 +15089,10 @@
                                     "type": "document",
                                     "GUID": "aca98d6a-28e0-468f-a3c6-daca3f848962",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -15056,10 +15145,10 @@
                                     "type": "document",
                                     "GUID": "f4325c45-5f47-4089-9202-2340bf260390",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -15104,10 +15193,10 @@
                                     "type": "document",
                                     "GUID": "007c304b-ec52-4d34-af00-f7b648c282f7",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -15152,10 +15241,10 @@
                                     "type": "document",
                                     "GUID": "b72979c0-52dd-4a1c-a693-027a6991c2dc",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -15200,10 +15289,10 @@
                                     "type": "document",
                                     "GUID": "801c3a5f-9ff1-46c3-8eae-7e6e1c2806ea",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -15302,10 +15391,10 @@
                                     "type": "document",
                                     "GUID": "7035ab54-ebab-4159-9f78-42326e721b48",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -15358,10 +15447,10 @@
                                     "type": "document",
                                     "GUID": "bf5556a1-ef00-49be-a927-bcc48cc8be1d",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -15406,10 +15495,10 @@
                                     "type": "document",
                                     "GUID": "5c00dc55-2310-485b-8a55-4b5261eb4bad",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -15462,10 +15551,10 @@
                                     "type": "document",
                                     "GUID": "67cbc311-0d07-43d5-b79a-316d9b001483",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -15526,10 +15615,10 @@
                                     "type": "document",
                                     "GUID": "fccddca4-0ef5-4c65-bbe1-800bb70a25a1",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -15574,10 +15663,10 @@
                                     "type": "document",
                                     "GUID": "d810c2cd-2f8f-4368-9cc1-84413349a830",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
@@ -15622,17 +15711,16 @@
                                     "type": "document",
                                     "GUID": "3b19f174-8e03-4199-a9cb-921db1d22f5b",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "childType": "Base_Object"
                         },
                         {
                             "GUID": "7b9946a1-8161-44ec-9e16-9746734d2594",
                             "childType": "Base_Object",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
                             "name": "TAVI_TaviProcedureData_ProcedureDato",
@@ -15658,10 +15746,11 @@
                                     "childType": "Attribute_DateTime",
                                     "type": "document",
                                     "GUID": "a049e4e4-376c-4100-bfa5-328d0abe109e",
-                                    "error": {},
-                                    "required": true
+                                    "required": true,
+                                    "error": {}
                                 }
-                            ]
+                            ],
+                            "error": {}
                         },
                         {
                             "GUID": "29613caf-a6b7-4d52-816f-e153a19bef81",
@@ -15749,7 +15838,6 @@
                         },
                         {
                             "GUID": "6f3ff21f-f322-4864-ab08-e20e7f81bfe3",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
                             "name": "TAVI_TaviProcedureData_ProcedureKode",
@@ -15775,11 +15863,14 @@
                                     "childType": "Attribute_ResultValue",
                                     "type": "document",
                                     "GUID": "aab931bf-5ecc-4565-9ab1-692ffc5cfaf6",
+                                    "required": true,
                                     "error": {}
                                 }
                             ],
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "required": true,
+                            "error": {}
                         },
                         {
                             "GUID": "0b1760d9-3071-490f-be94-c74eb8d616a2",
@@ -16145,6 +16236,8 @@
                                             "type": "numeric",
                                             "GUID": "f7b873f6-4cc6-45d6-9729-7a1d90547b1a",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 34,
                                             "ge": 16
                                         }
@@ -16225,6 +16318,8 @@
                                             "type": "numeric",
                                             "GUID": "b7cd352b-553e-4b6c-8d3f-d43333902146",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 30,
                                             "ge": 18
                                         }
@@ -16305,6 +16400,8 @@
                                             "type": "numeric",
                                             "GUID": "ca96168d-03b5-46c3-adf3-83631351a5fa",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "ge": 18,
                                             "le": 29
                                         }
@@ -16339,6 +16436,8 @@
                                             "type": "numeric",
                                             "GUID": "7201586b-db84-4415-a684-abb6dad0703b",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 1000,
                                             "ge": 0
                                         }
@@ -16373,6 +16472,8 @@
                                             "type": "numeric",
                                             "GUID": "68a7354f-6783-4067-8e07-e94bf27f5601",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 1000,
                                             "ge": 0
                                         }
@@ -16503,6 +16604,8 @@
                                             "type": "numeric",
                                             "GUID": "cf98d4c6-d9f4-4fc6-8412-965885644238",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 9,
                                             "ge": 0
                                         }
@@ -16743,10 +16846,10 @@
                                     "type": "document",
                                     "GUID": "bf8e94e5-efcf-4070-92a0-be7923fe2c40",
                                     "error": {},
-                                    "required": true
+                                    "required": false
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "childType": "Base_Object"
@@ -17160,6 +17263,8 @@
                                             "type": "numeric",
                                             "GUID": "d94940d8-4b5c-4509-89d4-deb1d9b23c6f",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 10000,
                                             "ge": 0
                                         }
@@ -17706,6 +17811,8 @@
                                             "type": "numeric",
                                             "GUID": "4707db35-978f-492e-9998-41905dd8b8e6",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 10,
                                             "ge": 0
                                         }
@@ -18034,6 +18141,8 @@
                                             "type": "numeric",
                                             "GUID": "0329c729-168f-4834-a54f-d80653c64bbe",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 100,
                                             "ge": 0
                                         }
@@ -18069,6 +18178,8 @@
                                             "type": "numeric",
                                             "GUID": "3bb9ac49-1536-4ca8-a7bc-affd59a9771c",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 230,
                                             "ge": 0
                                         }
@@ -18104,6 +18215,8 @@
                                             "type": "numeric",
                                             "GUID": "5036f4aa-ba57-47fe-b9ac-59c40de8167a",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 250,
                                             "ge": 0
                                         }
@@ -18530,6 +18643,8 @@
                                             "type": "numeric",
                                             "GUID": "23b16eaa-349f-4e3d-a6a9-3a00e0c2462c",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 1200,
                                             "ge": 0
                                         }
@@ -18565,6 +18680,8 @@
                                             "type": "numeric",
                                             "GUID": "c0c51c05-6894-41d5-b89a-74230f1db113",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 10,
                                             "ge": 0
                                         }
@@ -20767,6 +20884,8 @@
                                             "type": "numeric",
                                             "GUID": "a8b919f3-156f-4d95-be87-c01d8ef877f5",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 1200,
                                             "ge": 0
                                         }
@@ -21114,6 +21233,8 @@
                                             "type": "numeric",
                                             "GUID": "80db3823-08a0-4d55-9dbc-40f43e8a6d98",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 26,
                                             "ge": 18
                                         }
@@ -21149,6 +21270,8 @@
                                             "type": "numeric",
                                             "GUID": "b6cc66e8-551e-4c1e-a2e5-dc6769018373",
                                             "error": {},
+                                            "LL_Type": "Greater than or =",
+                                            "UL_Type": "Less than or =",
                                             "le": 26,
                                             "ge": 18
                                         }
@@ -23260,14 +23383,14 @@
                                     "childType": "Attribute_ResultValue",
                                     "type": "document",
                                     "GUID": "b69ea613-6022-4d57-bd2c-7b6763697017",
-                                    "required": true,
+                                    "required": false,
                                     "error": {}
                                 }
                             ],
                             "childType": "Base_Object",
                             "type": "document",
                             "GUID": "5abf8fdb-6be6-4ac5-a8ae-43d173f69fe7",
-                            "required": true,
+                            "required": false,
                             "error": {}
                         },
                         {
@@ -23310,14 +23433,14 @@
                                     "GUID": "52d47476-ed85-433d-8f29-4b0166397089",
                                     "foreignCollection": "",
                                     "foreignField": [],
-                                    "required": true,
+                                    "required": false,
                                     "error": {}
                                 }
                             ],
                             "childType": "Base_Object",
                             "type": "document",
                             "GUID": "97a583c0-3ac1-4c42-a25a-df2f74d10efd",
-                            "required": true,
+                            "required": false,
                             "error": {}
                         },
                         {
@@ -23366,14 +23489,14 @@
                                     "childType": "Attribute_ResultValue",
                                     "type": "document",
                                     "GUID": "169c4119-9ba5-4979-ba80-f714656836e2",
-                                    "required": true,
+                                    "required": false,
                                     "error": {}
                                 }
                             ],
                             "childType": "Base_Object",
                             "type": "document",
                             "GUID": "abdacfdc-dd44-40e7-9a3c-df4807cd3a1d",
-                            "required": true,
+                            "required": false,
                             "error": {}
                         }
                     ],
@@ -23400,7 +23523,8 @@
                     "GUID": "ca043ed0-b680-4f84-95b9-967893e8e6c4"
                 }
             ],
-            "type": "object"
+            "type": "object",
+            "dbPopulation": "..."
         }
     ],
     "buckets": [
@@ -23460,7 +23584,7 @@
     "creationTS": "2023-04-15T09:05:24.450Z",
     "GUID": "d24eab8e-2648-4a80-9a2f-f5d6b8e65e2f",
     "isLineageEnabled": false,
-    "lastModifTS": "2024-03-12T16:08:59.967Z",
+    "lastModifTS": "2024-06-27T07:42:49.055Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
