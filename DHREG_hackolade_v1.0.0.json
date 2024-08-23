@@ -927,28 +927,20 @@
                                                     "Udfald": "Nej"
                                                 },
                                                 {
-                                                    "GUID": "8afe089b-3adf-4be1-82e5-ec69ff13b661",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
                                                     "GUID": "3d883530-cb2e-40f2-83f0-72ae6241e848",
-                                                    "Udfald": "Ja_non_farmakologisk_behandling"
+                                                    "Udfald": "ja_non-farmakologisk_behandling"
                                                 },
                                                 {
                                                     "GUID": "9764927d-1898-42f1-90ec-108e9b8b4528",
-                                                    "Udfald": "Ja_peroral_behandling_ikke_insulin"
+                                                    "Udfald": "ja_insulinbehandling"
                                                 },
                                                 {
                                                     "GUID": "8c1d4d80-c27f-41b0-9025-79acb6f22631",
-                                                    "Udfald": "Ja_insulinbehandling_med_og_uden_peroral_behandling"
+                                                    "Udfald": "ja_nydiagnosticeret"
                                                 },
                                                 {
                                                     "GUID": "f68e6f99-20fc-4cb4-983c-8747292e6580",
-                                                    "Udfald": "Ja_nydiagnosticeret"
-                                                },
-                                                {
-                                                    "GUID": "cfa945a6-4929-45de-ba9e-62e2dc20a2a5",
-                                                    "Udfald": "Uoplyst"
+                                                    "Udfald": "ja_non-insulin farmakologisk behandling"
                                                 }
                                             ]
                                         }
@@ -4382,54 +4374,6 @@
                             "childType": "Base_Object"
                         },
                         {
-                            "GUID": "4e72c67c-79ef-4b75-9732-cc9347fb65de",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "Kag_KagKomplikationer_KagUnderIndlaeggelse_Stroke",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "5becb3a6-2051-4b4d-9ba5-0795a0ffda08",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "7ce0e424-eb96-404e-ad87-c1c78a82b9a0",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "3392657f-bf4a-48fa-868e-01ecb8d85bfd",
-                                                    "Udfald": "Nej"
-                                                },
-                                                {
-                                                    "GUID": "24cbddc3-9c23-4f2f-bee5-b067cced91ca",
-                                                    "Udfald": "Uoplyst"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "31b05207-9afd-4abc-a4d6-129ae9450a2f",
-                                    "error": {},
-                                    "required": false
-                                }
-                            ],
-                            "required": false,
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
                             "GUID": "89310ec9-4c3c-4854-a0c5-59f8127d906b",
                             "error": {},
                             "hackoladeMeta": {},
@@ -4552,28 +4496,20 @@
                                                     "Udfald": "Nej"
                                                 },
                                                 {
-                                                    "GUID": "3dd64707-16d4-4352-8d84-d05ed6d41e37",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
                                                     "GUID": "9b8fcb71-de53-412a-8b68-9311e94c141f",
-                                                    "Udfald": "Ja_non_farmakologisk_behandling"
+                                                    "Udfald": "ja_non-farmakologisk_behandling"
                                                 },
                                                 {
                                                     "GUID": "4091225e-be31-4939-add0-8836fbb0477f",
-                                                    "Udfald": "Ja_peroral_behandling_ikke_insulin"
+                                                    "Udfald": "ja_insulinbehandling"
                                                 },
                                                 {
                                                     "GUID": "ab2badaf-ec05-4288-9aff-fd4290d52ebe",
-                                                    "Udfald": "Ja_insulinbehandling_med_og_uden_peroral_behandling"
+                                                    "Udfald": "ja_nydiagnosticeret"
                                                 },
                                                 {
                                                     "GUID": "4d51a7c4-29a7-4965-a553-dd5c75b70261",
-                                                    "Udfald": "Ja_nydiagnosticeret"
-                                                },
-                                                {
-                                                    "GUID": "8bbae03d-2f68-4b18-b72b-592ff0041652",
-                                                    "Udfald": "Uoplyst"
+                                                    "Udfald": "ja_non-insulin farmakologisk behandling"
                                                 }
                                             ]
                                         }
@@ -8397,54 +8333,6 @@
                             "childType": "Base_Object"
                         },
                         {
-                            "GUID": "0eee9e2a-7639-4f8c-82cf-c136f6e64aeb",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "Pci_PciKomplikationer_PciUnderIndlaeggelse_Stroke",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "03abaddf-4090-4bad-9b3a-f4a24dc5bbd3",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "05cce218-ffb4-45bd-8e2e-277a8a37fae5",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "5df9fa15-5b3f-40e6-aabe-22fa5b445464",
-                                                    "Udfald": "Nej"
-                                                },
-                                                {
-                                                    "GUID": "505ce6fc-54ed-4408-9524-ca1882d871b6",
-                                                    "Udfald": "Uoplyst"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "69fd5879-534f-4c4f-8a1d-075e6a594f90",
-                                    "error": {},
-                                    "required": false
-                                }
-                            ],
-                            "required": false,
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
                             "GUID": "81b01e31-6263-4f30-b395-bc3506bc48ec",
                             "error": {},
                             "hackoladeMeta": {},
@@ -8567,28 +8455,20 @@
                                                     "Udfald": "Nej"
                                                 },
                                                 {
-                                                    "GUID": "46b542e7-e5ea-417f-8eb5-506c0f93fcfe",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
                                                     "GUID": "848bfa5a-0b55-4f29-9c14-d2d8ddadb1c5",
-                                                    "Udfald": "Ja_non_farmakologisk_behandling"
+                                                    "Udfald": "ja_non-farmakologisk_behandling"
                                                 },
                                                 {
                                                     "GUID": "381d02fe-3410-427b-b387-bae3d791ef6f",
-                                                    "Udfald": "Ja_peroral_behandling_ikke_insulin"
+                                                    "Udfald": "ja_insulinbehandling "
                                                 },
                                                 {
                                                     "GUID": "d36688a7-97ce-4d80-b0ab-9a4d1a2b9e4c",
-                                                    "Udfald": "Ja_insulinbehandling_med_og_uden_peroral_behandling"
+                                                    "Udfald": "ja_nydiagnosticeret"
                                                 },
                                                 {
                                                     "GUID": "f150131d-ec48-4801-b471-8b81e8653f46",
-                                                    "Udfald": "Ja_nydiagnosticeret"
-                                                },
-                                                {
-                                                    "GUID": "96ba104c-e726-46cf-a0fa-f302e69c4d7c",
-                                                    "Udfald": "Uoplyst"
+                                                    "Udfald": "ja_non-insulin farmakologisk behandling"
                                                 }
                                             ]
                                         }
@@ -9304,342 +9184,6 @@
                                     "childType": "Attribute_ResultValue",
                                     "type": "document",
                                     "GUID": "07717c85-ee48-4b26-a97d-5079ab19f052",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "fd3d2ec7-6135-45c8-820c-7b04933f493c",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "Pci_PciAnamnese_PciNonInvasivTest_SPECT",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "cbe5c049-e298-427a-a907-082ca47c24fb",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "08715127-8427-4d8d-aed2-9961271c8ab6",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "5e03608c-9c23-4bdd-8f3c-d94582a22958",
-                                                    "Udfald": "Nej"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "71d2ccaa-144e-4414-81a8-7ea16007e7b2",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "92f6caa4-66fb-483b-895b-cd699549b267",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "Pci_PciAnamnese_PciNonInvasivTest_SPECT_Svar",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "abc69607-2a7e-4f05-b3fc-9e017d7abef8",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "3277bda3-c9c7-4ae8-abd4-5f569435fe70",
-                                                    "Udfald": "Positiv"
-                                                },
-                                                {
-                                                    "GUID": "6b760ee4-e25e-4aef-9c7c-7b79990efcf4",
-                                                    "Udfald": "Negativ"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "1b20c8e1-d7e7-4f59-875b-e4fbc14e09dc",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "4e31dacf-0fca-4f6f-8e30-c0a12bdbf795",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "Pci_PciAnamnese_PciNonInvasivTest_PET",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "733a74d9-190f-4f9b-a90e-5b99af32f7a7",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "8a43d2f4-b648-4913-9061-07e9fa898b4d",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "661fecab-559e-41eb-98cc-b8235c130753",
-                                                    "Udfald": "Nej"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "15664ec3-0d67-4ba4-b174-e0ec3d722621",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "606e06f4-2caa-4947-9c80-be2fcd21a802",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "Pci_PciAnamnese_PciNonInvasivTest_PET_Svar",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "d73c4586-d1fc-4273-a179-e6a8d50361e0",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "5b1a533a-6910-43d5-8d02-79fbaef64775",
-                                                    "Udfald": "Positiv"
-                                                },
-                                                {
-                                                    "GUID": "f2304cf6-e7d7-40d6-bd54-b3aa6d730947",
-                                                    "Udfald": "Negativ"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "51e1ad44-e269-4406-bafe-b27cad0e135f",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "240bc84d-dd7b-48bc-b39f-7019decfc908",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "Pci_PciAnamnese_PciNonInvasivTest_FFR_CT",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "761944c2-8781-4017-b127-1c07d27ca8b7",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "9780c74c-26f6-4fff-9cba-1285ca9182b7",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "321924a2-03c1-4ae8-9248-d3ac91b9453a",
-                                                    "Udfald": "Nej"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "dd88324a-f69a-4f3d-8426-28721cb1728f",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "80a8afb6-bf34-4252-8639-850c9b907cd4",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "Pci_PciAnamnese_PciNonInvasivTest_FFR_CT_Svar",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "5ac8f4b7-fb7a-493a-b6c6-accbd8a8cbc7",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "6d3e0472-4966-490b-93e7-b16369ad5803",
-                                                    "Udfald": "Positiv"
-                                                },
-                                                {
-                                                    "GUID": "561ec0c8-5a91-41e3-80e4-297f9f9a5785",
-                                                    "Udfald": "Negativ"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "7ff87966-ec90-458b-b08a-e7561a1c773c",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "93955538-6c1a-42d6-bc1d-b565db4cb4a1",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "Pci_PciAnamnese_PciNonInvasivTest_MR_Perfusion",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "7864b343-c507-40b4-801b-6ace022e53fd",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "3b112062-57fe-4743-a62d-f06a8a8b83be",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "27e44302-d075-4f71-81a5-b13181a8d016",
-                                                    "Udfald": "Nej"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "2d264da7-1edc-4814-8eda-6b28eddc87c6",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "048754f4-96c4-4cfe-a34d-bc85e5e15165",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "Pci_PciAnamnese_PciNonInvasivTest_MR_Perfusion_Svar",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "d47dd561-3705-44a2-94ab-3867a02b180d",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "9d4291ff-d8c3-4364-8828-edc444514a5c",
-                                                    "Udfald": "Positiv"
-                                                },
-                                                {
-                                                    "GUID": "6667e193-d160-48a7-aafd-6d9f4e44dcb9",
-                                                    "Udfald": "Negativ"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "f9e74814-a6cb-4a33-96d5-97c2375322bc",
                                     "error": {}
                                 }
                             ],
@@ -12674,147 +12218,6 @@
                             "childType": "Base_Object"
                         },
                         {
-                            "GUID": "ca71b87b-6f82-4bb1-9afb-56260d341348",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_TidligereCABG",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "f85a7211-e799-4741-be3d-2cb18cbc63dc",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "0577277f-5d4c-4004-9d0b-f48f37fcd773",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "a50de8ab-3cde-4f4c-9f4c-7b7d5ba6a258",
-                                                    "Udfald": "Nej"
-                                                },
-                                                {
-                                                    "GUID": "129e13b7-9f95-4338-b93d-7f3c7eff6ae4",
-                                                    "Udfald": "Uoplyst"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "c3b40945-94cd-4285-8edd-253a7fa80595",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "description": "",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "eb5b6630-cdb9-493f-91a3-8c1fc5f23b47",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_TidligerePCI",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "6261e26b-e479-4c21-8d07-be64d30c2747",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "dde7ba69-3bac-4ce6-9f57-59d7d080ff76",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "c85cecd0-1de0-4e91-a3fa-b28ccd0889b3",
-                                                    "Udfald": "Nej"
-                                                },
-                                                {
-                                                    "GUID": "2423b67a-764a-429a-b40b-bb5f76fe7cd1",
-                                                    "Udfald": "Uoplyst"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "2eb35d0b-8186-47a3-ad00-39664d8dc847",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "description": "",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "e0ed7888-e9a4-46f7-86be-dea4cf73788c",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_TidligereAMI",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "887ac24e-cf48-4822-82ee-43a6afe379ed",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "74290bb5-1e2e-429f-a2c2-f10846b42362",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "46c8befc-3ee3-4adb-a951-d8849df0c99b",
-                                                    "Udfald": "Nej"
-                                                },
-                                                {
-                                                    "GUID": "0169aff5-3ccf-4eda-86de-d360e693f855",
-                                                    "Udfald": "Uoplyst"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "25ff483e-78d0-4728-bb4a-046db304a148",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "description": "",
-                            "childType": "Base_Object"
-                        },
-                        {
                             "GUID": "6657cfd5-1232-4e38-8016-3ea8a161215a",
                             "error": {},
                             "hackoladeMeta": {},
@@ -12841,28 +12244,20 @@
                                                     "Udfald": "Nej"
                                                 },
                                                 {
-                                                    "GUID": "373b6df9-3781-48a9-8d24-10deb749dd8b",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
                                                     "GUID": "bc5cf1e1-bf1d-46ad-b4fc-388f53df6fef",
-                                                    "Udfald": "Ja_non_farmakologisk_behandling"
+                                                    "Udfald": "ja_non-farmakologisk_behandling"
                                                 },
                                                 {
                                                     "GUID": "bf0cb5c1-f848-4de6-bf51-9f1b8b0d51fd",
-                                                    "Udfald": "Ja_peroral_behandling_ikke_insulin"
+                                                    "Udfald": "ja_insulinbehandling "
                                                 },
                                                 {
                                                     "GUID": "e21634b8-fbcc-461a-9fc8-21798fc6240f",
-                                                    "Udfald": "Ja_insulinbehandling_med_og_uden_peroral_behandling"
+                                                    "Udfald": "ja_nydiagnosticeret"
                                                 },
                                                 {
                                                     "GUID": "383bb595-eb41-4a08-991d-f55274aaf507",
-                                                    "Udfald": "Ja_nydiagnosticeret"
-                                                },
-                                                {
-                                                    "GUID": "e2c8ecbf-816c-44d0-92e9-f6b91dcb9d00",
-                                                    "Udfald": "Uoplyst"
+                                                    "Udfald": "ja_non-insulin farmakologisk behandling"
                                                 }
                                             ]
                                         }
@@ -13003,406 +12398,6 @@
                             "childType": "Base_Object"
                         },
                         {
-                            "GUID": "a37fcd5f-bb7f-4532-bf6c-2ac1164d1e96",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagAnamnese_HenvisningIndlaeggelsesdiagnose",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "str",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "b9d8c000-7c25-4836-b4e1-5178658bff31",
-                                            "error": {},
-                                            "max_length": 7,
-                                            "min_length": 1
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "bdd6b4e8-a297-44f5-b6da-123d064d1207",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "9fe8e9ab-d6e8-4140-96e7-af90f86a6f99",
-                            "childType": "Base_Object",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagAnamnese_AnamneseDatoTidspunkt",
-                            "type": "document",
-                            "properties": [
-                                {
-                                    "name": "DateTime",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_DateTime",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "DateTime",
-                                            "childType": "Base_Value_DateTime",
-                                            "type": "string",
-                                            "GUID": "62a44b1a-3df6-48df-b456-59f85ebba40e",
-                                            "error": {}
-                                        }
-                                    ],
-                                    "childType": "Attribute_DateTime",
-                                    "type": "document",
-                                    "GUID": "a9b5e08f-3fe2-40ef-84bb-b7191c4c82fb",
-                                    "error": {}
-                                }
-                            ]
-                        },
-                        {
-                            "GUID": "224c3bc8-bc96-41f4-9345-6fe8083867d0",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagAnamnese_AnamneseIHSIFamilien",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "aecb741e-52ce-4dfb-9325-1428a61d7c4e",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "1d919bb8-442a-4502-a1f4-a6094fff244f",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "3ed487ff-506f-4a33-962a-b21c2c43879b",
-                                                    "Udfald": "Nej"
-                                                },
-                                                {
-                                                    "GUID": "8aaf61c8-6636-4fcd-8578-5ad45a406a8c",
-                                                    "Udfald": "Uoplyst"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "faf9bdf0-c11e-489c-97d6-1e125af19025",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "eff792f0-8ff4-4a60-bebc-3a81e78acf51",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagAnamnese_AnamneseEF",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_Numeric",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "int",
-                                            "childType": "Base_Value_Numeric",
-                                            "type": "numeric",
-                                            "GUID": "a4ec744b-9c0d-4c1c-993c-919eba6973bc",
-                                            "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
-                                            "le": 100,
-                                            "ge": 0
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "3a344a6d-42d8-4b2d-952e-f931fdeb4d48",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "301798de-8eca-4673-8ef4-c5b0b91ab123",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagAnamnese_AnamneseBT_Systolisk",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_Numeric",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "int",
-                                            "childType": "Base_Value_Numeric",
-                                            "type": "numeric",
-                                            "GUID": "e49ebdae-826c-4095-b903-069218bb12a7",
-                                            "error": {}
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "e9eb35dc-1a1a-4a5c-abc6-906bbf6fd974",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "78923dec-8635-4d26-b136-45dbf471768f",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagAnamnese_AnamneseBT_Diastolisk",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_Numeric",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "int",
-                                            "childType": "Base_Value_Numeric",
-                                            "type": "numeric",
-                                            "GUID": "95517668-7431-4872-8346-f9df90a75bef",
-                                            "error": {}
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "266b322c-2b42-4498-acb6-59b032861f65",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "fdc29b69-adf9-4fc6-80c1-98a04435d437",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagAnamnese_CTKAGUndersoegelsestype",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "4167c4bf-f15d-40eb-9246-4153cd3b855a",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "ac032a87-65c0-4cbf-89d9-f5e61673791a",
-                                                    "Udfald": "koronar"
-                                                },
-                                                {
-                                                    "GUID": "f4da90c1-a607-4982-a154-715e207745aa",
-                                                    "Udfald": "non-koronar"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "90890375-323f-44fe-b9cc-3d74f34b8cf4",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "c562fb13-2832-4aa9-be61-102172c31d0e",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagAnamnese_CTKABeskrivelseAfOBSIHD",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "047b4b84-735c-427d-8e87-5643efbdc5ee",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "c1641a21-383c-4e33-b58a-94da9d993bc4",
-                                                    "Udfald": "typisk angina"
-                                                },
-                                                {
-                                                    "GUID": "5798ac87-a8b3-4ea3-8195-247dd7ad381e",
-                                                    "Udfald": "atypiskangina"
-                                                },
-                                                {
-                                                    "GUID": "e3422e74-04a1-4058-b1b2-c02e664c3e3e",
-                                                    "Udfald": "uspecifikke brystsmerter"
-                                                },
-                                                {
-                                                    "GUID": "aa479887-ecbd-4430-b856-0a9744697d09",
-                                                    "Udfald": "åndenød"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "a81f9d57-c72b-4058-a54c-e512952e7604",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "2e257d2c-8141-4ee3-b614-c9860d627818",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagAnamnese_CTKAGFremstillingAfAnatomiDropDown",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "str",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "3116ec84-0633-4ffb-be7e-0e2e121ba35f",
-                                            "error": {}
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "04eb60cd-7ade-4acc-acb3-465961ab659b",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "134cb51e-fd90-499b-9a33-c873747b3df9",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagProcedurevariable_CTKAGCTScanner",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "str",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "c4eb7d48-a0e1-4390-83fb-0166c27bff6b",
-                                            "error": {}
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "60567566-2d1d-462f-80b4-d63eed3b20e4",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "45a95a21-3d3c-4f8e-9cee-7fccf5486a17",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagProcedurevariable_CTKAGKeV",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_Numeric",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "int",
-                                            "childType": "Base_Value_Numeric",
-                                            "type": "numeric",
-                                            "GUID": "9dec1639-e9fb-4a8e-a726-f71d2214a1fd",
-                                            "error": {}
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "39a8b1a7-61cc-4ad6-a4aa-3e19074dddc4",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
                             "GUID": "8d5c4469-6cee-41a9-8e51-67dd1bd69767",
                             "error": {},
                             "hackoladeMeta": {},
@@ -13437,38 +12432,6 @@
                             "childType": "Base_Object"
                         },
                         {
-                            "GUID": "84c6c8a3-2209-4049-a988-0e46e765c903",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagProcedurevariable_CTKAGKontrastFabrikat",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "str",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "fafb9d8a-17f4-4a40-b039-9f7cb44ae82c",
-                                            "error": {}
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "076c1383-7b09-4e46-8185-7338381dea9e",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
                             "GUID": "dc5b616b-801e-49c6-8cc7-f80127ebadec",
                             "error": {},
                             "hackoladeMeta": {},
@@ -13494,48 +12457,6 @@
                                     "childType": "Attribute_ResultValue",
                                     "type": "document",
                                     "GUID": "81db94fb-2ecd-46e3-8c4d-277f4ecfd082",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "b8aa9da8-78b7-479e-bd86-0515d674a08c",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagProcedurevariable_CTKAGBetablokbehandling",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "70741a67-fd8e-4f15-8fd5-90f89e8caea0",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "64074ffc-9989-433a-8d24-bfe64730d5be",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "ea74f93c-95bd-4f63-9fdb-705928428510",
-                                                    "Udfald": "Nej"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "f9d86ee3-416a-4056-837c-23e3b5c8fc09",
                                     "error": {}
                                 }
                             ],
@@ -13578,52 +12499,6 @@
                                     "childType": "Attribute_ResultValue",
                                     "type": "document",
                                     "GUID": "b0d20a1f-dd73-443a-a12e-e259346f4ef6",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "1864f126-4b9a-407a-b51b-ebb2d08e1376",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagProcedurevariable_CTKAGHjerterytme",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "6eecf7e7-2f02-4033-8489-3232046008e1",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "515bb155-65db-4847-a792-2d9cec33cf93",
-                                                    "Udfald": "SR"
-                                                },
-                                                {
-                                                    "GUID": "989b8d94-8045-4d3d-b58b-933ad7d5b0e7",
-                                                    "Udfald": "AFLI"
-                                                },
-                                                {
-                                                    "GUID": "cd2ba16a-7393-4316-84b1-41622a5cc9fc",
-                                                    "Udfald": "andet"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "433baff2-7a3d-4826-b98a-027d27c0133e",
                                     "error": {}
                                 }
                             ],
@@ -13725,416 +12600,6 @@
                             "childType": "Base_Object"
                         },
                         {
-                            "GUID": "f96b6b74-a1f6-42f6-89f3-ef4e8ab3819e",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagProcedurevariable_CTKAGHovedstamme",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "5c41922b-7008-4ba2-94cc-8cd1ec92128a",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "f1815bdf-f5f6-4e3f-9015-db472fd5c2c2",
-                                                    "Udfald": "Nej"
-                                                },
-                                                {
-                                                    "GUID": "f004ef68-d96d-42ee-9f3d-246c353613c7",
-                                                    "Udfald": "ækvivalent"
-                                                },
-                                                {
-                                                    "GUID": "e2b7372f-86de-4b52-b8f3-7ab59b2703fe",
-                                                    "Udfald": "ubeskyttet"
-                                                },
-                                                {
-                                                    "GUID": "60c369ee-99f5-4672-8a51-148f95e965e6",
-                                                    "Udfald": "beskyttet"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "cac19ca0-b34a-4682-abe7-ed4264254317",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "a886964b-1f22-4273-991b-3eb6c07613f9",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagProcedurevariable_CTKAGKardominans",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "07cf8d52-b710-421e-8621-edc14b6beb7d",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "a829eff1-668b-45ec-a5a6-1bcf43527f9a",
-                                                    "Udfald": "Balanceret dominans"
-                                                },
-                                                {
-                                                    "GUID": "ec2d6a67-70ec-408c-aee0-1b0d43127524",
-                                                    "Udfald": "højre dominans"
-                                                },
-                                                {
-                                                    "GUID": "cedfcec4-1932-4ac8-bd4a-f80bcacfbc6e",
-                                                    "Udfald": "venstre dominans"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "afa53dac-78a0-4d5a-9274-2bcffa392864",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "e57f2b1e-66b3-4239-8632-4bd8f793f582",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagProcedurevariable_CTKAGVentrikulografiEF",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_Numeric",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "int",
-                                            "childType": "Base_Value_Numeric",
-                                            "type": "numeric",
-                                            "GUID": "89231492-92f2-49d6-9aa1-e14e02f9def8",
-                                            "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
-                                            "le": 100,
-                                            "ge": 0
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "88cf4d90-7431-4608-9704-fd82ca12507b",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "e39d6120-fff8-4be8-abb3-4e4efb9b1f47",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagProcedurevariable_CTKAGEfsys",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_Numeric",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "int",
-                                            "childType": "Base_Value_Numeric",
-                                            "type": "numeric",
-                                            "GUID": "c5cd6231-72a0-4160-8bf1-46bbb62133fd",
-                                            "error": {}
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "fb2e61ac-68d1-4abe-8a33-17975a3c51e7",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "d89fecd0-e359-4fcf-a946-1d64a491ad40",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagProcedurevariable_CTKAGEfdia",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_Numeric",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "int",
-                                            "childType": "Base_Value_Numeric",
-                                            "type": "numeric",
-                                            "GUID": "de5a31c3-5c9d-40ef-9075-c12ea03ebd93",
-                                            "error": {}
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "2dd22633-daf7-4c78-8176-2022546b98dd",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "e8e69216-9b1f-4628-af80-3eb152398e4e",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagProcedurevariable_CTKAGVaesentligeNoncoronareFund",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "e814236b-4fa9-49ac-94a2-c0c20f375098",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "f335ed4d-a122-438e-8912-87539f55a5df",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "736f247b-36fb-4028-8abe-7760c0f3c8d5",
-                                                    "Udfald": "Nej"
-                                                },
-                                                {
-                                                    "GUID": "84073898-02f3-434d-933a-cf400d61162a",
-                                                    "Udfald": "Uoplyst"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "6d83ba25-f5dd-4d48-9a0c-177ff40d54fa",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "2afe4a7c-790e-40f5-8b55-5e74e1484a68",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagSegmentList_Segment",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_Numeric",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "int",
-                                            "childType": "Base_Value_Numeric",
-                                            "type": "numeric",
-                                            "GUID": "7ab4898a-b80c-42ac-8709-dfafa009b29c",
-                                            "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
-                                            "le": 16,
-                                            "ge": 1
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "887fbf98-73ea-4d49-a42c-baff32e76f61",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "f8577f1f-db71-4ed4-be9f-c8d9e7d811b8",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagSegmentList_Stenosegrad",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_Numeric",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "int",
-                                            "childType": "Base_Value_Numeric",
-                                            "type": "numeric",
-                                            "GUID": "dca408b2-d0f3-46f0-9625-900702085116",
-                                            "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
-                                            "le": 100,
-                                            "ge": 0
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "fe163490-b7bf-4eda-af1f-acff3365a08c",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "790d8315-9c36-48c1-938c-1b5bfa50e7f1",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagSegmentList_SegmentType",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "373f1a60-fd9e-4759-8381-5dff55b3bf9f",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "42662e3f-1aee-402e-a1ac-f0016cb2bae6",
-                                                    "Udfald": "Nativ"
-                                                },
-                                                {
-                                                    "GUID": "aac6536f-359b-4ddb-be87-3fc99d68e89d",
-                                                    "Udfald": "Lima"
-                                                },
-                                                {
-                                                    "GUID": "a900eca4-2cf9-42ae-8fab-488fce407fe1",
-                                                    "Udfald": "Rima"
-                                                },
-                                                {
-                                                    "GUID": "57dc7fb3-c3ef-4c63-b11c-840b63300292",
-                                                    "Udfald": "Radialis"
-                                                },
-                                                {
-                                                    "GUID": "b5cec514-3c8f-4306-a79c-877e3dc1c096",
-                                                    "Udfald": "Vg"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "1764557a-f699-4fd0-a864-18291d6bceb1",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "908ddddd-2d06-4c11-bd59-d891bb1fa7b9",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_CtKagSegmentList_IkkeEvaluerbar",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "5c878e79-9efe-4404-8abb-33c3e46c61bd",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "599aeb70-117f-4a41-8114-bc4f5c00776f",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "561547b3-533f-4324-961c-b6b32381afd1",
-                                                    "Udfald": "Nej"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "2dc6f61e-f45e-4b55-88fc-ab56c026f7e8",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
                             "GUID": "2a5393c6-6d0f-4749-be35-a70c1846610c",
                             "childType": "Base_Object",
                             "error": {},
@@ -14204,10 +12669,9 @@
                         },
                         {
                             "GUID": "63a57256-4692-4358-8fc4-44c72255961f",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_FriedFrailtyScoreTotal",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_FriedFrailtyScoreTotal",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -14236,106 +12700,14 @@
                                 }
                             ],
                             "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "1878a93d-4313-4195-a123-3b663792770b",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TidligereCABG",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "5c20266d-fb8c-4c65-8fa7-3a82c423fae9",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "fc3e356d-c2e7-4b8d-80f5-298222876e82",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "b3bcb567-ddca-464f-b8b2-8d13d7d6bb96",
-                                                    "Udfald": "Nej"
-                                                },
-                                                {
-                                                    "GUID": "c1ff5f20-d68c-4897-9cb2-50fa90a66933",
-                                                    "Udfald": "Uoplyst"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "4dab3bc4-da03-4920-b21e-b5eccd16bef0",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "5210b8a3-d8e1-4c56-951f-0f116cc0e849",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TidligerePCI",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "ef14735a-4bf9-4fd2-9486-88467483d4a3",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "5c5fdc8e-cdb8-4e99-9432-ecb38218d9c2",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "12554c6f-04f6-429f-b7f0-712a4d4662c2",
-                                                    "Udfald": "Nej"
-                                                },
-                                                {
-                                                    "GUID": "ca97676a-2e61-4667-9956-e7777ae16fa7",
-                                                    "Udfald": "Uoplyst"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "26c3cf6d-c4b8-4f51-a64d-59de84f136fe",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "418d0fb7-381b-4349-8db1-ac0ef7f1dd4d",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_PlanlagtPCIellerCABG",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_PlanlagtPCIellerCABG",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -14374,14 +12746,14 @@
                                 }
                             ],
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "2636a6bc-0f23-4d7a-91ec-1ca3b2ea3d24",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_PeakGradientPreMmHg",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_PeakGradientPreMmHg",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -14410,14 +12782,14 @@
                                 }
                             ],
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "1766eebf-6ffa-400c-acb8-9d5d1d3c59e1",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_MeanGradientPreMmHg",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_HenvistPgaPorcelaensaorta",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -14446,14 +12818,14 @@
                                 }
                             ],
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "9f4433e2-14be-4048-983a-c01ffda52f9c",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_AortaklapArealPreCm2",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_AortaklapArealPreCm2",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -14482,14 +12854,14 @@
                                 }
                             ],
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "38690e7b-502d-4efc-8734-6fa5ed5cc23f",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviKlapmorfologi",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviKlapmorfologi",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -14540,14 +12912,14 @@
                                 }
                             ],
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "1b7f092b-7dc1-4814-b28d-71c1b3276196",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_AorticAnnulusMM",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_AorticAnnulusMM",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -14576,14 +12948,14 @@
                                 }
                             ],
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "1ff6a508-6232-46c2-9345-7b39487ec77d",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_AorticAnnulusMetode",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_AorticAnnulusMetode",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -14618,14 +12990,14 @@
                                 }
                             ],
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "075be3e3-e58a-4677-a318-2856a420d070",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_ArytmiDevice",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_ArytmiDevice",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -14664,14 +13036,14 @@
                                 }
                             ],
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "f7938802-2572-4c67-998f-9d08ed4839b9",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_FEV1Procent",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_FEV1Procent",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -14700,14 +13072,14 @@
                                 }
                             ],
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "3da4ec31-9acb-4535-aeb8-20181bbcb376",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_FVCProcent",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_FVCProcent",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -14736,11 +13108,15 @@
                                 }
                             ],
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "e36641e0-17a0-45a9-b660-d0db5e726788",
-                            "error": {},
+                            "error": {
+                                "name": false,
+                                "code": false
+                            },
                             "hackoladeMeta": {},
                             "isActivated": true,
                             "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_HenvistPgaPorcelaensaorta",
@@ -14786,7 +13162,10 @@
                         },
                         {
                             "GUID": "9d2f3b8a-a26f-4ea4-90d7-81936023fc79",
-                            "error": {},
+                            "error": {
+                                "name": false,
+                                "code": false
+                            },
                             "hackoladeMeta": {},
                             "isActivated": true,
                             "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_Hoejde",
@@ -14822,10 +13201,9 @@
                         },
                         {
                             "GUID": "36a0a815-8da0-4410-8c0d-b0b985169bfe",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_Vaegt",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_Vaegt",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -14854,14 +13232,14 @@
                                 }
                             ],
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "f0fc4e9c-ce3a-4dbf-ba93-bb2f4f680700",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_KroniskLungesygdom",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_KroniskLungesygdom",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -14902,14 +13280,14 @@
                             ],
                             "required": false,
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "516652c9-13b6-4cd3-a277-bc02de0b4e81",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_PeriferArterielKarsygdom",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_PeriferArterielKarsygdom",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -14950,14 +13328,14 @@
                             ],
                             "required": false,
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "8e101d8f-071e-42f0-8267-ad05d0223147",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_NedsatMobilitet",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_NedsatMobilitet",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -14998,14 +13376,14 @@
                             ],
                             "required": false,
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "1147dc49-35ab-4c72-9cb7-f0a857108943",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_TidligereHjertekirurgi",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_TidligereHjertekirurgi",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -15046,14 +13424,14 @@
                             ],
                             "required": false,
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "5c030d0e-5564-4135-80c9-4269f8548a7d",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_SerumKreatininOver200",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_SerumKreatininOver200",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -15094,14 +13472,14 @@
                             ],
                             "required": false,
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "63a36732-a125-4652-b864-b04bf05e0c73",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_NedsatNyrefunktion",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_NedsatNyrefunktion",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -15150,14 +13528,14 @@
                             ],
                             "required": false,
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "badc5864-822e-4173-a584-b14cc9714007",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_AktivEndokardit",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_AktivEndokardit",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -15198,14 +13576,14 @@
                             ],
                             "required": false,
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "b20c2ee1-560e-4074-84e7-b82715933ec4",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_KritiskPraeoperativStatus",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_KritiskPraeoperativStatus",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -15246,14 +13624,14 @@
                             ],
                             "required": false,
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "9086916f-4a4d-454e-bf0a-e87922788d25",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_DiabetesInsulin",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_DiabetesInsulin",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -15294,14 +13672,14 @@
                             ],
                             "required": false,
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "34013eb4-f100-4cf7-8a0a-305ee4561cb4",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_NYHA",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_NYHA",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -15348,14 +13726,14 @@
                                 }
                             ],
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "9eb7ba8b-cca4-43ca-9ed1-6e92f4cb8d58",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_CCSKlasse4Angina",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_CCSKlasse4Angina",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -15396,14 +13774,14 @@
                             ],
                             "required": false,
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "4c8f6e4c-9632-48c7-bfba-f20eba088983",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_VenstreVentrikelDysfunktionESII",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_VenstreVentrikelDysfunktionESII",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -15452,14 +13830,14 @@
                             ],
                             "required": false,
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "5d6928af-11c9-42e3-9727-846e7cb7cd83",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_NyligtAmi",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_NyligtAmi",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -15500,14 +13878,14 @@
                             ],
                             "required": false,
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "efee04f9-935f-44c2-88ed-3898c92ec2b1",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_AkutKirurgiESII",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_AkutKirurgiESII",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -15556,14 +13934,14 @@
                             ],
                             "required": false,
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "946ddc26-0fb0-41fc-9031-4b1d8deb2884",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_HjertekirurgiUdOverCABG",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_HjertekirurgiUdOverCABG",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -15620,14 +13998,14 @@
                             ],
                             "required": false,
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "4fc2d02a-0004-410a-af25-6fd819502df8",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_KirurgiPaaAortaThoracalis",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_KirurgiPaaAortaThoracalis",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -15668,14 +14046,14 @@
                             ],
                             "required": false,
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "f3ee8a89-423a-4ab7-bcdd-4dd33cb7f3b5",
-                            "error": {},
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_PostinfarktVSD",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_PostinfarktVSD",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -15716,7 +14094,8 @@
                             ],
                             "required": false,
                             "type": "document",
-                            "childType": "Base_Object"
+                            "childType": "Base_Object",
+                            "error": {}
                         },
                         {
                             "GUID": "7b9946a1-8161-44ec-9e16-9746734d2594",
@@ -16488,52 +14867,6 @@
                             "childType": "Base_Object"
                         },
                         {
-                            "GUID": "01a821bf-973b-4e8c-acee-4539ab7c4cd9",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "TAVI_TaviProcedureData_LedsagendePCI",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "e99f408c-58a3-48bb-986b-89fea6b2feeb",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "89b7360f-f718-4474-8659-205c02c255b3",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "5ed5937f-a202-4b44-a8f8-0a689bbc0ac3",
-                                                    "Udfald": "Nej"
-                                                },
-                                                {
-                                                    "GUID": "1d9c787e-2bf5-45bf-a1e8-0916ef4f0b4e",
-                                                    "Udfald": "Uoplyst"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "a95c7f53-781b-400e-a18b-661d1d64c536",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
                             "GUID": "2e4646b9-7273-4c4a-ba0d-31ed615c9caa",
                             "error": {},
                             "hackoladeMeta": {},
@@ -16720,60 +15053,6 @@
                             "childType": "Base_Object"
                         },
                         {
-                            "GUID": "66f671ce-0f98-4f7e-a6eb-5377a36f5084",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "TAVI_TaviProcedureData_PerproceduraleKarkomplikationer",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "113bc1d4-4e08-4ae6-8477-a885afea32d4",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "5924109b-7875-40f2-8d4d-b0418c3ce5ea",
-                                                    "Udfald": "major"
-                                                },
-                                                {
-                                                    "GUID": "defa06da-b9bd-4970-8bf2-71b1ffbfe7cd",
-                                                    "Udfald": "minor"
-                                                },
-                                                {
-                                                    "GUID": "6bab73f0-530b-464d-9352-e7700dcaf7dc",
-                                                    "Udfald": "percutan_closure_device_failure"
-                                                },
-                                                {
-                                                    "GUID": "7c95e945-c193-499f-a5ea-813f4600514a",
-                                                    "Udfald": "nej"
-                                                },
-                                                {
-                                                    "GUID": "c7d951db-af65-4eb6-a504-08b19e7dc2ef",
-                                                    "Udfald": "uoplyst"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "c0623042-e4c7-49d1-a710-28471bad7c9f",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
                             "GUID": "3d9fc21e-c49a-43ca-aac0-32f9efa6cf4b",
                             "error": {},
                             "hackoladeMeta": {},
@@ -16852,52 +15131,6 @@
                             "required": false,
                             "type": "document",
                             "description": "",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "4d7809d7-b53a-4e04-a4cb-36ba2b544cf5",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "TAVI_TaviPostProcedureData_PacemakerPostoperativt",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "86c4f839-b1c7-42ae-bbdf-258012adfa52",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "8b114414-fd1b-4a71-aacf-317346a80d72",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "93982643-36d7-422e-bbf0-04082aac924c",
-                                                    "Udfald": "Nej"
-                                                },
-                                                {
-                                                    "GUID": "ac569d68-a310-44ba-970e-3ceaef94c285",
-                                                    "Udfald": "Uoplyst"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "c267e9b6-706f-427e-917e-fd7e3d0e4f2c",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
                             "childType": "Base_Object"
                         },
                         {
@@ -17078,64 +15311,6 @@
                                     "childType": "Attribute_ResultValue",
                                     "type": "document",
                                     "GUID": "a3eb8c58-5091-42a3-ac58-89a538893550",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "a635b3cf-04c4-4a17-9111-f8594ff77083",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "TAVI_TaviPostProcedureData_CVATCI",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "d63b38db-7086-4e24-a48e-d37326eecea3",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "7c86142e-0740-41a6-b92a-2971544b3ef0",
-                                                    "Udfald": "nej"
-                                                },
-                                                {
-                                                    "GUID": "62a9d6e6-9f2e-41ae-a569-270391e5a8af",
-                                                    "Udfald": "TIA"
-                                                },
-                                                {
-                                                    "GUID": "d4ab0d6b-6def-4483-9a5d-af10e44b1713",
-                                                    "Udfald": "minor_CVA"
-                                                },
-                                                {
-                                                    "GUID": "3ac0c247-863f-4c02-b79d-e7e8130fd75e",
-                                                    "Udfald": "major_CVA"
-                                                },
-                                                {
-                                                    "GUID": "7ea6bd2c-5f9e-4f33-8477-a5331c55576b",
-                                                    "Udfald": "others"
-                                                },
-                                                {
-                                                    "GUID": "84dac7c8-9942-4d99-8c33-b691eb3b7bca",
-                                                    "Udfald": "uoplyst"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "18159dce-9c93-4063-9708-087223c85a30",
                                     "error": {}
                                 }
                             ],
@@ -17408,282 +15583,6 @@
                                     "childType": "Attribute_ResultValue",
                                     "type": "document",
                                     "GUID": "043d4b4a-e296-460a-944e-b3633fa6836f",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "90e77755-56f1-4bd9-a7cc-da2808a7d608",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "TAVI_TaviPostProcedureData_Tromboseprofylakse_Clopidogrel",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "165d9e00-cc95-4180-8f20-10670ccc6148",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "39cc458d-2733-4a0e-9eca-fbbc5e7fafc4",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "c42be18f-9e29-4b0f-a8e2-83d4c5054aeb",
-                                                    "Udfald": "Nej"
-                                                },
-                                                {
-                                                    "GUID": "3e5255d0-f5e6-4bfe-be5b-849f459e295d",
-                                                    "Udfald": "Uoplyst"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "280452cd-afde-4854-9502-4e13efe86aef",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "34c3fb94-c6a1-4ce0-a3a1-463281552c3e",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "TAVI_TaviPostProcedureData_Tromboseprofylakse_Ticagrelor",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "758a4492-6ead-4457-a31b-4fd25e64052d",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "ea5999d9-5f8c-450d-a996-c1783443ceef",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "dfac7b43-99ee-4a60-ae5c-2ea11b17a1a8",
-                                                    "Udfald": "Nej"
-                                                },
-                                                {
-                                                    "GUID": "eac39962-856e-4a4f-842c-9868f945590e",
-                                                    "Udfald": "Uoplyst"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "c402f783-7c40-4104-956d-e00b6773ea5f",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "22765092-495b-404b-8c87-4d8634f62bec",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "TAVI_TaviPostProcedureData_Tromboseprofylakse_Warfarin",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "51c8042f-0749-4073-9090-32b448d354e0",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "e6a521fe-cda0-4eb9-883c-a69c7b1edd52",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "e37f5562-c714-413c-8de2-93c9d05b89f6",
-                                                    "Udfald": "Nej"
-                                                },
-                                                {
-                                                    "GUID": "d5999e68-b042-4ccf-a8c6-967c38014cda",
-                                                    "Udfald": "Uoplyst"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "991f1a8f-2f9e-4a62-8689-ba659ae5a121",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "5f6c948a-4b72-4d22-a4cb-f67f5ab3ab51",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "TAVI_TaviPostProcedureData_Tromboseprofylakse_Acetylsalicylsyre",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "a07e23f8-dabc-43cd-9f4a-565bed1bc8a9",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "26566862-7521-4a3e-823f-97d776c73bfa",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "f609f13d-2390-49bd-84d7-ab98fd63706b",
-                                                    "Udfald": "Nej"
-                                                },
-                                                {
-                                                    "GUID": "3cd8a92d-3386-409b-84de-86d11e023ca7",
-                                                    "Udfald": "Uoplyst"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "88933e22-5cbe-4553-8e65-7ff1aa09380f",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "291b4a6f-77f5-49b0-b105-176f60947c6b",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "TAVI_TaviPostProcedureData_Tromboseprofylakse_NOAC",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "cb98bd64-0179-4027-92d2-c4833aae01b1",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "36d97f7d-2fcc-4e56-9117-5843f1c8258a",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "c0e62fed-8ac0-47a0-98c6-f868cee5c7ba",
-                                                    "Udfald": "Nej"
-                                                },
-                                                {
-                                                    "GUID": "73ac7894-3983-47bc-beef-24524927b5a3",
-                                                    "Udfald": "Uoplyst"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "47bd8f14-ab1e-43f9-9d8e-01b4dc2d5113",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object"
-                        },
-                        {
-                            "GUID": "401f0d36-87a4-48c9-b77d-72753e2fdb37",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "TAVI_TaviPostProcedureData_Tromboseprofylakse_AndenTromboseprofylakse",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "enum",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "ae97b709-868a-4ae1-a10c-9f5a8281b2d8",
-                                            "error": {},
-                                            "enum": [
-                                                {
-                                                    "GUID": "36d59cc3-d70b-4a7b-a096-4829412d2c67",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
-                                                    "GUID": "86109a57-ddf8-433e-9e78-be3a5f21ba82",
-                                                    "Udfald": "Nej"
-                                                },
-                                                {
-                                                    "GUID": "346ce456-a404-4dde-8206-7a569bb26e8c",
-                                                    "Udfald": "Uoplyst"
-                                                }
-                                            ]
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "3130355f-b8af-4a79-9026-f9dea439dbd8",
                                     "error": {}
                                 }
                             ],
@@ -18084,28 +15983,20 @@
                                                     "Udfald": "Nej"
                                                 },
                                                 {
-                                                    "GUID": "19387ab5-5c1e-41c6-b8c5-39d6a0d639cd",
-                                                    "Udfald": "Ja"
-                                                },
-                                                {
                                                     "GUID": "81d41e70-7f28-4f3c-9e1f-9e3ab3a7f320",
-                                                    "Udfald": "Ja_non_farmakologisk_behandling"
+                                                    "Udfald": "ja_non-farmakologisk_behandling"
                                                 },
                                                 {
                                                     "GUID": "fecf79d6-39fd-4f89-baa0-46a1b04869e0",
-                                                    "Udfald": "Ja_peroral_behandling_ikke_insulin"
+                                                    "Udfald": "ja_insulinbehandling "
                                                 },
                                                 {
                                                     "GUID": "5b4485db-10eb-4c40-9c97-f1d7a720f6ed",
-                                                    "Udfald": "Ja_insulinbehandling_med_og_uden_peroral_behandling"
+                                                    "Udfald": "ja_nydiagnosticeret"
                                                 },
                                                 {
                                                     "GUID": "6505764d-b271-4d91-ace5-b63af562e6b7",
-                                                    "Udfald": "Ja_nydiagnosticeret"
-                                                },
-                                                {
-                                                    "GUID": "83ac2f48-c5ec-496f-996e-a64b2f336289",
-                                                    "Udfald": "Uoplyst"
+                                                    "Udfald": "ja_non-insulin farmakologisk behandling"
                                                 }
                                             ]
                                         }
@@ -23346,7 +21237,7 @@
                             ]
                         },
                         {
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_CerebrovaskulaerSygdom",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_CerebrovaskulaerSygdom",
                             "hackoladeMeta": {},
                             "isActivated": true,
                             "properties": [
@@ -23394,7 +21285,7 @@
                             "error": {}
                         },
                         {
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_UstabilAngina",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_UstabilAngina",
                             "hackoladeMeta": {},
                             "isActivated": true,
                             "properties": [
@@ -23444,7 +21335,7 @@
                             "error": {}
                         },
                         {
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_Pulmonalhypertension",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_Pulmonalhypertension",
                             "hackoladeMeta": {},
                             "isActivated": true,
                             "properties": [
@@ -23551,15 +21442,44 @@
     "diagramViews": [],
     "idToNameHashTable": {
         "c8cc4015-c6a5-4c06-bdea-96f99296a8e7": "Value_String",
-        "5abf8fdb-6be6-4ac5-a8ae-43d173f69fe7": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_CerebrovaskulaerSygdom",
+        "5abf8fdb-6be6-4ac5-a8ae-43d173f69fe7": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_CerebrovaskulaerSygdom",
         "b69ea613-6022-4d57-bd2c-7b6763697017": "ResultValue",
         "e4cd1e64-3a71-4077-aef8-4f80a61ed262": "Value_String",
-        "97a583c0-3ac1-4c42-a25a-df2f74d10efd": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_UstabilAngina",
+        "97a583c0-3ac1-4c42-a25a-df2f74d10efd": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_UstabilAngina",
         "52d47476-ed85-433d-8f29-4b0166397089": "ResultValue",
         "d6473a0d-4f54-45bf-a226-6254e2172349": "Value_String",
-        "abdacfdc-dd44-40e7-9a3c-df4807cd3a1d": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_TaviEuroSCORE_Pulmonalhypertension",
+        "abdacfdc-dd44-40e7-9a3c-df4807cd3a1d": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_Pulmonalhypertension",
         "169c4119-9ba5-4979-ba80-f714656836e2": "ResultValue",
-        "28a209cd-08e1-49f2-8c92-bf31db2c6d2b": "Value_String"
+        "28a209cd-08e1-49f2-8c92-bf31db2c6d2b": "Value_String",
+        "36a0a815-8da0-4410-8c0d-b0b985169bfe": "TAVI_TaviPrognostiskeFaktorer_Vaegt",
+        "38690e7b-502d-4efc-8734-6fa5ed5cc23f": "TAVI_TaviPrognostiskeFaktorer_TaviKlapmorfologi",
+        "4c8f6e4c-9632-48c7-bfba-f20eba088983": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_VenstreVentrikelDysfunktionESII",
+        "1147dc49-35ab-4c72-9cb7-f0a857108943": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_TidligereHjertekirurgi",
+        "5c030d0e-5564-4135-80c9-4269f8548a7d": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_SerumKreatininOver200",
+        "f3ee8a89-423a-4ab7-bcdd-4dd33cb7f3b5": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_PostinfarktVSD",
+        "516652c9-13b6-4cd3-a277-bc02de0b4e81": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_PeriferArterielKarsygdom",
+        "5d6928af-11c9-42e3-9727-846e7cb7cd83": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_NyligtAmi",
+        "34013eb4-f100-4cf7-8a0a-305ee4561cb4": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_NYHA",
+        "63a36732-a125-4652-b864-b04bf05e0c73": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_NedsatNyrefunktion",
+        "8e101d8f-071e-42f0-8267-ad05d0223147": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_NedsatMobilitet",
+        "f0fc4e9c-ce3a-4dbf-ba93-bb2f4f680700": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_KroniskLungesygdom",
+        "b20c2ee1-560e-4074-84e7-b82715933ec4": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_KritiskPraeoperativStatus",
+        "4fc2d02a-0004-410a-af25-6fd819502df8": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_KirurgiPaaAortaThoracalis",
+        "946ddc26-0fb0-41fc-9031-4b1d8deb2884": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_HjertekirurgiUdOverCABG",
+        "9086916f-4a4d-454e-bf0a-e87922788d25": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_DiabetesInsulin",
+        "9eb7ba8b-cca4-43ca-9ed1-6e92f4cb8d58": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_CCSKlasse4Angina",
+        "efee04f9-935f-44c2-88ed-3898c92ec2b1": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_AkutKirurgiESII",
+        "badc5864-822e-4173-a584-b14cc9714007": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_AktivEndokardit",
+        "418d0fb7-381b-4349-8db1-ac0ef7f1dd4d": "TAVI_TaviPrognostiskeFaktorer_PlanlagtPCIellerCABG",
+        "2636a6bc-0f23-4d7a-91ec-1ca3b2ea3d24": "TAVI_TaviPrognostiskeFaktorer_PeakGradientPreMmHg",
+        "1766eebf-6ffa-400c-acb8-9d5d1d3c59e1": "TAVI_TaviPrognostiskeFaktorer_HenvistPgaPorcelaensaorta",
+        "3da4ec31-9acb-4535-aeb8-20181bbcb376": "TAVI_TaviPrognostiskeFaktorer_FVCProcent",
+        "63a57256-4692-4358-8fc4-44c72255961f": "TAVI_TaviPrognostiskeFaktorer_FriedFrailtyScoreTotal",
+        "f7938802-2572-4c67-998f-9d08ed4839b9": "TAVI_TaviPrognostiskeFaktorer_FEV1Procent",
+        "075be3e3-e58a-4677-a318-2856a420d070": "TAVI_TaviPrognostiskeFaktorer_ArytmiDevice",
+        "1b7f092b-7dc1-4814-b28d-71c1b3276196": "TAVI_TaviPrognostiskeFaktorer_AorticAnnulusMM",
+        "1ff6a508-6232-46c2-9345-7b39487ec77d": "TAVI_TaviPrognostiskeFaktorer_AorticAnnulusMetode",
+        "9f4433e2-14be-4048-983a-c01ffda52f9c": "TAVI_TaviPrognostiskeFaktorer_AortaklapArealPreCm2"
     },
     "definitions": {
         "GUID": "8064a319-2e23-44b2-ab9f-ad579c74ad76",
@@ -23584,7 +21504,7 @@
     "creationTS": "2023-04-15T09:05:24.450Z",
     "GUID": "d24eab8e-2648-4a80-9a2f-f5d6b8e65e2f",
     "isLineageEnabled": false,
-    "lastModifTS": "2024-06-27T07:42:49.055Z",
+    "lastModifTS": "2024-08-23T11:11:41.037Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -23593,7 +21513,7 @@
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.10.18"
+        "version": "6.9.10"
     },
     "hackoladeMeta": {},
     "settings": {
