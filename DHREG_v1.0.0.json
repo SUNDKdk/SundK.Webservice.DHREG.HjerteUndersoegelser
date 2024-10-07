@@ -11718,41 +11718,6 @@
                             ]
                         },
                         {
-                            "GUID": "d0aecc0a-cfe0-4240-bbcd-51eb7235e257",
-                            "error": {},
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "CtKag_Henvisningsdiagnose",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_String",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "str",
-                                            "childType": "Base_Value_String",
-                                            "type": "string",
-                                            "GUID": "48a74de8-5fe1-426b-9aed-9fbf7a09c0f8",
-                                            "error": {},
-                                            "max_length": 7,
-                                            "min_length": 1
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "63932292-cd24-457d-b70b-5e1fe1fac401",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "description": "",
-                            "childType": "Base_Object"
-                        },
-                        {
                             "GUID": "a937d551-c8bc-4854-9a43-baa0a48770a2",
                             "error": {},
                             "hackoladeMeta": {},
@@ -22242,9 +22207,6 @@
         "b710193e-a3cc-4d14-9b1d-fbdc50ec9124": "CtKag_HenvisningsDato",
         "d21fa4fc-f1cc-44c1-a426-aca91e7cc74b": "DateTime",
         "66e9ad82-e416-450b-9508-767d949cf218": "Value_DateTime",
-        "d0aecc0a-cfe0-4240-bbcd-51eb7235e257": "CtKag_Henvisningsdiagnose",
-        "63932292-cd24-457d-b70b-5e1fe1fac401": "ResultValue",
-        "48a74de8-5fe1-426b-9aed-9fbf7a09c0f8": "Value_String",
         "a937d551-c8bc-4854-9a43-baa0a48770a2": "CtKag_Henvisningsmaade",
         "7cce58e2-4e26-4102-9c9e-edbee4887fdc": "ResultValue",
         "950d20b2-64fc-4482-b85e-8ae60508c63f": "Value_String",
@@ -22911,7 +22873,7 @@
     "creationTS": "2023-04-15T09:05:24.450Z",
     "GUID": "d24eab8e-2648-4a80-9a2f-f5d6b8e65e2f",
     "isLineageEnabled": false,
-    "lastModifTS": "2024-10-07T08:56:16.816Z",
+    "lastModifTS": "2024-10-07T12:44:13.378Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -22920,7 +22882,7 @@
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.10.18"
+        "version": "6.9.10"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -22938,7 +22900,7 @@
                         "GUID": "e7a4b4b1-9040-4cee-983f-ebe9aae8e346",
                         "x": 40,
                         "y": 40,
-                        "width": 196,
+                        "width": 705,
                         "height": 123,
                         "color": {}
                     }
