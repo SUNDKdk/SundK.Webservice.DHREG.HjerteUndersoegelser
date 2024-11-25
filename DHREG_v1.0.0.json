@@ -21863,7 +21863,8 @@
             "GUID": "e7a4b4b1-9040-4cee-983f-ebe9aae8e346",
             "bucketId": "f65516b8-ab9e-41f3-abb6-6d7c2283cdd3",
             "dbNameShort": "DHREG",
-            "dbSchema": "KardiologiskeUndersoegelser"
+            "dbSchema": "KardiologiskeUndersoegelser",
+            "docLink": "https://rkkpdk.github.io/RKKP.afdDI.Webservice.DHREG.HjerteUndersoegelser/"
         }
     ],
     "buckets": [
@@ -23351,7 +23352,7 @@
     "creationTS": "2023-04-15T09:05:24.450Z",
     "GUID": "d24eab8e-2648-4a80-9a2f-f5d6b8e65e2f",
     "isLineageEnabled": false,
-    "lastModifTS": "2024-10-07T12:44:13.378Z",
+    "lastModifTS": "2024-11-25T12:23:52.289Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -23360,7 +23361,7 @@
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.9.10"
+        "version": "6.10.18"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -23417,6 +23418,11 @@
                 "options": [
                     {
                         "GUID": "51be6587-e196-4a88-a0da-b6fcf7881a4e",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "e7a4b4b1-9040-4cee-983f-ebe9aae8e346",
                         "autoWidth": false,
                         "autoHeight": false
                     }
