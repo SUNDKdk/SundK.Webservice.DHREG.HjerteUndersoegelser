@@ -164,7 +164,7 @@
                             "hackoladeMeta": {},
                             "isActivated": true,
                             "name": "Kir_ProcedureDato",
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "properties": [
@@ -191,8 +191,8 @@
                                     "error": {}
                                 }
                             ],
-                            "error": {},
-                            "ChangeLogID": "6009ea35-c91f-496c-84ec-f2a0e3f03520"
+                            "ChangeLogID": "6009ea35-c91f-496c-84ec-f2a0e3f03520",
+                            "error": {}
                         },
                         {
                             "GUID": "5c74acfb-72fd-48ae-975e-8e5acd843602",
@@ -225,12 +225,12 @@
                                     "error": {}
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "childType": "Base_Object",
-                            "error": {},
-                            "ChangeLogID": "3e49dbd4-c4ae-49df-92e8-e4f882eec1c2"
+                            "ChangeLogID": "3e49dbd4-c4ae-49df-92e8-e4f882eec1c2",
+                            "error": {}
                         },
                         {
                             "GUID": "a8ea757f-953c-43c9-b94a-9b467878f1af",
@@ -2470,7 +2470,7 @@
                             "hackoladeMeta": {},
                             "isActivated": true,
                             "name": "Kag_ProcedureDato",
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "properties": [
@@ -2497,8 +2497,8 @@
                                     "error": {}
                                 }
                             ],
-                            "error": {},
-                            "ChangeLogID": "0c7808d0-1f7d-479a-83cb-ec354ed167f3"
+                            "ChangeLogID": "0c7808d0-1f7d-479a-83cb-ec354ed167f3",
+                            "error": {}
                         },
                         {
                             "GUID": "dcfb04db-e6ff-43f8-94e0-693309881f1f",
@@ -2531,12 +2531,12 @@
                                     "error": {}
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "childType": "Base_Object",
-                            "error": {},
-                            "ChangeLogID": "6399a0cb-fa5a-4416-9e03-2994c51aed5e"
+                            "ChangeLogID": "6399a0cb-fa5a-4416-9e03-2994c51aed5e",
+                            "error": {}
                         },
                         {
                             "GUID": "6a69b3b9-e71a-487b-a0e7-4be5ea26184d",
@@ -6393,7 +6393,7 @@
                             "hackoladeMeta": {},
                             "isActivated": true,
                             "name": "Pci_ProcedureDato",
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "properties": [
@@ -6420,8 +6420,8 @@
                                     "error": {}
                                 }
                             ],
-                            "error": {},
-                            "ChangeLogID": "7912e664-b589-4426-835b-733a37f54dbe"
+                            "ChangeLogID": "7912e664-b589-4426-835b-733a37f54dbe",
+                            "error": {}
                         },
                         {
                             "GUID": "8aa88ab1-b752-4bbd-bf7b-a30057a74392",
@@ -6454,12 +6454,12 @@
                                     "error": {}
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "childType": "Base_Object",
-                            "error": {},
-                            "ChangeLogID": "9b40eb55-b72b-4201-8eec-ddab38113d8f"
+                            "ChangeLogID": "9b40eb55-b72b-4201-8eec-ddab38113d8f",
+                            "error": {}
                         },
                         {
                             "GUID": "92ef7c0c-b788-4815-aa19-105059e2c357",
@@ -12100,7 +12100,7 @@
                             "hackoladeMeta": {},
                             "isActivated": true,
                             "name": "CtKag_ProcedureDato",
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "properties": [
@@ -12127,8 +12127,8 @@
                                     "error": {}
                                 }
                             ],
-                            "error": {},
-                            "ChangeLogID": "9cd137fa-8fbd-4ef4-ac1d-d5e8f1e2f92d"
+                            "ChangeLogID": "9cd137fa-8fbd-4ef4-ac1d-d5e8f1e2f92d",
+                            "error": {}
                         },
                         {
                             "GUID": "8c5008ae-6a51-47cc-98a6-b72ac9313c55",
@@ -12161,12 +12161,12 @@
                                     "error": {}
                                 }
                             ],
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "description": "",
                             "childType": "Base_Object",
-                            "error": {},
-                            "ChangeLogID": "bfe2395d-049f-4b2b-8953-e9b5b9597d1e"
+                            "ChangeLogID": "bfe2395d-049f-4b2b-8953-e9b5b9597d1e",
+                            "error": {}
                         },
                         {
                             "GUID": "50ab983b-79d0-4e79-9902-d124f0c84092",
@@ -14374,7 +14374,7 @@
                             "hackoladeMeta": {},
                             "isActivated": true,
                             "name": "TAVI_TaviProcedureData_ProcedureDato",
-                            "required": true,
+                            "required": false,
                             "type": "document",
                             "properties": [
                                 {
@@ -14400,8 +14400,8 @@
                                     "error": {}
                                 }
                             ],
-                            "error": {},
-                            "ChangeLogID": "76ff74c8-a585-4758-ab38-11e0f42730b7"
+                            "ChangeLogID": "76ff74c8-a585-4758-ab38-11e0f42730b7",
+                            "error": {}
                         },
                         {
                             "GUID": "ce9fdf47-176e-4c80-8da1-68795662380d",
@@ -14522,9 +14522,9 @@
                             ],
                             "type": "document",
                             "childType": "Base_Object",
-                            "required": true,
-                            "error": {},
-                            "ChangeLogID": "eed97ba9-0efc-4df1-a420-af3d6f93d0e2"
+                            "required": false,
+                            "ChangeLogID": "eed97ba9-0efc-4df1-a420-af3d6f93d0e2",
+                            "error": {}
                         },
                         {
                             "GUID": "020fb437-b9b7-4c5f-bcb3-62053b13d301",
@@ -21863,7 +21863,9 @@
             "GUID": "e7a4b4b1-9040-4cee-983f-ebe9aae8e346",
             "bucketId": "f65516b8-ab9e-41f3-abb6-6d7c2283cdd3",
             "dbNameShort": "DHREG",
-            "dbSchema": "KardiologiskeUndersoegelser"
+            "dbSchema": "KardiologiskeUndersoegelser",
+            "hackoladeMeta": {},
+            "docLink": "https://rkkpdk.github.io/RKKP.afdDI.Webservice.DHREG.HjerteUndersoegelser/"
         }
     ],
     "buckets": [
@@ -21881,7 +21883,10 @@
             "isActivated": true,
             "name": "WSAPI Model",
             "show": true,
-            "type": "bucket"
+            "type": "bucket",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         }
     ],
     "views": [],
@@ -23351,7 +23356,7 @@
     "creationTS": "2023-04-15T09:05:24.450Z",
     "GUID": "d24eab8e-2648-4a80-9a2f-f5d6b8e65e2f",
     "isLineageEnabled": false,
-    "lastModifTS": "2024-10-07T12:44:13.378Z",
+    "lastModifTS": "2024-12-13T08:49:16.077Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -23360,7 +23365,7 @@
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.9.10"
+        "version": "6.11.9"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -23417,6 +23422,11 @@
                 "options": [
                     {
                         "GUID": "51be6587-e196-4a88-a0da-b6fcf7881a4e",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "e7a4b4b1-9040-4cee-983f-ebe9aae8e346",
                         "autoWidth": false,
                         "autoHeight": false
                     }
