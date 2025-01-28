@@ -21864,7 +21864,7 @@
             "bucketId": "f65516b8-ab9e-41f3-abb6-6d7c2283cdd3",
             "dbNameShort": "DHREG",
             "dbSchema": "KardiologiskeUndersoegelser",
-            "docLink": "https://rkkpdk.github.io/RKKP.afdDI.Webservice.DHREG.HjerteUndersoegelser/"
+            "docLink": "https://sundkdk.github.io/SundK.afdDI.Webservice.DHREG.HjerteUndersoegelser/"
         }
     ],
     "buckets": [
@@ -23355,7 +23355,7 @@
     "creationTS": "2023-04-15T09:05:24.450Z",
     "GUID": "d24eab8e-2648-4a80-9a2f-f5d6b8e65e2f",
     "isLineageEnabled": false,
-    "lastModifTS": "2024-11-25T12:23:52.289Z",
+    "lastModifTS": "2025-01-28T09:38:24.806Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
