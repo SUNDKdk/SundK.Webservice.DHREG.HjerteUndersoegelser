@@ -21854,7 +21854,7 @@
             },
             "isActivated": true,
             "additionalProperties": false,
-            "dbVersion": "1.0.0",
+            "dbVersion": "1.1.0",
             "GUID": "e7a4b4b1-9040-4cee-983f-ebe9aae8e346",
             "bucketId": "f65516b8-ab9e-41f3-abb6-6d7c2283cdd3",
             "dbNameShort": "DHREG",
@@ -23350,7 +23350,7 @@
     "creationTS": "2023-04-15T09:05:24.450Z",
     "GUID": "d24eab8e-2648-4a80-9a2f-f5d6b8e65e2f",
     "isLineageEnabled": false,
-    "lastModifTS": "2025-02-24T09:35:24.579Z",
+    "lastModifTS": "2025-02-24T09:40:43.276Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
