@@ -649,8 +649,8 @@
                                             "type": "numeric",
                                             "GUID": "5e75d58e-3edd-4ec5-aa79-bbcb3d52e740",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 4380,
                                             "ge": 0
                                         }
@@ -1043,8 +1043,8 @@
                                             "type": "numeric",
                                             "GUID": "c6761acd-d124-4ce2-bea8-1b46d7905223",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 230,
                                             "ge": 0
                                         }
@@ -1080,8 +1080,8 @@
                                             "type": "numeric",
                                             "GUID": "1903e46e-1e2c-4308-8864-94a16b1622be",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 250,
                                             "ge": 0
                                         }
@@ -2428,7 +2428,7 @@
                                                 },
                                                 {
                                                     "GUID": "06b0ab1f-1938-484c-b415-63bd6485c753",
-                                                    "Udfald": "Komplikation_efter_KAG"
+                                                    "Udfald": "komplikationer_efter_CABG"
                                                 },
                                                 {
                                                     "GUID": "02f00640-ff53-4d5f-a1ad-51569e90d348",
@@ -2449,6 +2449,10 @@
                                                 {
                                                     "GUID": "6aac872e-9e46-4835-a8f4-abac6f60f224",
                                                     "Udfald": "Andet"
+                                                },
+                                                {
+                                                    "GUID": "7648093a-3919-40b9-b3ff-4df21d413f4a",
+                                                    "Udfald": "stabil_AP_og_eller_dokumenteret_iskaemi_tavs_iskaemi"
                                                 }
                                             ]
                                         }
@@ -2703,8 +2707,8 @@
                                             "type": "numeric",
                                             "GUID": "57bb2794-f7c3-46ab-908a-cb278502eeb7",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 100,
                                             "ge": 0
                                         }
@@ -2740,8 +2744,8 @@
                                             "childType": "Base_Value_Numeric",
                                             "type": "numeric",
                                             "GUID": "601db68c-ba8c-4872-b035-648fa6e70098",
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 12,
                                             "ge": 2,
                                             "error": {}
@@ -2781,8 +2785,8 @@
                                             "type": "numeric",
                                             "GUID": "595cd36e-5f43-401c-af86-c32fcfa554b0",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 120,
                                             "ge": 0
                                         }
@@ -2821,8 +2825,8 @@
                                             "type": "numeric",
                                             "GUID": "244846ba-8dbe-473e-b2e3-f8725deec454",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 1000,
                                             "ge": 0
                                         }
@@ -2861,8 +2865,8 @@
                                             "type": "numeric",
                                             "GUID": "9dc5e367-ed53-4c72-a515-a80fb64037a7",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 1000,
                                             "ge": 0
                                         }
@@ -3014,15 +3018,15 @@
                                                 },
                                                 {
                                                     "GUID": "a1d0ab6e-6136-4d3d-a8f7-5c534aa0f557",
-                                                    "Udfald": "Foerste_gebet"
+                                                    "Udfald": "1_gebet"
                                                 },
                                                 {
                                                     "GUID": "ca93c6c7-798d-4058-b3b9-546da8d20107",
-                                                    "Udfald": "Andet_gebet"
+                                                    "Udfald": "2_gebeter"
                                                 },
                                                 {
                                                     "GUID": "de70ce6f-8e57-484a-8e35-b5c49469f415",
-                                                    "Udfald": "Tredje_gebet"
+                                                    "Udfald": "3_gebeter"
                                                 }
                                             ]
                                         }
@@ -3068,15 +3072,15 @@
                                                 },
                                                 {
                                                     "GUID": "72edd546-1676-4c18-b155-429777ae27e1",
-                                                    "Udfald": "Foerste_gebet"
+                                                    "Udfald": "1_gebet"
                                                 },
                                                 {
                                                     "GUID": "0507856c-9ab4-45fc-b479-b75f81bb7ee5",
-                                                    "Udfald": "Andet_gebet"
+                                                    "Udfald": "2_gebeter"
                                                 },
                                                 {
                                                     "GUID": "d0137498-06ee-4125-a7bc-f2862d8b96dc",
-                                                    "Udfald": "Tredje_gebet"
+                                                    "Udfald": "3_gebeter"
                                                 }
                                             ]
                                         }
@@ -4683,8 +4687,8 @@
                                             "type": "numeric",
                                             "GUID": "b03f6468-be25-49e6-9cde-44b5a0c27f2e",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 230,
                                             "ge": 0
                                         }
@@ -4720,8 +4724,8 @@
                                             "type": "numeric",
                                             "GUID": "3d922e27-e99d-491e-a742-602f225dc859",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 250,
                                             "ge": 0
                                         }
@@ -5975,8 +5979,8 @@
                                             "type": "numeric",
                                             "GUID": "ebf3ce9e-eb1a-4413-a637-5b8abd277ab8",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 9,
                                             "ge": 1
                                         }
@@ -6626,8 +6630,8 @@
                                             "type": "numeric",
                                             "GUID": "2fac9bd2-01f7-4e86-9445-d202581f02e2",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 100,
                                             "ge": 0
                                         }
@@ -6664,8 +6668,8 @@
                                             "childType": "Base_Value_Numeric",
                                             "type": "numeric",
                                             "GUID": "35120362-df94-4f30-a15d-452b399550af",
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 12,
                                             "ge": 2,
                                             "error": {}
@@ -6705,8 +6709,8 @@
                                             "type": "numeric",
                                             "GUID": "9677dbdf-5b05-4a95-a2f1-eeea14138ff5",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 120,
                                             "ge": 0
                                         }
@@ -6745,8 +6749,8 @@
                                             "type": "numeric",
                                             "GUID": "0369de2c-4482-4ad7-b277-790a462e7c83",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 1000,
                                             "ge": 0
                                         }
@@ -6785,8 +6789,8 @@
                                             "type": "numeric",
                                             "GUID": "42700d17-1675-4226-9927-0ad045efd2e6",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 1000,
                                             "ge": 0
                                         }
@@ -6825,8 +6829,8 @@
                                             "type": "numeric",
                                             "GUID": "3d8d46c1-da67-4fa6-b093-e70608aaee7f",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 15,
                                             "ge": 0
                                         }
@@ -6915,8 +6919,8 @@
                                             "type": "numeric",
                                             "GUID": "e00580bb-a77d-4009-9dc1-e8a6a09cced9",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 15,
                                             "ge": 0
                                         }
@@ -8643,7 +8647,7 @@
                                                 },
                                                 {
                                                     "GUID": "f150131d-ec48-4801-b471-8b81e8653f46",
-                                                    "Udfald": "ja_non-insulin farmakologisk behandling"
+                                                    "Udfald": "ja_non_insulin_farmakologisk_behandling"
                                                 }
                                             ]
                                         }
@@ -8730,8 +8734,8 @@
                                             "type": "numeric",
                                             "GUID": "0ee15877-eb31-43ca-9909-b69ccda5411c",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 230,
                                             "ge": 0
                                         }
@@ -8767,8 +8771,8 @@
                                             "type": "numeric",
                                             "GUID": "c0ce9471-3e1b-43ae-8eec-9c45ab3c65c3",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 250,
                                             "ge": 0
                                         }
@@ -10241,8 +10245,8 @@
                                             "childType": "Base_Value_Numeric",
                                             "type": "numeric",
                                             "GUID": "6ee9541d-f926-4769-9848-0d6153fdfed3",
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 16,
                                             "ge": 1,
                                             "error": {}
@@ -10335,8 +10339,8 @@
                                             "childType": "Base_Value_Numeric",
                                             "type": "numeric",
                                             "GUID": "43695223-8d60-4370-8321-8c86adddc8e7",
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 100,
                                             "ge": 0,
                                             "error": {}
@@ -10375,8 +10379,8 @@
                                             "type": "numeric",
                                             "GUID": "731edef4-5a55-4eb2-b7c2-da0d38505067",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 16,
                                             "ge": 1
                                         }
@@ -10467,8 +10471,8 @@
                                             "type": "numeric",
                                             "GUID": "eeaca629-437c-4981-9185-07cc787362bf",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 100,
                                             "ge": 0
                                         }
@@ -10788,8 +10792,8 @@
                                             "type": "numeric",
                                             "GUID": "298776a6-71a9-482e-8d24-462443ec89e1",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 2,
                                             "ge": 1
                                         }
@@ -11775,8 +11779,8 @@
                                             "type": "numeric",
                                             "GUID": "5edef8c4-9e5f-458d-91c0-8af6efa0f3b2",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 100,
                                             "ge": 1
                                         }
@@ -11812,8 +11816,8 @@
                                             "type": "numeric",
                                             "GUID": "0228459a-471b-437c-8688-d689d27ab6b2",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 100,
                                             "ge": 1
                                         }
@@ -11850,8 +11854,8 @@
                                             "type": "numeric",
                                             "GUID": "db08aee8-2430-4ad5-bf6b-9d5f089ab78a",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 3,
                                             "ge": 0
                                         }
@@ -11888,8 +11892,8 @@
                                             "type": "numeric",
                                             "GUID": "aad7baf5-4c70-44e7-a632-f762a19f7720",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 3,
                                             "ge": 0
                                         }
@@ -12225,8 +12229,8 @@
                                             "type": "numeric",
                                             "GUID": "9b737c9b-e4e7-456e-bbfd-7e810af6d76d",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 6000,
                                             "ge": 0
                                         }
@@ -12575,8 +12579,8 @@
                                             "type": "numeric",
                                             "GUID": "983fd489-1649-4cff-9061-fde618e6ccf4",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 230,
                                             "ge": 0
                                         }
@@ -12613,8 +12617,8 @@
                                             "type": "numeric",
                                             "GUID": "f4fa8fd5-ad31-4c0e-9058-42dcd682c3b6",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 250,
                                             "ge": 0
                                         }
@@ -12651,7 +12655,7 @@
                                             "type": "numeric",
                                             "GUID": "01f36a88-af58-48dd-aae9-070dc7883f85",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
+                                            "LL_Type": "Greater than or Equal",
                                             "le": 10000
                                         }
                                     ],
@@ -12762,8 +12766,8 @@
                                             "type": "numeric",
                                             "GUID": "9cf03c73-c8c7-46a1-b576-58d6a311dead",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 220,
                                             "ge": 10
                                         }
@@ -12927,8 +12931,8 @@
                                             "type": "numeric",
                                             "GUID": "f611abbb-138f-4348-8e2e-6f141b18023c",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 9,
                                             "ge": 0
                                         }
@@ -13011,8 +13015,8 @@
                                             "type": "numeric",
                                             "GUID": "50571662-1544-4b31-a7d9-b5968f148362",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 200,
                                             "ge": 0
                                         }
@@ -13027,43 +13031,6 @@
                             "childType": "Base_Object",
                             "error": {},
                             "ChangeLogID": "7757c21b-b18f-4df9-b03a-7945afdc85e3"
-                        },
-                        {
-                            "GUID": "a2133dfe-bc87-4110-ba85-e07b9324806e",
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "name": "TAVI_TaviPrognostiskeFaktorer_HenvistPgaPorcelaensaorta",
-                            "properties": [
-                                {
-                                    "name": "ResultValue",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "properties": [
-                                        {
-                                            "name": "Value_Numeric",
-                                            "hackoladeMeta": {},
-                                            "isActivated": true,
-                                            "python_type": "int",
-                                            "childType": "Base_Value_Numeric",
-                                            "type": "numeric",
-                                            "GUID": "1c6479fc-126b-4344-af2e-aa15232ca3bc",
-                                            "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
-                                            "le": 100,
-                                            "ge": 0
-                                        }
-                                    ],
-                                    "childType": "Attribute_ResultValue",
-                                    "type": "document",
-                                    "GUID": "83366651-c401-4a09-a835-d0015a32d7d5",
-                                    "error": {}
-                                }
-                            ],
-                            "type": "document",
-                            "childType": "Base_Object",
-                            "error": {},
-                            "ChangeLogID": "26315577-c78f-467b-b1ff-0f3e46bdda16"
                         },
                         {
                             "GUID": "c037664e-06a3-419a-a47a-29803ba662b7",
@@ -13085,8 +13052,8 @@
                                             "type": "numeric",
                                             "GUID": "39db95c7-da75-420e-a98a-cefe1e672545",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 2,
                                             "ge": 0.2
                                         }
@@ -13181,8 +13148,8 @@
                                             "type": "numeric",
                                             "GUID": "2866aeae-e086-4cb2-be5c-4f49c1cf9a6b",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 40,
                                             "ge": 10
                                         }
@@ -13308,8 +13275,8 @@
                                             "type": "numeric",
                                             "GUID": "38fa435b-2553-4230-b113-11115fa7e644",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 200,
                                             "ge": 0
                                         }
@@ -13345,8 +13312,8 @@
                                             "type": "numeric",
                                             "GUID": "9a00ee53-fcd4-45b6-8f82-c50009acc563",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 200,
                                             "ge": 0
                                         }
@@ -13364,13 +13331,9 @@
                         },
                         {
                             "GUID": "3d23cbae-be1b-45ea-8590-3405e85512bc",
-                            "error": {
-                                "name": false,
-                                "code": false
-                            },
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_HenvistPgaPorcelaensaorta",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_HenvistPgaPorcelaensaorta",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -13410,17 +13373,14 @@
                             ],
                             "type": "document",
                             "childType": "Base_Object",
-                            "ChangeLogID": "b0a07b17-4a24-4efa-8642-6adc7e1c647c"
+                            "ChangeLogID": "b0a07b17-4a24-4efa-8642-6adc7e1c647c",
+                            "error": {}
                         },
                         {
                             "GUID": "f6c6cebe-4ef4-4964-87ae-bae3520d1cd5",
-                            "error": {
-                                "name": false,
-                                "code": false
-                            },
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_Hoejde",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_Hoejde",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -13436,8 +13396,8 @@
                                             "type": "numeric",
                                             "GUID": "c934d2f6-6eb5-4a2f-9092-b69c4c98aae3",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 230,
                                             "ge": 0
                                         }
@@ -13450,7 +13410,8 @@
                             ],
                             "type": "document",
                             "childType": "Base_Object",
-                            "ChangeLogID": "c45c1857-eb86-4ec0-bb72-6d27c8db0593"
+                            "ChangeLogID": "c45c1857-eb86-4ec0-bb72-6d27c8db0593",
+                            "error": {}
                         },
                         {
                             "GUID": "93d49643-afc8-415c-a773-04f9c703c9ca",
@@ -13472,8 +13433,8 @@
                                             "type": "numeric",
                                             "GUID": "86fb98bb-ca12-4fd8-abc7-d00a0cb0b6bb",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 250,
                                             "ge": 0
                                         }
@@ -13542,7 +13503,7 @@
                             "GUID": "a55bee2d-1a76-41d2-b508-f80dc402da3c",
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_PeriferArterielKarsygdom",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_EkstrakardielArteriesygdom",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -13584,8 +13545,8 @@
                             "required": false,
                             "type": "document",
                             "childType": "Base_Object",
-                            "error": {},
-                            "ChangeLogID": "df6a33ee-2345-4a0d-90dc-0ebacb900bd8"
+                            "ChangeLogID": "df6a33ee-2345-4a0d-90dc-0ebacb900bd8",
+                            "error": {}
                         },
                         {
                             "GUID": "78987fd1-28e6-4d83-a191-dc67dbaeadae",
@@ -14152,7 +14113,7 @@
                             "GUID": "7d8f8e13-93bc-44a5-aaf6-44b52a49ca0b",
                             "hackoladeMeta": {},
                             "isActivated": true,
-                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_AkutKirurgiESII",
+                            "name": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_AkutOperation",
                             "properties": [
                                 {
                                     "name": "ResultValue",
@@ -14202,8 +14163,8 @@
                             "required": false,
                             "type": "document",
                             "childType": "Base_Object",
-                            "error": {},
-                            "ChangeLogID": "8818eb1f-8945-4e6a-9de1-21dbce7fa065"
+                            "ChangeLogID": "8818eb1f-8945-4e6a-9de1-21dbce7fa065",
+                            "error": {}
                         },
                         {
                             "GUID": "ebb90be9-7066-4383-9281-5aa8598e7cc2",
@@ -14896,8 +14857,8 @@
                                             "type": "numeric",
                                             "GUID": "6b3c2e6d-14d6-49dd-b50c-4bbc79165316",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 34,
                                             "ge": 16
                                         }
@@ -14980,8 +14941,8 @@
                                             "type": "numeric",
                                             "GUID": "940c4fa0-672c-4644-a795-8c0f6bed1a69",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 30,
                                             "ge": 18
                                         }
@@ -15064,8 +15025,8 @@
                                             "type": "numeric",
                                             "GUID": "8dd7ce6b-f348-4f52-a2d5-037cc7740de9",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "ge": 18,
                                             "le": 29
                                         }
@@ -15101,8 +15062,8 @@
                                             "type": "numeric",
                                             "GUID": "343923d0-ff4a-43d0-b0e3-e5829ff79366",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 1000,
                                             "ge": 0
                                         }
@@ -15138,8 +15099,8 @@
                                             "type": "numeric",
                                             "GUID": "036e43e6-29c6-47a0-bf34-ee4f43e1cb12",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 1000,
                                             "ge": 0
                                         }
@@ -15226,8 +15187,8 @@
                                             "type": "numeric",
                                             "GUID": "ccdd434f-c6bd-4e7f-bb10-ca2efd7d8004",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 9,
                                             "ge": 0
                                         }
@@ -15738,8 +15699,8 @@
                                             "type": "numeric",
                                             "GUID": "1d94f492-859a-44ac-b331-63e4c0c27203",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 10000,
                                             "ge": 0
                                         }
@@ -16011,15 +15972,13 @@
                                             "name": "Value_Numeric",
                                             "hackoladeMeta": {},
                                             "isActivated": true,
-                                            "python_type": "int",
+                                            "python_type": "float",
                                             "childType": "Base_Value_Numeric",
                                             "type": "numeric",
                                             "GUID": "ff76b144-6d42-40c3-a791-b11bc8a3358d",
-                                            "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
                                             "le": 10,
-                                            "ge": 0
+                                            "ge": 0,
+                                            "error": {}
                                         }
                                     ],
                                     "childType": "Attribute_ResultValue",
@@ -16345,8 +16304,8 @@
                                             "type": "numeric",
                                             "GUID": "a0563741-1983-4fb5-b367-06bd42107091",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 100,
                                             "ge": 0
                                         }
@@ -16383,8 +16342,8 @@
                                             "type": "numeric",
                                             "GUID": "87f563b5-61c3-40f6-a6bf-5ec234d3b467",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 230,
                                             "ge": 0
                                         }
@@ -16421,8 +16380,8 @@
                                             "type": "numeric",
                                             "GUID": "c0b2279b-e3d5-4f62-9c5e-5a5a7740b124",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 250,
                                             "ge": 0
                                         }
@@ -16858,8 +16817,8 @@
                                             "type": "numeric",
                                             "GUID": "ddc10107-bf0a-4578-92b6-160185e77e14",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 1200,
                                             "ge": 0
                                         }
@@ -16896,8 +16855,8 @@
                                             "type": "numeric",
                                             "GUID": "8b29387b-b44a-4757-b8ea-8835b1cb4bf9",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 10,
                                             "ge": 0
                                         }
@@ -19150,8 +19109,8 @@
                                             "type": "numeric",
                                             "GUID": "f0607be3-1777-4a5f-b455-67132d6ccce1",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 1200,
                                             "ge": 0
                                         }
@@ -19506,8 +19465,8 @@
                                             "type": "numeric",
                                             "GUID": "d85c7b4f-8183-4ae3-99eb-5b6e9090c51a",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 26,
                                             "ge": 18
                                         }
@@ -19544,8 +19503,8 @@
                                             "type": "numeric",
                                             "GUID": "bcfa36f2-1932-48c2-a1d0-484a98e2c001",
                                             "error": {},
-                                            "LL_Type": "Greater than or =",
-                                            "UL_Type": "Less than or =",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 26,
                                             "ge": 18
                                         }
@@ -21822,6 +21781,42 @@
                             "required": false,
                             "error": {},
                             "ChangeLogID": "d199b775-729b-4cde-b7ec-d0e32ae6f386"
+                        },
+                        {
+                            "GUID": "8a8c02b7-c545-4a8a-9bbd-f34ea5b54bc2",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "name": "TAVI_TaviPrognostiskeFaktorer_MeanGradientPreMmHg",
+                            "properties": [
+                                {
+                                    "name": "ResultValue",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "properties": [
+                                        {
+                                            "name": "Value_Numeric",
+                                            "hackoladeMeta": {},
+                                            "isActivated": true,
+                                            "python_type": "float",
+                                            "childType": "Base_Value_Numeric",
+                                            "type": "numeric",
+                                            "GUID": "e7e18cd8-45a1-4064-8856-14fa2faf305e",
+                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
+                                            "le": 9,
+                                            "ge": 0,
+                                            "error": {}
+                                        }
+                                    ],
+                                    "childType": "Attribute_ResultValue",
+                                    "type": "document",
+                                    "GUID": "24032e51-295c-4f39-b66a-034c3b7e27c8",
+                                    "error": {}
+                                }
+                            ],
+                            "type": "document",
+                            "childType": "Base_Object",
+                            "error": {}
                         }
                     ],
                     "childType": "Group_Observation",
@@ -22761,9 +22756,6 @@
         "29bced65-fae8-44a4-b0d4-a6756bcca196": "TAVI_TaviPrognostiskeFaktorer_PeakGradientPreMmHg",
         "329669fa-02c2-46cd-893d-befb849082c1": "ResultValue",
         "50571662-1544-4b31-a7d9-b5968f148362": "Value_Numeric",
-        "a2133dfe-bc87-4110-ba85-e07b9324806e": "TAVI_TaviPrognostiskeFaktorer_HenvistPgaPorcelaensaorta",
-        "83366651-c401-4a09-a835-d0015a32d7d5": "ResultValue",
-        "1c6479fc-126b-4344-af2e-aa15232ca3bc": "Value_Numeric",
         "c037664e-06a3-419a-a47a-29803ba662b7": "TAVI_TaviPrognostiskeFaktorer_AortaklapArealPreCm2",
         "b5ba9ff5-2f91-4003-8196-a27a261eb2db": "ResultValue",
         "39db95c7-da75-420e-a98a-cefe1e672545": "Value_Numeric",
@@ -22785,10 +22777,10 @@
         "9942addf-f41f-441a-9154-c7c50b5fcd0d": "TAVI_TaviPrognostiskeFaktorer_FVCProcent",
         "28bc6845-bf81-4c6f-bb77-22d3b0ef0c9e": "ResultValue",
         "9a00ee53-fcd4-45b6-8f82-c50009acc563": "Value_Numeric",
-        "3d23cbae-be1b-45ea-8590-3405e85512bc": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_HenvistPgaPorcelaensaorta",
+        "3d23cbae-be1b-45ea-8590-3405e85512bc": "TAVI_TaviPrognostiskeFaktorer_HenvistPgaPorcelaensaorta",
         "80954ee4-a643-4803-89ba-044aa5603641": "ResultValue",
         "6c87c2dd-0369-4971-bc80-28546c70d1da": "Value_String",
-        "f6c6cebe-4ef4-4964-87ae-bae3520d1cd5": "TAVI_TaviProAktivEndokarditgnostiskeFaktorer_Hoejde",
+        "f6c6cebe-4ef4-4964-87ae-bae3520d1cd5": "TAVI_TaviPrognostiskeFaktorer_Hoejde",
         "c16dc2ab-8c15-4645-ad69-3321c201fbca": "ResultValue",
         "c934d2f6-6eb5-4a2f-9092-b69c4c98aae3": "Value_Numeric",
         "93d49643-afc8-415c-a773-04f9c703c9ca": "TAVI_TaviPrognostiskeFaktorer_Vaegt",
@@ -22797,7 +22789,7 @@
         "87992407-3dfe-4665-bb9b-9576ca6dcc5c": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_KroniskLungesygdom",
         "4f90b5ff-2a75-4e24-a88c-f785d42ed616": "ResultValue",
         "458350d6-e145-4979-b106-a893b78c0716": "Value_String",
-        "a55bee2d-1a76-41d2-b508-f80dc402da3c": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_PeriferArterielKarsygdom",
+        "a55bee2d-1a76-41d2-b508-f80dc402da3c": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_EkstrakardielArteriesygdom",
         "e7b9d658-4ec0-4450-a3b2-d3f6b0fde88e": "ResultValue",
         "f5c4c925-3cda-4aa4-baa4-159e7a04c92a": "Value_String",
         "78987fd1-28e6-4d83-a191-dc67dbaeadae": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_NedsatMobilitet",
@@ -22833,7 +22825,7 @@
         "92759715-3e11-41f8-baea-0fa20251bac9": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_NyligtAmi",
         "ebe0f0de-8ee1-4124-90c5-1a3121eb6697": "ResultValue",
         "0ffa1f60-1bcb-4de8-8080-3a095cdb8f0d": "Value_String",
-        "7d8f8e13-93bc-44a5-aaf6-44b52a49ca0b": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_AkutKirurgiESII",
+        "7d8f8e13-93bc-44a5-aaf6-44b52a49ca0b": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_AkutOperation",
         "20b363a8-cbd3-4032-ab81-1a38af8b4b99": "ResultValue",
         "fd554fdd-d12b-4809-a633-002551503d54": "Value_String",
         "ebb90be9-7066-4383-9281-5aa8598e7cc2": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_HjertekirurgiUdOverCABG",
@@ -23330,7 +23322,10 @@
         "806edd5b-9bba-488c-a644-e2f604b7b0e0": "Value_String",
         "b8c6d511-1441-4597-b805-86e9064727b3": "TAVI_TaviPrognostiskeFaktorer_TaviEuroSCORE_Pulmonalhypertension",
         "200d016d-fd02-4515-b47a-96b2351ded25": "ResultValue",
-        "48ba3556-b908-4d2f-ab8c-7a0938a875c6": "Value_String"
+        "48ba3556-b908-4d2f-ab8c-7a0938a875c6": "Value_String",
+        "8a8c02b7-c545-4a8a-9bbd-f34ea5b54bc2": "TAVI_TaviPrognostiskeFaktorer_MeanGradientPreMmHg",
+        "24032e51-295c-4f39-b66a-034c3b7e27c8": "ResultValue",
+        "e7e18cd8-45a1-4064-8856-14fa2faf305e": "Value_Numeric"
     },
     "definitions": {
         "GUID": "8064a319-2e23-44b2-ab9f-ad579c74ad76",
@@ -23355,7 +23350,7 @@
     "creationTS": "2023-04-15T09:05:24.450Z",
     "GUID": "d24eab8e-2648-4a80-9a2f-f5d6b8e65e2f",
     "isLineageEnabled": false,
-    "lastModifTS": "2025-01-28T09:38:24.806Z",
+    "lastModifTS": "2025-02-24T09:35:24.579Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -23364,7 +23359,7 @@
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.11.9"
+        "version": "6.10.18"
     },
     "hackoladeMeta": {},
     "settings": {
