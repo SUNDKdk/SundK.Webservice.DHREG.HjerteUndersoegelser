@@ -12655,7 +12655,7 @@
                                             "type": "numeric",
                                             "GUID": "01f36a88-af58-48dd-aae9-070dc7883f85",
                                             "error": {},
-                                            "LL_Type": "Greater than or Equal",
+                                            "UL_Type": "Less than or Equal",
                                             "le": 10000
                                         }
                                     ],
@@ -21797,13 +21797,13 @@
                                             "name": "Value_Numeric",
                                             "hackoladeMeta": {},
                                             "isActivated": true,
-                                            "python_type": "float",
+                                            "python_type": "int",
                                             "childType": "Base_Value_Numeric",
                                             "type": "numeric",
                                             "GUID": "e7e18cd8-45a1-4064-8856-14fa2faf305e",
                                             "LL_Type": "Greater than or Equal",
                                             "UL_Type": "Less than or Equal",
-                                            "le": 9,
+                                            "le": 100,
                                             "ge": 0,
                                             "error": {}
                                         }
@@ -23350,7 +23350,7 @@
     "creationTS": "2023-04-15T09:05:24.450Z",
     "GUID": "d24eab8e-2648-4a80-9a2f-f5d6b8e65e2f",
     "isLineageEnabled": false,
-    "lastModifTS": "2025-02-24T09:40:43.276Z",
+    "lastModifTS": "2025-03-04T11:27:03.426Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
