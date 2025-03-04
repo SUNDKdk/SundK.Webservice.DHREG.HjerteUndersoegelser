@@ -7,13 +7,8 @@
 	--colorObservation: rgba(68,170,153, 0.4);
 	--colorGray: 		rgba(205, 205, 205, 0.4);
 
-	/*--colorRKKP: #c0d731;
-	--colorRRKP-hover: #abbe2b;*/
-	--colorRKKP: #162E59;
-	--colorRRKP-hover: #162E59;
-
-	--colorSundK-text: #fff;
-	--colorSundK-lightblue: #D8E5FF;
+	--colorRKKP: #c0d731;
+	--colorRRKP-hover: #abbe2b;
 
 	--colorContactActiveFix: 	rgba(170,68,153, 0.7);
 	--colorBorderColor: rgba(0,0,0,0.2);
@@ -63,22 +58,18 @@ h6 {
 }
 
 .btn-info {
-	/*--bs-btn-color: #000;*/
-	--bs-btn-color: var(--colorSundK-text);
+	--bs-btn-color: #000;
 	--bs-btn-bg: var(--colorRKKP);
 	--bs-btn-border-color: var(--colorRKKP);
-	/*--bs-btn-hover-color: #000;*/
-	--bs-btn-hover-color: var(--colorSundK-text);
+	--bs-btn-hover-color: #000;
 	--bs-btn-hover-bg: var(--colorRRKP-hover);
 	--bs-btn-hover-border-color: var(--colorRRKP-hover);
 	--bs-btn-focus-shadow-rgb: 11, 172, 204;
-	/*--bs-btn-active-color: #000;*/
-	--bs-btn-active-color: var(--colorSundK-text);
+	--bs-btn-active-color: #000;
 	--bs-btn-active-bg: var(--colorRRKP-hover);
 	--bs-btn-active-border-color: var(--colorRRKP-hover);
 	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-	/*--bs-btn-disabled-color: #000;*/
-	--bs-btn-disabled-color: var(--colorSundK-text);
+	--bs-btn-disabled-color: #000;
 	--bs-btn-disabled-bg: var(--colorRKKP);
 	--bs-btn-disabled-border-color: var(--colorRKKP);
 }
@@ -154,7 +145,6 @@ h6 {
 	border-left: var(--bs-border-width) var(--bs-border-style) var(--colorBorderColor) !important;
 	border-right: var(--bs-border-width) var(--bs-border-style) var(--colorBorderColor) !important;
 	border-bottom: var(--bs-border-width) var(--bs-border-style) var(--colorBorderColor) !important;
-	background-color: var(--colorSundK-lightblue);
 }
 
 .header-style {
@@ -226,10 +216,8 @@ h6 {
 .objectHeaderMain {
 	padding: 1rem !important;
 	margin: 1rem !important;
-	/*border-top-left-radius: 5px !important;
-	border-top-right-radius: 5px !important;*/
-	border-top-left-radius: 0px !important;
-	border-top-right-radius: 0px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
 	align-items: center !important;
 	border: var(--bs-border-width) var(--bs-border-style) var(--colorBorderColor) !important;
 
@@ -255,10 +243,8 @@ h6 {
 	border-left: var(--bs-border-width) var(--bs-border-style) var(--colorBorderColor) !important;
 	border-right: var(--bs-border-width) var(--bs-border-style) var(--colorBorderColor) !important;
 	border-bottom: var(--bs-border-width) var(--bs-border-style) var(--colorBorderColor) !important;
-	/*border-bottom-left-radius: 5px !important;
-	border-bottom-right-radius: 5px !important;*/
-	border-bottom-left-radius: 0px !important;
-	border-bottom-right-radius: 0px !important;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
 	margin-top: -1rem !important;
 }
 
@@ -274,15 +260,6 @@ h6 {
 
 .table {
 	margin-bottom: 0rem !important;
-}
-
-img, video {
-    max-width: 100%;
-    height: auto;
-}
-
-.max-h-14 {
-    max-height: 3.5rem;
 }
 
 /* Data Type Colors */
