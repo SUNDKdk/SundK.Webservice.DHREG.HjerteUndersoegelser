@@ -2740,7 +2740,7 @@
                                             "name": "Value_Numeric",
                                             "hackoladeMeta": {},
                                             "isActivated": true,
-                                            "python_type": "int",
+                                            "python_type": "float",
                                             "childType": "Base_Value_Numeric",
                                             "type": "numeric",
                                             "GUID": "601db68c-ba8c-4872-b035-648fa6e70098",
@@ -6664,7 +6664,7 @@
                                             "name": "Value_Numeric",
                                             "hackoladeMeta": {},
                                             "isActivated": true,
-                                            "python_type": "int",
+                                            "python_type": "float",
                                             "childType": "Base_Value_Numeric",
                                             "type": "numeric",
                                             "GUID": "35120362-df94-4f30-a15d-452b399550af",
@@ -11708,7 +11708,7 @@
                                             "name": "Value_Numeric",
                                             "hackoladeMeta": {},
                                             "isActivated": true,
-                                            "python_type": "int",
+                                            "python_type": "float",
                                             "childType": "Base_Value_Numeric",
                                             "type": "numeric",
                                             "GUID": "a6691da2-0fbd-43f0-892f-3bdf3995047f",
@@ -11741,7 +11741,7 @@
                                             "name": "Value_Numeric",
                                             "hackoladeMeta": {},
                                             "isActivated": true,
-                                            "python_type": "int",
+                                            "python_type": "float",
                                             "childType": "Base_Value_Numeric",
                                             "type": "numeric",
                                             "GUID": "15e86706-fd90-42c3-a8cb-8e6d5debfd79",
@@ -11778,11 +11778,11 @@
                                             "childType": "Base_Value_Numeric",
                                             "type": "numeric",
                                             "GUID": "5edef8c4-9e5f-458d-91c0-8af6efa0f3b2",
-                                            "error": {},
                                             "LL_Type": "Greater than or Equal",
                                             "UL_Type": "Less than or Equal",
                                             "le": 100,
-                                            "ge": 1
+                                            "ge": 0,
+                                            "error": {}
                                         }
                                     ],
                                     "childType": "Attribute_ResultValue",
@@ -11815,11 +11815,11 @@
                                             "childType": "Base_Value_Numeric",
                                             "type": "numeric",
                                             "GUID": "0228459a-471b-437c-8688-d689d27ab6b2",
-                                            "error": {},
                                             "LL_Type": "Greater than or Equal",
                                             "UL_Type": "Less than or Equal",
                                             "le": 100,
-                                            "ge": 1
+                                            "ge": 0,
+                                            "error": {}
                                         }
                                     ],
                                     "childType": "Attribute_ResultValue",
@@ -13143,15 +13143,15 @@
                                             "name": "Value_Numeric",
                                             "hackoladeMeta": {},
                                             "isActivated": true,
-                                            "python_type": "int",
+                                            "python_type": "float",
                                             "childType": "Base_Value_Numeric",
                                             "type": "numeric",
                                             "GUID": "2866aeae-e086-4cb2-be5c-4f49c1cf9a6b",
-                                            "error": {},
                                             "LL_Type": "Greater than or Equal",
                                             "UL_Type": "Less than or Equal",
                                             "le": 40,
-                                            "ge": 10
+                                            "ge": 10,
+                                            "error": {}
                                         }
                                     ],
                                     "childType": "Attribute_ResultValue",
@@ -21854,12 +21854,15 @@
             },
             "isActivated": true,
             "additionalProperties": false,
-            "dbVersion": "1.1.0",
+            "dbVersion": "1.1.1",
             "GUID": "e7a4b4b1-9040-4cee-983f-ebe9aae8e346",
             "bucketId": "f65516b8-ab9e-41f3-abb6-6d7c2283cdd3",
             "dbNameShort": "DHREG",
             "dbSchema": "KardiologiskeUndersoegelser",
-            "docLink": "https://sundkdk.github.io/SundK.afdDI.Webservice.DHREG.HjerteUndersoegelser/"
+            "docLink": "https://sundkdk.github.io/SundK.afdDI.Webservice.DHREG.HjerteUndersoegelser/",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         }
     ],
     "buckets": [
@@ -23350,7 +23353,7 @@
     "creationTS": "2023-04-15T09:05:24.450Z",
     "GUID": "d24eab8e-2648-4a80-9a2f-f5d6b8e65e2f",
     "isLineageEnabled": false,
-    "lastModifTS": "2025-03-04T11:27:03.426Z",
+    "lastModifTS": "2025-09-30T08:38:37.456Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -23359,7 +23362,7 @@
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.10.18"
+        "version": "6.11.9"
     },
     "hackoladeMeta": {},
     "settings": {
